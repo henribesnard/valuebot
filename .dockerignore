@@ -1,0 +1,12 @@
+node_modules
+.next
+.git
+Valuebot-handoff
+Valuebot-handoff.zip
+2_specification_technique_fonctionnelle.md
+*.md
+.env
+.env.local
+.env*.local
+npm-debug.log*
+.DS_Store

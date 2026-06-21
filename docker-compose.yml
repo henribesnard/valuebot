@@ -1,0 +1,85 @@
+services:
+  # ---- PostgreSQL ----
+  db:
+    image: postgres:16-alpine
+    container_name: valuebot-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: valuebot
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: valuebot
+    ports:
+      - "5434:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U valuebot"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # ---- Redis ----
+  redis:
+    image: redis:7-alpine
+    container_name: valuebot-redis
+    restart: unless-stopped
+    ports:
+      - "6380:6379"
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # ---- FastAPI Backend ----
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: valuebot-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: ${DATABASE_URL:?Set DATABASE_URL in .env}
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:?Set JWT_SECRET_KEY in .env}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
+      FRONTEND_URL: http://localhost:4000
+      HERMES_API_TOKEN: ${HERMES_API_TOKEN:?Set HERMES_API_TOKEN in .env}
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ---- Next.js App ----
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        INTERNAL_API_URL: http://api:8000
+    container_name: valuebot-app
+    restart: unless-stopped
+    ports:
+      - "4000:3000"
+    environment:
+      NODE_ENV: production
+      INTERNAL_API_URL: http://api:8000
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  pgdata:
+  redisdata:
