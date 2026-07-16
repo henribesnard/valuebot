@@ -1,0 +1,638 @@
+{
+  "created_at": "2026-06-25T06:05:46Z",
+  "scope": "FIFA World Cup / Coupe du monde only",
+  "sources": {
+    "espn": [
+      "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260625",
+      "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    ],
+    "winamax": "https://www.winamax.fr/paris-sportifs/sports/1",
+    "anj": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees"
+  },
+  "robots_respected": {
+    "winamax": {
+      "status_code": 200,
+      "fetched_at": "2026-06-25T06:05:46Z",
+      "note": "fetched",
+      "path_checked": "/paris-sportifs/sports/1",
+      "blocked_by_listed_disallow": false
+    },
+    "anj": {
+      "status_code": 200,
+      "fetched_at": "2026-06-25T06:05:46Z",
+      "note": "fetched"
+    }
+  },
+  "anj_check": {
+    "winamax_found": true,
+    "status_code": 200,
+    "checked_at": "2026-06-25T06:05:46Z",
+    "source_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees"
+  },
+  "espn_events": [
+    {
+      "id": "760473",
+      "name": "Ivory Coast at Curaçao",
+      "shortName": "CIV @ CUW",
+      "date": "2026-06-25T20:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Curaçao",
+        "Ivory Coast"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260625"
+    },
+    {
+      "id": "760468",
+      "name": "Germany at Ecuador",
+      "shortName": "GER @ ECU",
+      "date": "2026-06-25T20:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Ecuador",
+        "Germany"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260625"
+    },
+    {
+      "id": "760471",
+      "name": "Sweden at Japan",
+      "shortName": "SWE @ JPN",
+      "date": "2026-06-25T23:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Japan",
+        "Sweden"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260625"
+    },
+    {
+      "id": "760472",
+      "name": "Netherlands at Tunisia",
+      "shortName": "NED @ TUN",
+      "date": "2026-06-25T23:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Tunisia",
+        "Netherlands"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260625"
+    },
+    {
+      "id": "760469",
+      "name": "Australia at Paraguay",
+      "shortName": "AUS @ PAR",
+      "date": "2026-06-26T02:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Paraguay",
+        "Australia"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260625"
+    },
+    {
+      "id": "760470",
+      "name": "United States at Türkiye",
+      "shortName": "USA @ TUR",
+      "date": "2026-06-26T02:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Türkiye",
+        "United States"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260625"
+    },
+    {
+      "id": "760475",
+      "name": "France at Norway",
+      "shortName": "FRA @ NOR",
+      "date": "2026-06-26T19:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Norway",
+        "France"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    },
+    {
+      "id": "760474",
+      "name": "Iraq at Senegal",
+      "shortName": "IRQ @ SEN",
+      "date": "2026-06-26T19:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Senegal",
+        "Iraq"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    },
+    {
+      "id": "760478",
+      "name": "Saudi Arabia at Cape Verde",
+      "shortName": "KSA @ CPV",
+      "date": "2026-06-27T00:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Cape Verde",
+        "Saudi Arabia"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    },
+    {
+      "id": "760479",
+      "name": "Spain at Uruguay",
+      "shortName": "ESP @ URU",
+      "date": "2026-06-27T00:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Uruguay",
+        "Spain"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    },
+    {
+      "id": "760476",
+      "name": "Iran at Egypt",
+      "shortName": "IRN @ EGY",
+      "date": "2026-06-27T03:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Egypt",
+        "Iran"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    },
+    {
+      "id": "760477",
+      "name": "Belgium at New Zealand",
+      "shortName": "BEL @ NZL",
+      "date": "2026-06-27T03:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "New Zealand",
+        "Belgium"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    }
+  ],
+  "winamax_1n2_odds": [
+    {
+      "match_id": 66456948,
+      "title": "Turquie - États-Unis",
+      "start_time": "2026-06-26T02:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-25T06:05:46Z",
+      "form": {
+        "Turquie": "WWWLL",
+        "États-Unis": "LWLWW"
+      },
+      "outcomes": [
+        {
+          "selection": "Turquie",
+          "odd": 3.5,
+          "percent_distribution": 6,
+          "no_vig_probability": 0.2648,
+          "market_only_ev": -0.0733
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.1,
+          "percent_distribution": 9,
+          "no_vig_probability": 0.226,
+          "market_only_ev": -0.0733
+        },
+        {
+          "selection": "États-Unis",
+          "odd": 1.82,
+          "percent_distribution": 85,
+          "no_vig_probability": 0.5092,
+          "market_only_ev": -0.0733
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0791,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66456950,
+      "title": "Paraguay - Australie",
+      "start_time": "2026-06-26T02:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-25T06:05:46Z",
+      "form": {
+        "Paraguay": "WLWLW",
+        "Australie": "WLDWL"
+      },
+      "outcomes": [
+        {
+          "selection": "Paraguay",
+          "odd": 2.8,
+          "percent_distribution": 42,
+          "no_vig_probability": 0.3301,
+          "market_only_ev": -0.0758
+        },
+        {
+          "selection": "Match nul",
+          "odd": 2.2,
+          "percent_distribution": 34,
+          "no_vig_probability": 0.4201,
+          "market_only_ev": -0.0758
+        },
+        {
+          "selection": "Australie",
+          "odd": 3.7,
+          "percent_distribution": 24,
+          "no_vig_probability": 0.2498,
+          "market_only_ev": -0.0758
+        }
+      ],
+      "bookmaker_margin_estimate": 0.082,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66456976,
+      "title": "Tunisie - Pays-Bas",
+      "start_time": "2026-06-25T23:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-25T06:05:46Z",
+      "form": {
+        "Tunisie": "DLLLL",
+        "Pays-Bas": "DLWDW"
+      },
+      "outcomes": [
+        {
+          "selection": "Tunisie",
+          "odd": 21.0,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.0442,
+          "market_only_ev": -0.0719
+        },
+        {
+          "selection": "Match nul",
+          "odd": 10.5,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.0884,
+          "market_only_ev": -0.0719
+        },
+        {
+          "selection": "Pays-Bas",
+          "odd": 1.07,
+          "percent_distribution": 98,
+          "no_vig_probability": 0.8674,
+          "market_only_ev": -0.0719
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0774,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66456978,
+      "title": "Japon - Suède",
+      "start_time": "2026-06-25T23:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-25T06:05:46Z",
+      "form": {
+        "Japon": "WWWDW",
+        "Suède": "WLDWL"
+      },
+      "outcomes": [
+        {
+          "selection": "Japon",
+          "odd": 1.82,
+          "percent_distribution": 87,
+          "no_vig_probability": 0.51,
+          "market_only_ev": -0.0718
+        },
+        {
+          "selection": "Match nul",
+          "odd": 3.45,
+          "percent_distribution": 8,
+          "no_vig_probability": 0.269,
+          "market_only_ev": -0.0718
+        },
+        {
+          "selection": "Suède",
+          "odd": 4.2,
+          "percent_distribution": 5,
+          "no_vig_probability": 0.221,
+          "market_only_ev": -0.0718
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0774,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66456990,
+      "title": "Nouvelle Zélande - Belgique",
+      "start_time": "2026-06-27T03:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-25T06:05:46Z",
+      "form": {
+        "Nouvelle Zélande": "WLLDL",
+        "Belgique": "DWWDD"
+      },
+      "outcomes": [
+        {
+          "selection": "Nouvelle Zélande",
+          "odd": 13.0,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.0713,
+          "market_only_ev": -0.0733
+        },
+        {
+          "selection": "Match nul",
+          "odd": 8.0,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.1158,
+          "market_only_ev": -0.0733
+        },
+        {
+          "selection": "Belgique",
+          "odd": 1.14,
+          "percent_distribution": 98,
+          "no_vig_probability": 0.8129,
+          "market_only_ev": -0.0733
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0791,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66456992,
+      "title": "Égypte - Iran",
+      "start_time": "2026-06-27T03:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-25T06:05:46Z",
+      "form": {
+        "Égypte": "DWLDW",
+        "Iran": "WWWDD"
+      },
+      "outcomes": [
+        {
+          "selection": "Égypte",
+          "odd": 2.4,
+          "percent_distribution": 85,
+          "no_vig_probability": 0.3875,
+          "market_only_ev": -0.07
+        },
+        {
+          "selection": "Match nul",
+          "odd": 2.6,
+          "percent_distribution": 9,
+          "no_vig_probability": 0.3577,
+          "market_only_ev": -0.07
+        },
+        {
+          "selection": "Iran",
+          "odd": 3.65,
+          "percent_distribution": 6,
+          "no_vig_probability": 0.2548,
+          "market_only_ev": -0.07
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0753,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457002,
+      "title": "Uruguay - Espagne",
+      "start_time": "2026-06-27T00:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-25T06:05:46Z",
+      "form": {
+        "Uruguay": "LDDDD",
+        "Espagne": "DDWDW"
+      },
+      "outcomes": [
+        {
+          "selection": "Uruguay",
+          "odd": 6.5,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.1427,
+          "market_only_ev": -0.0724
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.1,
+          "percent_distribution": 3,
+          "no_vig_probability": 0.2263,
+          "market_only_ev": -0.0724
+        },
+        {
+          "selection": "Espagne",
+          "odd": 1.47,
+          "percent_distribution": 96,
+          "no_vig_probability": 0.631,
+          "market_only_ev": -0.0724
+        }
+      ],
+      "bookmaker_margin_estimate": 0.078,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457004,
+      "title": "Cap-Vert - Arabie Saoudite",
+      "start_time": "2026-06-27T00:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-25T06:05:46Z",
+      "form": {
+        "Cap-Vert": "WWWDD",
+        "Arabie Saoudite": "LWDDL"
+      },
+      "outcomes": [
+        {
+          "selection": "Cap-Vert",
+          "odd": 2.4,
+          "percent_distribution": 71,
+          "no_vig_probability": 0.3869,
+          "market_only_ev": -0.0714
+        },
+        {
+          "selection": "Match nul",
+          "odd": 3.45,
+          "percent_distribution": 18,
+          "no_vig_probability": 0.2692,
+          "market_only_ev": -0.0714
+        },
+        {
+          "selection": "Arabie Saoudite",
+          "odd": 2.7,
+          "percent_distribution": 11,
+          "no_vig_probability": 0.3439,
+          "market_only_ev": -0.0714
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0769,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457014,
+      "title": "Norvège - France",
+      "start_time": "2026-06-26T19:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-25T06:05:46Z",
+      "form": {
+        "Norvège": "DWDWW",
+        "France": "WLWWW"
+      },
+      "outcomes": [
+        {
+          "selection": "Norvège",
+          "odd": 4.5,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.2058,
+          "market_only_ev": -0.0739
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.3,
+          "percent_distribution": 3,
+          "no_vig_probability": 0.2154,
+          "market_only_ev": -0.0739
+        },
+        {
+          "selection": "France",
+          "odd": 1.6,
+          "percent_distribution": 95,
+          "no_vig_probability": 0.5788,
+          "market_only_ev": -0.0739
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0798,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457016,
+      "title": "Sénégal - Irak",
+      "start_time": "2026-06-26T19:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-25T06:05:46Z",
+      "form": {
+        "Sénégal": "WLDLL",
+        "Irak": "WDLLL"
+      },
+      "outcomes": [
+        {
+          "selection": "Sénégal",
+          "odd": 1.19,
+          "percent_distribution": 98,
+          "no_vig_probability": 0.7754,
+          "market_only_ev": -0.0773
+        },
+        {
+          "selection": "Match nul",
+          "odd": 6.75,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.1367,
+          "market_only_ev": -0.0773
+        },
+        {
+          "selection": "Irak",
+          "odd": 10.5,
+          "percent_distribution": 0,
+          "no_vig_probability": 0.0879,
+          "market_only_ev": -0.0773
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0837,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457078,
+      "title": "Équateur - Allemagne",
+      "start_time": "2026-06-25T20:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-25T06:05:46Z",
+      "form": {
+        "Équateur": "DWWLD",
+        "Allemagne": "WWWWW"
+      },
+      "outcomes": [
+        {
+          "selection": "Équateur",
+          "odd": 5.0,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.1852,
+          "market_only_ev": -0.0739
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.9,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.189,
+          "market_only_ev": -0.0739
+        },
+        {
+          "selection": "Allemagne",
+          "odd": 1.48,
+          "percent_distribution": 96,
+          "no_vig_probability": 0.6258,
+          "market_only_ev": -0.0739
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0798,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457080,
+      "title": "Curaçao - Côte d'Ivoire",
+      "start_time": "2026-06-25T20:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-25T06:05:46Z",
+      "form": {
+        "Curaçao": "LLWLD",
+        "Côte d'Ivoire": "WWWWL"
+      },
+      "outcomes": [
+        {
+          "selection": "Curaçao",
+          "odd": 14.5,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.0639,
+          "market_only_ev": -0.0731
+        },
+        {
+          "selection": "Match nul",
+          "odd": 8.0,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.1159,
+          "market_only_ev": -0.0731
+        },
+        {
+          "selection": "Côte d'Ivoire",
+          "odd": 1.13,
+          "percent_distribution": 97,
+          "no_vig_probability": 0.8202,
+          "market_only_ev": -0.0731
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0789,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    }
+  ],
+  "decision": "no_bet",
+  "reason": "Cotes ANJ Winamax capturées et opérateur vérifié, mais pas de modèle indépendant robuste buts/xG; market-only no-vig donne EV négative par construction, forme W/D/L seule insuffisante pour data_quality publiable."
+}

@@ -1,0 +1,4 @@
+services:
+  app:
+    ports: !override
+      - "4010:3000"

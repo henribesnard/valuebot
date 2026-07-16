@@ -1,0 +1,32 @@
+{
+  "sport": "football",
+  "competition": "Coupe du Monde 2026 — Quart de finale",
+  "event": "Norvège - Angleterre",
+  "start_time": "2026-07-11T21:00:00Z",
+  "market": "Résultat 1N2 temps réglementaire",
+  "selection": "Angleterre gagne",
+  "publication_tier": "prudent_signal",
+  "estimated_probability": 0.55,
+  "taken_odd": 1.86,
+  "bookmaker": "Betclic",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-07-09T06:03:05Z",
+  "expected_value": 0.023,
+  "confidence": 2,
+  "stake_units": 0.25,
+  "rationale": "Signal prudent — la probabilité reste construite avec un modèle léger marché + forme courte ESPN, donc insuffisante pour un conseil officiel: pas de xG, blessures ni compositions confirmées dans ce cycle, et un quart de finale garde un risque de nul en 90 minutes. Betclic cote l’Angleterre à 1.86 sur le 1N2 temps réglementaire; la probabilité no-vig du marché ressort autour de 51,2 %, puis ValueBot ajuste prudemment à 55 % avec une forme ESPN légèrement supérieure côté anglais (WWWDW) face à la Norvège (WWLWW) et un statut de favori de marché. Le seuil de rentabilité de la cote est 53,8 %, l’EV estimée ressort à environ +2,3 %. Mise plafonnée à 0,25 u car c’est un signal intermédiaire et non un conseil officiel.",
+  "sources": [
+    "Betclic football Coupe du Monde 2026 — cote Angleterre 1.86 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/norvege-angleterre-m1161570996490240",
+    "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup scoreboard 20260711 — England at Norway, start 2026-07-11T21:00Z, formes Norvège WWLWW / Angleterre WWWDW: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260711",
+    "Cache ValueBot du scan: data/cache/valuebot-radar-20260709T060314Z.json"
+  ],
+  "factors": [
+    "Cote Betclic 1.86 capturée le 2026-07-09T06:03:05Z sur le marché Résultat du match (temps réglementaire)",
+    "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+    "Forme ESPN: Angleterre WWWDW contre Norvège WWLWW",
+    "No-vig marché calculé autour de 51,2 %; probabilité ValueBot prudente 55 % contre seuil de rentabilité 53,8 %, EV estimée +2,3 %",
+    "Risque principal: quart de finale serré et nul possible en 90 minutes, d’où signal prudent et mise 0,25 u"
+  ],
+  "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle."
+}

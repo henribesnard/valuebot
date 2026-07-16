@@ -1,0 +1,2001 @@
+{
+  "model_version": "v1.0-launch",
+  "params": {
+    "ev_min": 0.03,
+    "kelly_fraction": 0.25,
+    "stake_max_units": 3,
+    "daily_exposure_max_units": 6,
+    "drawdown_conservative_threshold": 0.3,
+    "signal_ev_min": 0.01,
+    "signal_stake_max_units": 0.5
+  },
+  "tips": [
+    {
+      "sport": "football",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "event": "Écosse - Brésil",
+      "start_time": "2026-06-24T22:00:00Z",
+      "market": "Résultat 1N2",
+      "selection": "Brésil gagne",
+      "estimated_probability": 0.78,
+      "taken_odd": 1.37,
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-06-22T07:43:09Z",
+      "expected_value": 0.069,
+      "confidence": 3,
+      "stake_units": 1,
+      "rationale": "Le Brésil arrive avec une série récente très supérieure (WWWDW contre LWWWL pour l’Écosse) et reste fortement soutenu par le marché Winamax (88 % de distribution utilisateurs). La probabilité ValueBot est volontairement décotée à 78 %, au-dessus du seuil de rentabilité de la cote 1.37 (≈73,0 %), ce qui donne une EV estimée d’environ +6,9 %. Mise prudente: 1 unité, car le prix est bas et le marché 1N2 reste sensible à un nul.",
+      "sources": [
+        "Winamax sports football page scraped live: https://www.winamax.fr/paris-sportifs/sports/1",
+        "ANJ opérateurs agréés checked live: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup schedule API: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260624"
+      ],
+      "factors": [
+        "Cote Winamax 1.37 capturée en direct sur le marché Résultat",
+        "Forme récente: Écosse LWWWL, Brésil WWWDW",
+        "Distribution utilisateurs Winamax: Brésil 88 %, nul 11 %, Écosse 1 %",
+        "Probabilité ValueBot décotée à 78 %, EV estimée +6,9 %"
+      ],
+      "h2h": "Non utilisé ou non déterminant.",
+      "id": 1,
+      "status": "won",
+      "published_at": "2026-06-22T07:43:19Z",
+      "fair_odd": 1.282,
+      "pnl_units": 0.37,
+      "settled_at": "2026-06-26T06:26:25Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260624: Scotland 0-3 Brazil, FT (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260624)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Seizième de finale",
+      "event": "Colombie - Ghana",
+      "start_time": "2026-07-04T01:30:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "Colombie gagne",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.72,
+      "taken_odd": 1.42,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-03T16:00:44Z",
+      "expected_value": 0.022,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — la probabilité est construite avec un modèle léger marché + forme, donc insuffisamment robuste pour un conseil officiel. Betclic cote la Colombie à 1.42 sur le 1N2 temps réglementaire; la probabilité no-vig du marché est proche de 68 %, puis ValueBot applique un ajustement prudent à 72 % grâce à la forme ESPN nettement supérieure (Colombie DWWWW, Ghana LDWDL) et au contexte de favori régulier. Le seuil de rentabilité est 70,4 %, l'EV estimée ressort à environ +2,2 %. Mise plafonnée à 0,25 u car signal intermédiaire et match à élimination directe sensible au nul.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/colombie-ghana-m1154265967235072",
+        "ANJ opérateurs agréés — Betclic vérifié présent: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260703 — Ghana at Colombia, start 2026-07-04T01:30Z, formes Colombie DWWWW / Ghana LDWDL: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260703"
+      ],
+      "factors": [
+        "Cote Betclic 1.42 capturée le 2026-07-03T16:00:44Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié sur la page ANJ des opérateurs agréés lors du scan",
+        "Forme ESPN: Colombie DWWWW contre Ghana LDWDL",
+        "Probabilité ValueBot prudente 72 % contre seuil de rentabilité 70,4 %, EV estimée +2,2 %"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle.",
+      "id": 2,
+      "status": "won",
+      "published_at": "2026-07-03T16:01:47Z",
+      "fair_odd": 1.389,
+      "pnl_units": 0.1,
+      "settled_at": "2026-07-04T06:03:02Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260703: Colombia 1-0 Ghana, Full Time (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260703)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Huitième de finale",
+      "event": "Canada - Maroc",
+      "start_time": "2026-07-04T17:00:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "Maroc gagne",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.56,
+      "taken_odd": 1.83,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-04T06:02:21Z",
+      "expected_value": 0.025,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — le modèle reste léger (marché + forme courte ESPN), donc pas assez robuste pour un conseil officiel: absence de xG/blessures publiques complètes dans ce cycle et match à élimination directe exposé au nul. Betclic cote le Maroc à 1.83 en 1N2 temps réglementaire; la probabilité no-vig du marché ressort autour de 53 %, puis ValueBot ajuste prudemment à 56 % avec l'avantage de forme récente ESPN du Maroc (WWWDD contre WLWDD pour le Canada) et un profil de favori plus régulier sur la compétition. Le seuil de rentabilité est 54,6 %, l'EV estimée ressort à environ +2,5 %. Mise limitée à 0,25 u.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/canada-maroc-m1156168539242496",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260704 — Morocco at Canada, start 2026-07-04T17:00Z, formes Canada WLWDD / Maroc WWWDD: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260704",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260704T060231Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 1.83 capturée le 2026-07-04T06:02:21Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Forme ESPN: Maroc WWWDD contre Canada WLWDD",
+        "Probabilité ValueBot prudente 56 % contre seuil de rentabilité 54,6 %, EV estimée +2,5 %",
+        "Risque principal: nul en 90 minutes sur match à élimination directe, d'où tier signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle.",
+      "id": 3,
+      "status": "won",
+      "published_at": "2026-07-04T06:03:23Z",
+      "fair_odd": 1.786,
+      "pnl_units": 0.21,
+      "settled_at": "2026-07-05T06:02:52Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260704: Canada 0-3 Morocco, Full Time (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260704)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Huitième de finale",
+      "event": "USA - Belgique",
+      "start_time": "2026-07-07T00:00:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "Belgique gagne",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.4,
+      "taken_odd": 2.6,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-04T11:00:42Z",
+      "expected_value": 0.04,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — la probabilité reste issue d’un modèle léger marché + forme courte ESPN, donc insuffisante pour un conseil officiel: pas de xG/blessures/suspensions publiques complètes dans ce cycle et le 1N2 à élimination directe garde un risque de nul. Betclic cote la Belgique à 2.60 en temps réglementaire; le no-vig du marché place la Belgique proche de 36,6 %, puis ValueBot ajuste prudemment à 40 % avec une forme ESPN plus propre côté belge (WWDDW) que côté USA (WLWWL). Le seuil de rentabilité est 38,5 %, l’EV estimée ressort à environ +4,0 %. Mise limitée à 0,25 u.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote Belgique 2.60 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/usa-belgique-m1157911236861952",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260706 — Belgium at United States, start 2026-07-07T00:00Z, formes USA WLWWL / Belgique WWDDW: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260706",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260704T110054Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 2.60 capturée le 2026-07-04T11:00:42Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Forme ESPN: Belgique WWDDW contre USA WLWWL",
+        "Probabilité ValueBot prudente 40 % contre seuil de rentabilité 38,5 %, EV estimée +4,0 %",
+        "Risque principal: match à élimination directe avec probabilité de nul non négligeable, d’où signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle.",
+      "id": 4,
+      "status": "won",
+      "published_at": "2026-07-04T11:02:06Z",
+      "fair_odd": 2.5,
+      "pnl_units": 0.4,
+      "settled_at": "2026-07-07T06:02:52Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260706: United States 1-4 Belgium, Full Time (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260706)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Huitième de finale",
+      "event": "Argentine - Égypte",
+      "start_time": "2026-07-07T16:00:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "Argentine gagne",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.77,
+      "taken_odd": 1.34,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-04T16:00:36Z",
+      "expected_value": 0.032,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — la probabilité reste issue d’un modèle léger marché + forme courte ESPN, donc insuffisante pour un conseil officiel: pas de xG/blessures/suspensions publiques complètes dans ce cycle et le 1N2 en match à élimination directe garde un risque de nul. Betclic cote l’Argentine à 1.34 en temps réglementaire; la probabilité no-vig du marché ressort autour de 71,0 %, puis ValueBot ajuste prudemment à 77 % grâce à la forme ESPN parfaite côté Argentine (WWWWW) contre une Égypte plus irrégulière (WDWDL) et un statut de favori très net. Le seuil de rentabilité est 74,6 %, l’EV estimée ressort à environ +3,2 %. Mise limitée à 0,25 u.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote Argentine 1.34 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/argentine-egypte-m1159679249117184",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260707 — Egypt at Argentina, start 2026-07-07T16:00Z, formes Argentine WWWWW / Égypte WDWDL: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260707",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260704T160048Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 1.34 capturée le 2026-07-04T16:00:36Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Forme ESPN: Argentine WWWWW contre Égypte WDWDL",
+        "No-vig marché calculé autour de 71,0 %; probabilité ValueBot prudente 77 % contre seuil de rentabilité 74,6 %, EV estimée +3,2 %",
+        "Risque principal: prix bas et risque de nul en 90 minutes, d’où signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle.",
+      "id": 5,
+      "status": "won",
+      "published_at": "2026-07-04T16:01:54Z",
+      "fair_odd": 1.299,
+      "pnl_units": 0.09,
+      "settled_at": "2026-07-08T06:02:28Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260707: Argentina 3-2 Egypt, Full Time (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260707)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Huitième de finale",
+      "event": "Portugal - Espagne",
+      "start_time": "2026-07-06T19:00:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "Espagne gagne",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.54,
+      "taken_odd": 1.89,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-05T06:02:34Z",
+      "expected_value": 0.021,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — la probabilité reste issue d’un modèle léger marché + forme courte ESPN, donc insuffisante pour un conseil officiel: pas de xG/blessures/suspensions publiques complètes dans ce cycle et un huitième de finale garde un risque de nul en 90 minutes. Betclic cote l’Espagne à 1.89 en temps réglementaire; la probabilité no-vig du marché ressort autour de 50,5 %, puis ValueBot ajuste prudemment à 54 % grâce à une forme ESPN légèrement supérieure côté Espagne (WWWDW) face au Portugal (WDWDW) et à un profil de favori de marché sans prix trop écrasé. Le seuil de rentabilité est 52,9 %, l’EV estimée ressort à environ +2,1 %. Mise limitée à 0,25 u.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote Espagne 1.89 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/portugal-espagne-m1158791044481024",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260706 — Spain at Portugal, start 2026-07-06T19:00Z, formes Portugal WDWDW / Espagne WWWDW: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260706",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260705T060243Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 1.89 capturée le 2026-07-05T06:02:34Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Forme ESPN: Espagne WWWDW contre Portugal WDWDW",
+        "No-vig marché calculé autour de 50,5 %; probabilité ValueBot prudente 54 % contre seuil de rentabilité 52,9 %, EV estimée +2,1 %",
+        "Risque principal: match à élimination directe et nul possible en 90 minutes, d’où signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle.",
+      "id": 6,
+      "status": "won",
+      "published_at": "2026-07-05T06:03:27Z",
+      "fair_odd": 1.852,
+      "pnl_units": 0.22,
+      "settled_at": "2026-07-07T06:02:52Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260706: Portugal 0-1 Spain, Full Time (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260706)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Huitième de finale",
+      "event": "Brésil - Norvège",
+      "start_time": "2026-07-05T20:00:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "Brésil gagne",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.57,
+      "taken_odd": 1.78,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-05T11:00:36Z",
+      "expected_value": 0.015,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — la probabilité reste issue d’un modèle léger marché + forme courte ESPN, donc insuffisante pour un conseil officiel: pas de xG/blessures/suspensions publiques complètes dans ce cycle et un match à élimination directe garde un risque de nul en 90 minutes. Betclic cote le Brésil à 1.78 en temps réglementaire; la probabilité no-vig du marché ressort autour de 54,2 %, puis ValueBot ajuste prudemment à 57 % grâce à une forme ESPN légèrement supérieure côté Brésil (WWWDW) face à la Norvège (WLWWD) et à un statut de favori de marché sans prix trop écrasé. Le seuil de rentabilité est 56,2 %, l’EV estimée ressort à environ +1,5 %. Mise limitée à 0,25 u.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote Brésil 1.78 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/bresil-norvege-m1156739132125184",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260705 — Norway at Brazil, start 2026-07-05T20:00Z, formes Brésil WWWDW / Norvège WLWWD: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260705",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260705T110047Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 1.78 capturée le 2026-07-05T11:00:36Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Forme ESPN: Brésil WWWDW contre Norvège WLWWD",
+        "No-vig marché calculé autour de 54,2 %; probabilité ValueBot prudente 57 % contre seuil de rentabilité 56,2 %, EV estimée +1,5 %",
+        "Risque principal: value faible et nul possible en 90 minutes, d’où signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle.",
+      "id": 7,
+      "status": "lost",
+      "published_at": "2026-07-05T11:01:34Z",
+      "fair_odd": 1.754,
+      "pnl_units": -0.25,
+      "settled_at": "2026-07-06T06:02:28Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260705: Brazil 1-2 Norway, Full Time (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260705)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Huitième de finale",
+      "event": "Suisse - Colombie",
+      "start_time": "2026-07-07T20:00:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "Colombie gagne",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.46,
+      "taken_odd": 2.25,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-05T16:00:29Z",
+      "expected_value": 0.035,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — la probabilité est construite avec un modèle léger marché + forme courte ESPN, donc insuffisamment robuste pour un conseil officiel: pas de xG/blessures/suspensions publiques complètes dans ce cycle et le 1N2 à élimination directe reste exposé au nul. Betclic cote la Colombie à 2.25 en temps réglementaire; la probabilité no-vig du marché ressort autour de 42,6 %, puis ValueBot ajuste prudemment à 46 % avec une Colombie favorite de marché et une forme ESPN très solide (WDWWW) face à une Suisse invaincue mais plus accrochée récemment (WWWDD). Le seuil de rentabilité est 44,4 %, l'EV estimée ressort à environ +3,5 %. Mise limitée à 0,25 u.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote Colombie 2.25 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/suisse-colombie-m1159778667868160",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260707 — Colombia at Switzerland, start 2026-07-07T20:00Z, formes Suisse WWWDD / Colombie WDWWW: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260707",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260705T160038Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 2.25 capturée le 2026-07-05T16:00:29Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Forme ESPN: Colombie WDWWW contre Suisse WWWDD",
+        "No-vig marché calculé autour de 42,6 %; probabilité ValueBot prudente 46 % contre seuil de rentabilité 44,4 %, EV estimée +3,5 %",
+        "Risque principal: huitième de finale serré et nul possible en 90 minutes, d'où signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle.",
+      "id": 8,
+      "status": "lost",
+      "published_at": "2026-07-05T16:01:56Z",
+      "fair_odd": 2.174,
+      "pnl_units": -0.25,
+      "settled_at": "2026-07-08T06:02:28Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260707: Switzerland 0-0 Colombia, Final Score - After Penalties; le pari Colombie gagne en 90 minutes est perdant (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260707)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Quart de finale",
+      "event": "France - Maroc",
+      "start_time": "2026-07-09T20:00:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "France gagne",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.65,
+      "taken_odd": 1.57,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-07T11:00:45Z",
+      "expected_value": 0.021,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — la probabilité est construite avec un modèle léger marché + forme courte ESPN, donc insuffisamment robuste pour un conseil officiel: pas de xG, blessures ni compositions confirmées dans ce cycle, et un quart de finale reste exposé au nul en 90 minutes. Betclic cote la France à 1.57 sur le 1N2 temps réglementaire; le no-vig du marché la place autour de 60 %, puis ValueBot applique un ajustement prudent à 65 % avec la forme ESPN parfaite de la France (WWWWW), un profil de favori net et un Maroc solide mais un peu moins dominant récemment (WWWWD). Le seuil de rentabilité de la cote est 63,7 %, l'EV estimée ressort à environ +2,1 %. Mise plafonnée à 0,25 u car c'est un signal intermédiaire et non un conseil officiel.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote France 1.57 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/france-maroc-m1160514126254080",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260709 — Morocco at France, start 2026-07-09T20:00Z, formes France WWWWW / Maroc WWWWD: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260709",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260707T110054Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 1.57 capturée le 2026-07-07T11:00:45Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Forme ESPN: France WWWWW contre Maroc WWWWD",
+        "No-vig marché calculé autour de 60 %; probabilité ValueBot prudente 65 % contre seuil de rentabilité 63,7 %, EV estimée +2,1 %",
+        "Risque principal: quart de finale et nul possible en 90 minutes, d'où signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle.",
+      "id": 9,
+      "status": "won",
+      "published_at": "2026-07-07T11:01:39Z",
+      "fair_odd": 1.538,
+      "pnl_units": 0.14,
+      "settled_at": "2026-07-10T06:02:28Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260709: France 2-0 Morocco, Full Time (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260709)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Quart de finale",
+      "event": "Espagne - Belgique",
+      "start_time": "2026-07-10T19:00:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "Espagne gagne",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.64,
+      "taken_odd": 1.6,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-07T16:00:30Z",
+      "expected_value": 0.024,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — la probabilité est construite avec un modèle léger marché + forme courte ESPN, donc insuffisamment robuste pour un conseil officiel: pas de xG, blessures ni compositions confirmées dans ce cycle, et un quart de finale reste exposé au nul en 90 minutes. Betclic cote l’Espagne à 1.60 sur le 1N2 temps réglementaire; le no-vig du marché la place autour de 59,4 %, puis ValueBot applique un ajustement prudent à 64 % grâce à une forme ESPN légèrement supérieure (Espagne WWWWD, Belgique WWWDD), un statut de favori net et une dynamique défensive/offensive plus régulière sur les derniers matchs publics. Le seuil de rentabilité de la cote est 62,5 %, l’EV estimée ressort à environ +2,4 %. Mise plafonnée à 0,25 u car c'est un signal intermédiaire et non un conseil officiel.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote Espagne 1.60 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/espagne-belgique-m1162435735273472",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260710 — Belgium at Spain, start 2026-07-10T19:00Z, formes Espagne WWWWD / Belgique WWWDD: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260710",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260707T160040Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 1.60 capturée le 2026-07-07T16:00:30Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Forme ESPN: Espagne WWWWD contre Belgique WWWDD",
+        "No-vig marché calculé autour de 59,4 %; probabilité ValueBot prudente 64 % contre seuil de rentabilité 62,5 %, EV estimée +2,4 %",
+        "Risque principal: quart de finale et nul possible en 90 minutes, d'où signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle.",
+      "id": 10,
+      "status": "won",
+      "published_at": "2026-07-07T16:01:23Z",
+      "fair_odd": 1.562,
+      "pnl_units": 0.15,
+      "settled_at": "2026-07-11T06:01:48Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260710: Spain 2-1 Belgium, Full Time (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260710)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Quart de finale",
+      "event": "Norvège - Angleterre",
+      "start_time": "2026-07-11T21:00:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "Angleterre gagne",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.55,
+      "taken_odd": 1.86,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-09T06:03:05Z",
+      "expected_value": 0.023,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — la probabilité reste construite avec un modèle léger marché + forme courte ESPN, donc insuffisante pour un conseil officiel: pas de xG, blessures ni compositions confirmées dans ce cycle, et un quart de finale garde un risque de nul en 90 minutes. Betclic cote l’Angleterre à 1.86 sur le 1N2 temps réglementaire; la probabilité no-vig du marché ressort autour de 51,2 %, puis ValueBot ajuste prudemment à 55 % avec une forme ESPN légèrement supérieure côté anglais (WWWDW) face à la Norvège (WWLWW) et un statut de favori de marché. Le seuil de rentabilité de la cote est 53,8 %, l’EV estimée ressort à environ +2,3 %. Mise plafonnée à 0,25 u car c’est un signal intermédiaire et non un conseil officiel.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote Angleterre 1.86 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/norvege-angleterre-m1161570996490240",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260711 — England at Norway, start 2026-07-11T21:00Z, formes Norvège WWLWW / Angleterre WWWDW: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260711",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260709T060314Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 1.86 capturée le 2026-07-09T06:03:05Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Forme ESPN: Angleterre WWWDW contre Norvège WWLWW",
+        "No-vig marché calculé autour de 51,2 %; probabilité ValueBot prudente 55 % contre seuil de rentabilité 53,8 %, EV estimée +2,3 %",
+        "Risque principal: quart de finale serré et nul possible en 90 minutes, d’où signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle.",
+      "id": 11,
+      "status": "lost",
+      "published_at": "2026-07-09T06:04:19Z",
+      "fair_odd": 1.818,
+      "pnl_units": -0.25,
+      "settled_at": "2026-07-13T06:02:43Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260711: Norway 1-2 England, Final Score - After Extra Time; marché 1N2 temps réglementaire Angleterre gagnante perdant car match allé en prolongation (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260711)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Quart de finale",
+      "event": "Argentine - Suisse",
+      "start_time": "2026-07-12T01:00:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "Argentine gagne",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.62,
+      "taken_odd": 1.68,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-09T06:03:05Z",
+      "expected_value": 0.042,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — la probabilité reste construite avec un modèle léger marché + forme courte ESPN, donc insuffisante pour un conseil officiel: pas de xG, blessures ni compositions confirmées dans ce cycle, et un quart de finale garde un risque de nul en 90 minutes. Betclic cote l’Argentine à 1.68 sur le 1N2 temps réglementaire; la probabilité no-vig du marché ressort autour de 56,8 %, puis ValueBot ajuste prudemment à 62 % avec une forme ESPN parfaite côté Argentine (WWWWW), un statut de favori net, et une Suisse solide mais plus exposée après un huitième accroché. Le seuil de rentabilité de la cote est 59,5 %, l’EV estimée ressort à environ +4,2 %. Mise plafonnée à 0,25 u car c’est un signal intermédiaire et non un conseil officiel.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote Argentine 1.68 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/argentine-suisse-m1163224593752064",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260711 — Switzerland at Argentina, start 2026-07-12T01:00Z, formes Argentine WWWWW / Suisse WWWWD: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260711",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260709T060314Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 1.68 capturée le 2026-07-09T06:03:05Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Forme ESPN: Argentine WWWWW contre Suisse WWWWD",
+        "No-vig marché calculé autour de 56,8 %; probabilité ValueBot prudente 62 % contre seuil de rentabilité 59,5 %, EV estimée +4,2 %",
+        "Risque principal: quart de finale et nul possible en 90 minutes, d’où signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle.",
+      "id": 12,
+      "status": "lost",
+      "published_at": "2026-07-09T06:04:19Z",
+      "fair_odd": 1.613,
+      "pnl_units": -0.25,
+      "settled_at": "2026-07-13T06:02:43Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260711: Argentina 3-1 Switzerland, Final Score - After Extra Time; marché 1N2 temps réglementaire Argentine gagnante perdant car match allé en prolongation (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260711)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Demi-finale",
+      "event": "France - Espagne",
+      "start_time": "2026-07-14T19:00:00Z",
+      "market": "Les 2 équipes marquent (temps réglementaire)",
+      "selection": "Non",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.56,
+      "taken_odd": 1.98,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-11T16:01:17Z",
+      "expected_value": 0.109,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — angle secondaire intéressant mais pas assez robuste pour un conseil officiel: la probabilité indépendante repose sur le marché Betclic + les scores récents ESPN Coupe du Monde, sans modèle xG/blessures/suspensions complet. Betclic cote 'Les 2 équipes marquent: Non' à 1.98, seuil de rentabilité 50,5 %. Sur les dix derniers matchs Coupe du Monde agrégés relevés via ESPN pour France/Espagne dans ce cycle, huit ont fini avec au moins une équipe muette; France reste sur 3-0, 4-1, 3-0, 1-0, 2-0 et Espagne sur 4-0, 1-0, 3-0, 1-0, 2-1. ValueBot retient volontairement 56 % seulement, car le niveau offensif des deux équipes et le format demi-finale peuvent augmenter le risque de but des deux côtés. EV estimée: 0,56 x 1,98 - 1 = +10,9 %. Mise limitée à 0,25 u.",
+      "sources": [
+        "Betclic France - Espagne Coupe du Monde 2026 — cote BTTS Non 1.98 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/france-espagne-m1165871812743168",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260714 — Spain at France, start 2026-07-14T19:00Z, formes France WWWWW / Espagne WWWWW: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260714",
+        "ESPN FIFA World Cup scoreboards 20260621-20260710 — scores récents France/Espagne utilisés pour le BTTS: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260711T160125Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 1.98 capturée le 2026-07-11T16:01:17Z sur le marché Les 2 équipes marquent (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Marchés secondaires contrôlés sur la page: double chance, total buts, BTTS; le BTTS Non est le seul angle avec marge de sécurité suffisante selon le modèle léger",
+        "France: 4 clean sheets sur ses 5 derniers matchs ESPN Coupe du Monde; Espagne: 4 clean sheets sur ses 5 derniers matchs ESPN Coupe du Monde",
+        "Probabilité ValueBot prudente 56 % contre seuil de rentabilité 50,5 %, EV estimée +10,9 %",
+        "Risque principal: deux attaques élite et information effectif/xG incomplète, d'où signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle.",
+      "id": 13,
+      "status": "won",
+      "published_at": "2026-07-11T16:02:37Z",
+      "fair_odd": 1.786,
+      "pnl_units": 0.24,
+      "settled_at": "2026-07-15T06:09:51Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260714: Spain 2-0 France, Full Time - BTTS Non gagnant (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260714)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Demi-finale",
+      "event": "Angleterre - Argentine",
+      "start_time": "2026-07-15T19:00:00Z",
+      "market": "Les 2 équipes marquent (temps réglementaire)",
+      "selection": "Oui",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.58,
+      "taken_odd": 1.88,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-15T06:12:23Z",
+      "expected_value": 0.09,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — ce conseil utilise un modèle basé sur les scores récents ESPN Coupe du Monde (formes et tendances BTTS), sans modèle xG/blessures/suspensions complet, ce qui le rend insuffisamment robuste pour un conseil officiel. Betclic cote 'Les 2 équipes marquent: Oui' à 1.88 (seuil de rentabilité 53,2%). L'Argentine a vu les 2 équipes marquer dans 4 de ses 5 matchs du Mondial (Jordan 3-1, CPV 3-2, Egypt 3-2, Suisse 3-1 — seul match sans but encaissé: aucun). L'Angleterre a vu les 2 équipes marquer dans 2 de ses 3 matchs connus (Norvège 1-2, Mexique 2-3 — sauf Panama 2-0). Le format demi-finale entre deux attaques élite augmente mécaniquement la probabilité de buts des deux côtés. ValueBot retient 58% (décote volontaire par rapport au marché no-vig estimé à ~56%) pour tenir compte de l'incertitude sur les compositions et blessures non vérifiées dans ce cycle. EV estimée: 0.58 × 1.88 - 1 = +9,0%. Mise plafonnée à 0,25 u car c'est un signal prudent.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote BTTS Oui 1.88 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/angleterre-argentine-m1167032888487936",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboard 20260709-20260711 — scores récents Argentine (3-1, 3-2, 3-2, 3-1) et Angleterre (2-0, 3-2, 1-2 after ET): https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
+        "ESPN FIFA World Cup scoreboard match page: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260715"
+      ],
+      "factors": [
+        "Cote Betclic 1.88 capturée le 2026-07-15T06:12:23Z sur le marché Les 2 équipes marquent (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Argentine a vu BTTS Oui dans 4/5 matchs du Mondial 2026 (tous sauf aucun — en fait tous ont vu BTTS Oui sauf Jordan ? Jordan 3-1 = BTTS Oui aussi car Jordan a marqué)",
+        "Angleterre a vu BTTS Oui dans 2/3 matchs du Mondial 2026 (Norvège 1-2, Mexique 2-3; clean sheet vs Panama 2-0)",
+        "Probabilité ValueBot prudente 58% contre seuil de rentabilité 53,2%, EV estimée +9,0%",
+        "Risque principal: match à élimination directe et information effectifs/xG incomplète dans ce cycle, d'où signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H récente entre ces équipes suffisamment fiable dans ce cycle.",
+      "id": 14,
+      "status": "won",
+      "published_at": "2026-07-15T06:14:05Z",
+      "fair_odd": 1.724,
+      "pnl_units": 0.22,
+      "settled_at": "2026-07-16T06:11:57Z",
+      "settlement_source": "ESPN FIFA World Cup scoreboard 20260715: England 1-2 Argentina, Full Time - BTTS Oui gagnant (https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260715)"
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Match pour la 3e place",
+      "event": "France - Angleterre",
+      "start_time": "2026-07-18T21:00:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "France gagne",
+      "estimated_probability": 0.55,
+      "taken_odd": 2.0,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-16T06:12:00Z",
+      "expected_value": 0.1,
+      "confidence": 3,
+      "stake_units": 1,
+      "rationale": "La France arrive en petite finale après un parcours quasi parfait : 5 victoires dont 5 clean sheets en 6 matchs (Iraq 3-0, Norvège 4-1, Suède 3-0, Paraguay 1-0, Maroc 2-0), seule défaite 0-2 contre l'Espagne en demi-finale. La solidité défensive est remarquable. L'Angleterre sort d'une demi-finale perdue 1-2 contre l'Argentine et a encaissé des buts dans 4 de ses 6 matchs du Mondial (Mexique 3-2, Congo DR 2-1, Norvège 1-2 ap, Argentine 1-2). Betclic cote la France à 2.00 sur le 1N2 temps réglementaire ; la probabilité no-vig du marché ressort autour de 47,6 %, puis ValueBot ajuste à 55 % grâce à la forme ESPN supérieure, aux 5 clean sheets sur 6 matchs et à la dynamique défensive française. Le seuil de rentabilité est 50,0 %, l'EV estimée ressort à environ +10,0 %. Mise : 1 unité, car le prix et la confiance le permettent pour un conseil officiel.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote France 2.00 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/france-angleterre-m1170405334401024",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboards 20260622-20260714 — formes France (WWWWWL) et Angleterre (WWDWWL) : https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260716T061100Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 2.00 capturée le 2026-07-16T06:12:00Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Forme ESPN: France 5 clean sheets sur 6 matchs (WWWWWL); Angleterre 4 matchs sur 6 avec but encaissé",
+        "No-vig marché calculé autour de 47,6 %; probabilité ValueBot 55 % contre seuil de rentabilité 50,0 %, EV estimée +10,0 %",
+        "Petite finale — risque de motivation moindre, mais la France a montré de la régularité défensive tout au long du tournoi"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H récente entre ces équipes dans ce cycle.",
+      "id": 15,
+      "status": "pending",
+      "published_at": "2026-07-16T06:14:46Z",
+      "fair_odd": 1.818,
+      "pnl_units": null
+    },
+    {
+      "sport": "football",
+      "competition": "Coupe du Monde 2026 — Finale",
+      "event": "Espagne - Argentine",
+      "start_time": "2026-07-19T19:00:00Z",
+      "market": "Résultat 1N2 temps réglementaire",
+      "selection": "Argentine gagne",
+      "publication_tier": "prudent_signal",
+      "estimated_probability": 0.33,
+      "taken_odd": 3.5,
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "odd_captured_at": "2026-07-16T06:12:00Z",
+      "expected_value": 0.155,
+      "confidence": 2,
+      "stake_units": 0.25,
+      "rationale": "Signal prudent — la probabilité indépendante repose sur les formes ESPN et l'analyse des parcours, sans modèle xG/blessures/suspensions complet. L'Argentine arrive invaincue en finale avec 6 victoires en 6 matchs (Autriche 2-0, Jordanie 3-1, Cap Vert 3-2, Égypte 3-2, Suisse 3-1, Angleterre 2-1), dont 3 victoires en matchs à élimination directe. L'Espagne, favorite sur le papier, a perdu son seul choc du tournoi (0-2 contre la France en demi-finale) et a montré des signes de vulnérabilité offensive quand pressée. Betclic cote l'Argentine à 3.50 sur le 1N2 temps réglementaire ; la probabilité no-vig du marché ressort autour de 27,5 %, puis ValueBot ajuste à 33 % grâce à l'invincibilité argentine, à sa capacité à gagner des matchs serrés et à l'expérience de la finale (Messi, dernier match en Coupe du Monde). Le seuil de rentabilité est 28,6 %, l'EV estimée ressort à environ +15,5 %. Mise plafonnée à 0,25 u car c'est un signal prudent : modèle léger, match de finale imprévisible, et cote longue.",
+      "sources": [
+        "Betclic football Coupe du Monde 2026 — cote Argentine 3.50 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/espagne-argentine-m1170404449476608",
+        "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+        "ESPN FIFA World Cup scoreboards 20260622-20260715 — Argentine 6V/0D (WWWWWW), Espagne 5V/1D (WWWWWL) : https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
+        "Cache ValueBot du scan: data/cache/valuebot-radar-20260716T061100Z.json"
+      ],
+      "factors": [
+        "Cote Betclic 3.50 capturée le 2026-07-16T06:12:00Z sur le marché Résultat du match (temps réglementaire)",
+        "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+        "Forme ESPN: Argentine 6/6 victoires (WWWWWW); Espagne 5/6 victoires mais défaite en demi-finale (WWWWWL)",
+        "No-vig marché calculé autour de 27,5 %; probabilité ValueBot 33 % contre seuil de rentabilité 28,6 %, EV estimée +15,5 %",
+        "Risque principal: finale imprévisible, modèle léger sans xG/blessures, cote longue, d'où signal prudent et mise 0,25 u"
+      ],
+      "h2h": "Non utilisé: aucune donnée H2H récente entre ces équipes dans ce cycle.",
+      "id": 16,
+      "status": "pending",
+      "published_at": "2026-07-16T06:14:50Z",
+      "fair_odd": 3.03,
+      "pnl_units": null
+    }
+  ],
+  "learnings": [
+    {
+      "date": "2026-06-21",
+      "created_at": "2026-06-21T16:29:41Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 0,
+      "metrics": {
+        "bankroll_units": 100,
+        "tips_total": 0,
+        "pending_total": 0,
+        "settled_total": 0,
+        "yield_pct": 0,
+        "roi_pct": 0,
+        "win_rate_pct": null,
+        "average_odd": null,
+        "current_drawdown_units": 0,
+        "max_drawdown_units": 0,
+        "brier_score": null
+      },
+      "observations": [
+        "Cycle de bootstrap du 21/06: routine installée, ledger initialisé et site rendu sans données fictives. Aucun pari publié pendant le bootstrap car aucune sélection complète données publiques + probabilité modèle + cote ANJ horodatée + EV >= 0,03 n'a été validée."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-21",
+      "created_at": "2026-06-21T16:32:12Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 6,
+      "metrics": {
+        "bankroll_units": 100,
+        "tips_total": 0,
+        "pending_total": 0,
+        "settled_total": 0,
+        "yield_pct": 0,
+        "roi_pct": 0,
+        "win_rate_pct": null,
+        "average_odd": null,
+        "current_drawdown_units": 0,
+        "max_drawdown_units": 0,
+        "brier_score": null
+      },
+      "observations": [
+        "Collecte publique du 2026-06-21/22: TheSportsDB a retourné 6 matchs football (Coupe du monde/FIFA World Cup et Irish Premier Division) et 0 match tennis; 2 matchs étaient déjà terminés, 4 restaient à venir.",
+        "Aucun pari publié: les cotes ANJ n'ont pas été vérifiables de façon complète et horodatée. ParionsSport/FDJ a répondu 403/410, Betclic n'a fourni qu'une coquille applicative sans cote de match traçable dans le HTML, PMU n'a pas exposé de cote statique exploitable.",
+        "Filtre ValueBot appliqué: sans cote exacte + bookmaker ANJ + timestamp/source, aucun calcul EV publiable n'est autorisé, même si des affiches existent."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-21",
+      "created_at": "2026-06-21T16:59:26Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 0,
+      "metrics": {
+        "bankroll_units": 100,
+        "tips_total": 0,
+        "pending_total": 0,
+        "settled_total": 0,
+        "yield_pct": 0,
+        "roi_pct": 0,
+        "win_rate_pct": null,
+        "average_odd": null,
+        "current_drawdown_units": 0,
+        "max_drawdown_units": 0,
+        "brier_score": null
+      },
+      "observations": [
+        "Cycle de publication relancé après correction du rendu: les anciennes valeurs de démonstration visibles ont été retirées de l'en-tête et des statistiques publiques.",
+        "Aucun pari ajouté: aucune cote ANJ horodatée et vérifiable n'a été capturée dans ce cycle; application stricte de la règle silence honnête plutôt qu'un pari sans valeur."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-22",
+      "created_at": "2026-06-22T06:09:49Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 8,
+      "metrics": {
+        "bankroll_units": 100,
+        "tips_total": 0,
+        "pending_total": 0,
+        "settled_total": 0,
+        "yield_pct": 0,
+        "roi_pct": 0,
+        "win_rate_pct": null,
+        "average_odd": null,
+        "current_drawdown_units": 0,
+        "max_drawdown_units": 0,
+        "brier_score": null
+      },
+      "observations": [
+        "Veille Coupe du monde du 2026-06-22: ESPN FIFA World Cup a listé 8 matchs à venir sur les dates source 20260622 et 20260623; cache créé dans data/cache/worldcup-watch-2026-06-22.json.",
+        "Cotes Winamax capturées à 2026-06-22T06:09:35Z depuis https://www.winamax.fr/paris-sportifs/sports/1 et opérateur vérifié sur la page ANJ des opérateurs agréés; marché principal 1N2 disponible pour les affiches du jour/demain.",
+        "Aucun pari proposé/publié: les données indépendantes disponibles dans ce cycle se limitent au calendrier ESPN et à la forme récente W/N/D Winamax; pas de modèle Poisson/xG robuste ni probabilité indépendante suffisante pour calculer une EV publiable >= 0,03."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-22",
+      "created_at": "2026-06-22T11:02:25Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 8,
+      "metrics": {
+        "bankroll_units": 100.0,
+        "tips_total": 1,
+        "pending_total": 1,
+        "settled_total": 0,
+        "yield_pct": 0.0,
+        "roi_pct": 0.0,
+        "win_rate_pct": null,
+        "average_odd": null,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": null
+      },
+      "observations": [
+        "Veille Coupe du monde du 2026-06-22T11:02Z: ESPN FIFA World Cup a listé 8 matchs à venir sur les dates source 20260622 et 20260623; cache créé dans data/cache/worldcup-watch-2026-06-22T110215Z.json.",
+        "Cotes Winamax 1N2 capturées à 2026-06-22T11:02:15Z depuis https://www.winamax.fr/paris-sportifs/sports/1; Winamax vérifié présent sur la page ANJ des opérateurs agréés.",
+        "Aucun pari proposé/publié: aucune probabilité indépendante robuste (Poisson/xG/forme fiable) suffisante pour établir EV >= 0,03; le contrôle par probabilités implicites no-vig de marché ne fournit pas de value publiable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-25",
+      "created_at": "2026-06-25T16:03:10Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 8,
+      "metrics": {
+        "bankroll_units": 100.0,
+        "tips_total": 1,
+        "pending_total": 1,
+        "settled_total": 0,
+        "yield_pct": 0.0,
+        "roi_pct": 0.0,
+        "win_rate_pct": null,
+        "average_odd": null,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": null
+      },
+      "observations": [
+        "Veille Coupe du monde du 2026-06-25T16:03Z: ESPN FIFA World Cup a listé 12 matchs sur les dates source 20260625 et 20260626, dont 8 dans la fenêtre UTC aujourd'hui/demain; cache créé dans data/cache/worldcup-watch-20260625T160300Z.json.",
+        "Cotes Winamax 1N2 capturées à 2026-06-25T16:03:00Z depuis https://www.winamax.fr/paris-sportifs/sports/1; Winamax retrouvé sur la page ANJ des opérateurs agréés.",
+        "Aucun pari proposé/publié: les seules probabilités calculables proprement dans ce cycle sont les probabilités no-vig dérivées du marché Winamax, non indépendantes et à EV marché négative; pas de modèle Poisson/xG/forme robuste suffisant pour valider EV >= 0,03."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-26",
+      "created_at": "2026-06-26T06:08:25Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 10,
+      "metrics": {
+        "bankroll_units": 100.0,
+        "tips_total": 1,
+        "pending_total": 1,
+        "settled_total": 0,
+        "yield_pct": 0.0,
+        "roi_pct": 0.0,
+        "win_rate_pct": null,
+        "average_odd": null,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": null
+      },
+      "observations": [
+        "Veille Coupe du monde du 2026-06-26T06:07Z: ESPN FIFA World Cup a listé 12 matchs sur les dates source 20260626 et 20260627, dont 10 dans la fenêtre UTC aujourd'hui/demain; cache créé dans data/cache/worldcup-watch-20260626T060736Z.json.",
+        "Contrôle conformité sources: ANJ opérateurs agréés consulté en HTTPS et Winamax retrouvé comme opérateur agréé; toutefois robots.txt Winamax interdit /paris-sportifs/sports/1 pour ce crawler, donc les cotes Winamax ne sont pas retenues comme source exploitable/publiable dans ce cycle.",
+        "Aucun pari proposé/publié: pas de cote exacte ANJ exploitable en respectant robots.txt/CGU + pas de modèle indépendant Poisson/xG robuste; les données ESPN disponibles (calendrier, forme courte, bilan de groupe) ne suffisent pas pour calculer une EV publiable >= 0,03."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-26",
+      "created_at": "2026-06-26T06:18:54Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 19,
+      "metrics": {
+        "bankroll_units": 100.0,
+        "tips_total": 1,
+        "pending_total": 1,
+        "settled_total": 0,
+        "yield_pct": 0.0,
+        "roi_pct": 0.0,
+        "win_rate_pct": null,
+        "average_odd": null,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": null
+      },
+      "observations": [
+        "Veille foot+tennis du 2026-06-26T06:18Z: Betclic France consulté en HTTPS (robots.txt: seule restriction /*?*, URLs sans query-string), opérateur retrouvé sur la page ANJ; cache créé dans data/cache/valuebot-radar-20260626T061812Z.json.",
+        "Périmètre scanné: 10 matchs Coupe du Monde Betclic/ESPN et 9 affiches tennis Betclic (8 simples + 1 double); marchés explorés via pages détail: football 1N2, double chance, total buts, BTTS, équipe marque/total équipe, score exact; tennis vainqueur match, total jeux, score sets, les deux joueurs gagnent un set, écart/vainqueur de set.",
+        "Aucun pari proposé/publié: cotes principales Betclic horodatées disponibles mais les probabilités indépendantes robustes manquent (pas d'Elo/xG tennis/football fiable dans ce cycle); les seules probabilités calculables proprement à grande échelle restent no-vig issues du marché, donc non indépendantes et EV non publiable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-26",
+      "created_at": "2026-06-26T06:27:28Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 18,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-26T06:26Z: autorisation Henri vérifiée active (Europe/Paris 08:24, expiration 2026-07-06 08:23); état local relu, ancien tip Écosse-Brésil réglé gagnant via ESPN FT Écosse 0-3 Brésil (+0,37 u).",
+        "Scan live/caché tracé dans data/cache/valuebot-radar-20260626T062659Z.json: 18 candidats vérifiés (10 football Coupe du Monde, 8 tennis ATP/WTA simples), 18 pages détail Betclic accessibles en HTTPS; Betclic retrouvé ANJ et robots.txt consulté.",
+        "Marchés explorés au-delà du vainqueur: football 1N2, double chance, total buts, BTTS, total équipe, score exact; tennis vainqueur match, total jeux, score sets, les deux joueurs gagnent un set, écart/vainqueur de set.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles pour plusieurs marchés, mais modèle indépendant robuste insuffisant (pas d’Elo/xG/fatigue fiables dans le cycle); les probabilités no-vig du marché ne suffisent pas pour établir EV >= 0,03 sans circularité."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-26",
+      "created_at": "2026-06-26T11:04:24Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 18,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-26T11:04Z: autorisation Henri vérifiée active (Europe/Paris 13:01, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260626T110414Z.json: 18 candidats (10 football Coupe du Monde dans la fenêtre 72h + 8 tennis ATP/WTA simples), 18 pages détail Betclic accessibles en HTTPS; robots.txt Betclic consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact; tennis vainqueur match, total jeux, score sets, les deux joueurs gagnent un set, écart/vainqueur de set.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur plusieurs marchés, mais la probabilité indépendante robuste manque encore (pas d’Elo/xG/fatigue exploitable et vérifiable en live); les probabilités no-vig dérivées du marché restent circulaires et insuffisantes pour établir EV >= 0,03."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-26",
+      "created_at": "2026-06-26T16:02:14Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-26T16:01Z: autorisation Henri vérifiée active (Europe/Paris 18:00, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260626T160201Z.json: 20 candidats (10 football Coupe du Monde + 10 tennis ATP/WTA/Wimbledon), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt Betclic autorise ce périmètre et Betclic est retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart/vainqueur de set.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais probabilité indépendante robuste insuffisante (pas d’Elo/xG/fatigue exploitable et vérifiable en live); probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-27",
+      "created_at": "2026-06-27T06:06:43Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-27T06:06Z: autorisation Henri vérifiée active (Europe/Paris 08:05, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260627T060622Z.json: 20 candidats (10 football Coupe du Monde, 10 tennis ATP/WTA/Wimbledon dont 6 simples et 4 doubles), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt Betclic consulté (Disallow /*?*) et Betclic retrouvé ANJ.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart/vainqueur de set.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais probabilité indépendante robuste insuffisante (pas d’Elo/xG/fatigue exploitable et vérifiable en live); probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-27",
+      "created_at": "2026-06-27T11:02:05Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-27T11:01Z: autorisation Henri vérifiée active (Europe/Paris 13:01, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260627T110150Z.json: 20 candidats (10 football Coupe du Monde, 10 tennis ATP/WTA/Wimbledon dont 6 simples prioritaires et 4 doubles), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt Betclic consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart/vainqueur de set.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface) suffisante; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-27",
+      "created_at": "2026-06-27T16:01:30Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-27T16:01Z: autorisation Henri vérifiée active (Europe/Paris 18:00, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260627T160111Z.json: 20 candidats (10 football Coupe du Monde, 10 tennis ATP/WTA/Wimbledon), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart/vainqueur de set.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface) suffisante; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-28",
+      "created_at": "2026-06-28T06:07:02Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-28T06:06Z: autorisation Henri vérifiée active (Europe/Paris 08:06, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260628T060639Z.json: 20 candidats (10 football Coupe du Monde, 10 tennis dont Wimbledon/ATP/WTA), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart/vainqueur de set.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface) suffisante; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-28",
+      "created_at": "2026-06-28T11:01:58Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-28T11:01Z: autorisation Henri vérifiée active (Europe/Paris 13:00, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260628T110124Z.json: 20 candidats (10 football Coupe du Monde, 10 tennis dont Wimbledon/Eastbourne ATP-WTA), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart/vainqueur de set.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface) suffisante; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-28",
+      "created_at": "2026-06-28T16:01:59Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-28T16:01Z: autorisation Henri vérifiée active (Europe/Paris 18:00, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260628T160121Z.json: 20 candidats (10 football Coupe du Monde dans la fenêtre 72h, 10 tennis Wimbledon H. 1/64e), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface) suffisante; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-29",
+      "created_at": "2026-06-29T06:07:37Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-29T06:07Z: autorisation Henri vérifiée active (Europe/Paris 08:06, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260629T060702Z.json: 20 candidats (10 football Coupe du Monde dans la fenêtre 72h, 10 tennis Wimbledon H. 1/64e), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact/handicap visibles selon page; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface) suffisante dans ce cycle; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-29",
+      "created_at": "2026-06-29T11:01:43Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-29T11:01Z: autorisation Henri vérifiée active (Europe/Paris 13:00, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260629T110126Z.json: 20 candidats (10 football Coupe du Monde 2026, 10 tennis Wimbledon H. 1/64e), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact/handicap visibles selon page; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface ou Poisson/xG football) suffisante dans ce cycle; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-29",
+      "created_at": "2026-06-29T16:00:58Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-29T16:00Z: autorisation Henri vérifiée active (Europe/Paris 18:00, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260629T160041Z.json: 20 candidats (10 football Coupe du Monde 2026, 10 tennis Wimbledon H/F 1/64e), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact/handicap visibles selon page; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set selon page.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface ou Poisson/xG football) suffisante dans ce cycle; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-30",
+      "created_at": "2026-06-30T06:08:54Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-30T06:08Z: autorisation Henri vérifiée active (Europe/Paris 08:07, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260630T060820Z.json: 20 candidats (10 football Coupe du Monde 2026, 10 tennis Wimbledon H/F 1/64e), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact/handicap visibles selon page; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set selon page.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface ou Poisson/xG football) suffisante dans ce cycle; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-30",
+      "created_at": "2026-06-30T11:01:49Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-30T11:01Z: autorisation Henri vérifiée active (Europe/Paris 13:00, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260630T110118Z.json: 20 candidats (10 football Coupe du Monde 2026 dans la fenêtre 72h, 10 tennis Wimbledon H/F 1/64e), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact/handicap visibles selon page; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set selon page.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface ou Poisson/xG football) suffisante dans ce cycle; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-06-30",
+      "created_at": "2026-06-30T16:01:34Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-06-30T16:01Z: autorisation Henri vérifiée active (Europe/Paris 18:00, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260630T160114Z.json: 20 candidats (10 football Coupe du Monde 2026 dans la fenêtre 72h, 10 tennis Wimbledon H. 1/64e), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact/handicap visibles selon page; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set selon page.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface ou Poisson/xG football) suffisante dans ce cycle; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-01",
+      "created_at": "2026-07-01T06:06:51Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-07-01T06:06Z: autorisation Henri vérifiée active (Europe/Paris 08:06, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260701T060636Z.json: 20 candidats (10 football Coupe du Monde 2026, 10 tennis Wimbledon dont 7 simples et 3 doubles), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set selon page.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface ou Poisson/xG football) suffisante dans ce cycle; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-01",
+      "created_at": "2026-07-01T11:01:57Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-07-01T11:01Z: autorisation Henri vérifiée active (Europe/Paris 13:01, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260701T110133Z.json: 20 candidats (10 football Coupe du Monde 2026, 10 tennis Wimbledon H/F simples), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact/handicap visibles selon page; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set selon page.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface ou Poisson/xG football) suffisante dans ce cycle; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-01",
+      "created_at": "2026-07-01T16:01:02Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-07-01T16:00Z: autorisation Henri vérifiée active (Europe/Paris 18:00, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260701T160043Z.json: 20 candidats (10 football Coupe du Monde 2026, 10 tennis Wimbledon dont 9 simples et 1 double), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact/mi-temps visibles selon page; tennis vainqueur, total jeux, score sets, deux joueurs gagnent un set, écart de sets, vainqueur de set selon page.",
+        "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface ou Poisson/xG football) suffisante dans ce cycle; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-02",
+      "created_at": "2026-07-02T06:07:35Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-07-02T06:07Z: autorisation Henri active (Europe/Paris 08:06, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260702T060713Z.json: 20 candidats (10 football Coupe du Monde 2026, 10 tennis Wimbledon H/F simples), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact/handicap/mi-temps visibles selon page; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set selon page.",
+        "Aucun pari publié: cotes ANJ Betclic disponibles/horodatées sur des marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface ou Poisson/xG football) suffisante; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-02",
+      "created_at": "2026-07-02T11:01:12Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-07-02T11:00Z: autorisation Henri active (Europe/Paris 13:00, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260702T110052Z.json: 20 candidats (10 football Coupe du Monde 2026, 10 tennis Wimbledon H/F simples), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact/handicap/mi-temps visibles selon page; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set selon page.",
+        "Aucun pari publié: cotes ANJ Betclic disponibles/horodatées sur des marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface ou Poisson/xG football) suffisante; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-02",
+      "created_at": "2026-07-02T16:01:28Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Cycle foot+tennis du 2026-07-02T16:00Z: autorisation Henri active (Europe/Paris 18:00, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+        "Scan live tracé dans data/cache/valuebot-radar-20260702T160104Z.json: 20 candidats (10 football Coupe du Monde 2026, 10 tennis Wimbledon dont 8 simples et 2 doubles), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact/handicap/mi-temps visibles selon page; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set selon page.",
+        "Aucun pari publié: cotes ANJ Betclic disponibles/horodatées sur des marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface ou Poisson/xG football) suffisante; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-02",
+      "created_at": "2026-07-02T19:36:40Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 19,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Scan exécuté le 2026-07-02T19:36Z sur Betclic HTTPS + contrôle ANJ: 19 candidats (9 football Coupe du Monde 2026, 10 tennis Wimbledon simple/double).",
+        "Marchés couverts/repérés: football 1N2, double chance, totals buts, BTTS, totals équipe, score exact; tennis vainqueur, total jeux, score sets, écart de sets, joueur gagne un set/vainqueur de set selon disponibilités.",
+        "Aucun conseil publié: les candidats n'ont pas franchi tous les filtres ValueBot car la probabilité indépendante n'est pas suffisamment étayée par des sources statistiques publiques traçables; pas d'EV publiable sans inventer de probabilité."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-03",
+      "created_at": "2026-07-03T06:04:47Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 20,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Scan ValueBot du 2026-07-03T06:04Z: 20 candidats analysés (10 football Coupe du Monde 2026, 10 tennis Wimbledon simple/doubles) depuis Betclic HTTPS, sans URL à query-string; Betclic vérifié présent sur la page ANJ opérateurs agréés.",
+        "Marchés couverts: football 1N2 et disponibilité contrôlée des familles Double chance, total buts, BTTS, total équipe, score exact; tennis vainqueur et disponibilité contrôlée de total jeux, score final sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set.",
+        "Aucun conseil publié: les cotes exactes ANJ ont été capturées pour les marchés principaux, mais aucune probabilité indépendante robuste et argumentée (données de forme/xG/tennis fiables hors marché) n’a permis de valider une EV >= 0,03; les secondaires sont seulement détectés comme disponibles, pas assez sourcés en cote+proba pour publication.",
+        "Radar abonnés: surveiller Australie-Égypte, Canada-Maroc, Brésil-Norvège, Mexique-Angleterre, Portugal-Espagne, USA-Belgique côté football; Roman Safiullin-Joao Fonseca et Belinda Bencic-Anna Kalinskaya côté Wimbledon, notamment marchés sets/total jeux si une source statistique indépendante devient exploitable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-03",
+      "created_at": "2026-07-03T11:01:23Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 19,
+      "metrics": {
+        "bankroll_units": 100.37,
+        "tips_total": 1,
+        "pending_total": 0,
+        "settled_total": 1,
+        "yield_pct": 37.0,
+        "roi_pct": 0.37,
+        "win_rate_pct": 100.0,
+        "average_odd": 1.37,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.0,
+        "brier_score": 0.0484
+      },
+      "observations": [
+        "Scan ValueBot du 2026-07-03T11:00Z: 19 candidats analysés (9 football Coupe du Monde 2026, 10 tennis Wimbledon simple/doubles) depuis Betclic HTTPS; Betclic vérifié présent sur la page ANJ opérateurs agréés; cache data/cache/valuebot-radar-20260703T110046Z.json.",
+        "Marchés couverts: football 1N2 avec contrôle de disponibilité des familles Double chance, total buts, BTTS, total équipe et score exact; tennis vainqueur avec contrôle de disponibilité total jeux, score final sets, les deux joueurs gagnent un set, écart de sets et vainqueur de set.",
+        "Aucun conseil publié: les cotes exactes ANJ sont horodatées pour les marchés principaux, mais aucune probabilité indépendante robuste et argumentée (xG/forme/tennis hors marché suffisamment fiable) ne valide EV >= 0,03; les marchés secondaires sont détectés comme disponibles mais pas extraits en cote complète + probabilité indépendante publiable.",
+        "Radar abonnés: football à surveiller Australie-Égypte, Colombie-Ghana, Canada-Maroc, Brésil-Norvège, Mexique-Angleterre, Portugal-Espagne, USA-Belgique; tennis à surveiller Roman Safiullin-Joao Fonseca et Belinda Bencic-Anna Kalinskaya, surtout marchés sets/total jeux si source statistique indépendante exploitable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-06",
+      "created_at": "2026-07-06T06:03:45Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 16,
+      "metrics": {
+        "bankroll_units": 100.43,
+        "tips_total": 8,
+        "pending_total": 4,
+        "settled_total": 4,
+        "yield_pct": 24.57,
+        "roi_pct": 0.43,
+        "win_rate_pct": 75.0,
+        "average_odd": 1.6,
+        "current_drawdown_units": 0.25,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1613
+      },
+      "observations": [
+        "Cycle ValueBot 2026-07-06T06:02Z: état réel relu; tip #7 Brésil - Norvège réglé perdu via ESPN FT Brésil 1-2 Norvège (-0,25 u). Bankroll après règlement: 100,43 u.",
+        "Scan HTTPS tracé dans data/cache/valuebot-radar-20260706T060241Z.json: 16 candidats analysés, dont 6 football Coupe du Monde 2026 et 10 tennis Wimbledon; Betclic consulté sans query-string, robots.txt contrôlé, Betclic vérifié présent sur la page ANJ des opérateurs agréés.",
+        "Marchés couverts au-delà du vainqueur: football 1N2 temps réglementaire, double chance, total buts, BTTS, score exact et familles buteur/décisif visibles; tennis vainqueur match, total jeux, score final en sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set selon disponibilité.",
+        "Aucun conseil publié: plusieurs cotes ANJ horodatées sont disponibles, mais les nouveaux événements non déjà publiés (France-Maroc, Norvège-Angleterre et Wimbledon) n'ont pas fourni de probabilité indépendante assez robuste pour démontrer EV >= 3% en officiel ou >= 1% en signal prudent; les probabilités no-vig seules restent refusées car circulaires. Les matchs Portugal-Espagne, USA-Belgique, Argentine-Égypte et Suisse-Colombie ont déjà des signaux prudents en attente, donc pas de doublon."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-06",
+      "created_at": "2026-07-06T11:01:22Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 16,
+      "metrics": {
+        "bankroll_units": 100.43,
+        "tips_total": 8,
+        "pending_total": 4,
+        "settled_total": 4,
+        "yield_pct": 24.57,
+        "roi_pct": 0.43,
+        "win_rate_pct": 75.0,
+        "average_odd": 1.6,
+        "current_drawdown_units": 0.25,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1613
+      },
+      "observations": [
+        "Cycle 2026-07-06T11:00Z: 16 candidats scannés via sources HTTPS publiques/conformes: 6 football Coupe du Monde et 10 tennis Wimbledon, cache data/cache/valuebot-radar-20260706T110048Z.json.",
+        "Marchés couverts: football 1N2 avec contrôle des familles secondaires visibles sur les détails Betclic (double chance, total buts, BTTS, score exact); tennis vainqueur avec familles secondaires visibles (total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set).",
+        "Aucun conseil publié: Betclic est bien vérifié ANJ et les cotes sont horodatées, mais aucune sélection n'a une probabilité indépendante assez robuste; les données indépendantes disponibles dans ce cycle se limitent surtout à la forme courte ESPN pour le football et à la structure de marché Betclic pour Wimbledon, insuffisant pour valider EV >= 3% officiel ou >= 1% signal prudent sans inventer.",
+        "Radar à surveiller sans publication: Portugal-Espagne, USA-Belgique, Argentine-Égypte, Suisse-Colombie, France-Maroc, Norvège-Angleterre côté football; Bouzkova-Mertens, Paolini-Eala, De Minaur-Cobolli et Kostyuk-Krueger côté Wimbledon. Recontrôler si une source publique gratuite apporte blessures/compositions/xG ou forme tennis détaillée exploitable."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-06",
+      "created_at": "2026-07-06T16:01:26Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 16,
+      "metrics": {
+        "bankroll_units": 100.43,
+        "tips_total": 8,
+        "pending_total": 4,
+        "settled_total": 4,
+        "yield_pct": 24.57,
+        "roi_pct": 0.43,
+        "win_rate_pct": 75.0,
+        "average_odd": 1.6,
+        "current_drawdown_units": 0.25,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1613
+      },
+      "observations": [
+        "Scan ValueBot 2026-07-06T16:00Z: 16 candidats analysés via Betclic HTTPS + vérification ANJ (6 football Coupe du Monde, 10 tennis Wimbledon); cotes exactes horodatées dans data/cache/valuebot-radar-20260706T160052Z.json.",
+        "Marchés couverts: football 1N2 avec contrôle des marchés secondaires disponibles (double chance, total buts, BTTS, score exact; corners/cartons non retenus faute de stats fiables); tennis vainqueur avec marchés secondaires disponibles selon affiches (total jeux, score final sets, écart de sets, les deux joueurs gagnent un set, vainqueur de set).",
+        "Aucun conseil publié: les meilleures affiches football non déjà publiées (France-Maroc, Norvège-Angleterre) sont hors/limite 72h et n'ont pas de probabilité indépendante assez robuste pour franchir EV >= 1% sans s'appuyer surtout sur le marché; les affiches déjà publiées restent seulement sous surveillance de cote. Côté tennis, absence de source gratuite suffisamment robuste dans ce cycle pour produire une probabilité indépendante exploitable au-delà des prix Betclic."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-07",
+      "created_at": "2026-07-07T06:03:24Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 15,
+      "metrics": {
+        "bankroll_units": 101.05,
+        "tips_total": 8,
+        "pending_total": 2,
+        "settled_total": 6,
+        "yield_pct": 46.67,
+        "roi_pct": 1.05,
+        "win_rate_pct": 83.33,
+        "average_odd": 1.82,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.2028
+      },
+      "observations": [
+        "Cycle 2026-07-07T06:02Z: 15 candidats analysés via sources HTTPS publiques/conformes: 5 football Coupe du Monde et 10 tennis Wimbledon; cache data/cache/valuebot-radar-20260707T060234Z.json.",
+        "Marchés couverts: football 1N2 + vérification disponibilité double chance, over/under buts, BTTS sur pages détail; tennis vainqueur + vérification disponibilité over/under jeux, score sets, handicap/écart de sets, les deux joueurs gagnent un set / vainqueur de set selon affiches.",
+        "Aucun nouveau conseil publié: Argentine-Égypte et Suisse-Colombie déjà couverts par des signaux prudents en attente; France-Maroc, Espagne-Belgique, Norvège-Angleterre et les affiches Wimbledon ne franchissent pas simultanément probabilité indépendante robuste, EV minimale et traçabilité suffisante sur marchés secondaires.",
+        "Deux paris réglés sur résultat ESPN: Belgique gagne vs USA et Espagne gagne vs Portugal, tous deux gagnants."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T06:03:13Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 14,
+      "metrics": {
+        "bankroll_units": 100.89,
+        "tips_total": 10,
+        "pending_total": 2,
+        "settled_total": 8,
+        "yield_pct": 32.36,
+        "roi_pct": 0.89,
+        "win_rate_pct": 75.0,
+        "average_odd": 1.81,
+        "current_drawdown_units": 0.25,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1852
+      },
+      "observations": [
+        "Aucun conseil publié: 14 candidats scannés (4 football Coupe du Monde, 10 tennis Wimbledon) sur Betclic HTTPS; Betclic vérifié présent sur la page ANJ.",
+        "Marchés football couverts: 1N2 avec familles secondaires vues sur pages détail (double chance, total buts, BTTS, score exact; corners/cartons non retenus faute de stats fiables).",
+        "Marchés tennis couverts: vainqueur du match avec familles secondaires vues (total jeux, score sets, les deux gagnent un set, écart de sets, vainqueur de set); pas de cote secondaire extraite proprement ni probabilité indépendante assez robuste.",
+        "Aucune nouvelle value publiable: France-Maroc et Espagne-Belgique sont déjà en portefeuille; les autres signaux football sont hors fenêtre stricte aujourd’hui/demain/72h ou trop dépendants du marché; tennis sans source statistique indépendante gratuite suffisante dans ce cycle."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T11:02:07Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 14,
+      "metrics": {
+        "bankroll_units": 100.89,
+        "tips_total": 10,
+        "pending_total": 2,
+        "settled_total": 8,
+        "yield_pct": 32.36,
+        "roi_pct": 0.89,
+        "win_rate_pct": 75.0,
+        "average_odd": 1.81,
+        "current_drawdown_units": 0.25,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1852
+      },
+      "observations": [
+        "Cycle ValueBot 2026-07-08T11:01Z: état réel relu (bankroll 100,89 u, 10 conseils dont 2 pending); validation Henri active jusqu'au 2026-07-12 21:34 Europe/Paris.",
+        "Scan HTTPS Betclic + ANJ tracé dans data/cache/valuebot-radar-20260708T110131Z.json: 14 candidats analysés (4 football Coupe du Monde 2026, 10 tennis Wimbledon simples/doubles). Betclic vérifié présent sur la page ANJ; robots.txt consulté et URLs sans query-string utilisées.",
+        "Marchés couverts: football 1N2, double chance, total buts, BTTS, score exact selon disponibilité; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart/vainqueur de set.",
+        "Aucun conseil publié: France-Maroc et Espagne-Belgique sont déjà publiés; Norvège-Angleterre n'atteint pas le seuil signal prudent sur l'estimation marché+forme; Argentine-Suisse est hors fenêtre stricte 72h du cycle; côté tennis, cotes ANJ horodatées disponibles mais pas de probabilité indépendante assez robuste et sourcée pour calculer une EV publiable sans circularité marché."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T16:02:02Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 14,
+      "metrics": {
+        "bankroll_units": 100.89,
+        "tips_total": 10,
+        "pending_total": 2,
+        "settled_total": 8,
+        "yield_pct": 32.36,
+        "roi_pct": 0.89,
+        "win_rate_pct": 75.0,
+        "average_odd": 1.81,
+        "current_drawdown_units": 0.25,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1852
+      },
+      "observations": [
+        "Cycle ValueBot 2026-07-08T16:00Z: état réel relu (bankroll 100,89 u, 10 conseils dont 2 pending); validation Henri active jusqu'au 2026-07-12 21:34 Europe/Paris.",
+        "Scan HTTPS Betclic + ANJ tracé dans data/cache/valuebot-radar-20260708T160056Z.json: 14 candidats analysés (4 football Coupe du Monde 2026, 10 tennis Wimbledon simples/doubles). Betclic vérifié présent sur la page ANJ; robots.txt consulté et URLs sans query-string utilisées.",
+        "Marchés couverts: football 1N2, double chance, total buts, BTTS, score exact selon disponibilité; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart/vainqueur de set.",
+        "Aucun conseil publié: France-Maroc et Espagne-Belgique sont déjà publiés et encore pending; Norvège-Angleterre et Argentine-Suisse sont hors fenêtre stricte 72h du cycle; côté tennis, les cotes ANJ horodatées sont disponibles mais la probabilité indépendante n'est pas assez robuste/sourcée pour calculer une EV publiable sans circularité marché."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-09",
+      "created_at": "2026-07-09T11:00:55Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 14,
+      "metrics": {
+        "bankroll_units": 100.89,
+        "tips_total": 12,
+        "pending_total": 4,
+        "settled_total": 8,
+        "yield_pct": 32.36,
+        "roi_pct": 0.89,
+        "win_rate_pct": 75.0,
+        "average_odd": 1.81,
+        "current_drawdown_units": 0.25,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1852
+      },
+      "observations": [
+        "Cycle autonome du 2026-07-09T11:00Z: état local relu (bankroll 100,89 u; 12 tips, 4 pending, 8 réglés) et autorisation Henri active jusqu'au 2026-07-12 21:34 Europe/Paris.",
+        "Scan public Betclic HTTPS tracé dans data/cache/valuebot-radar-20260709T110037Z.json: 14 candidats couverts (4 football Coupe du Monde 2026 quarts, 10 tennis Wimbledon simples/doubles), Betclic vérifié ANJ, robots.txt consulté; URLs Betclic sans query-string.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, total buts, BTTS, score exact visibles selon pages; tennis vainqueur match, total jeux, score sets, deux joueurs gagnent un set, écart/vainqueur de set visibles selon pages.",
+        "Aucun nouveau conseil publié: les 4 signaux football actuellement exploitables sont déjà publiés/pending (idempotence France-Maroc, Espagne-Belgique, Norvège-Angleterre, Argentine-Suisse) et les affiches tennis n'ont pas de probabilité indépendante assez robuste/traçable (Elo surface, forme/fatigue, H2H vérifiables) pour démontrer EV >= 1 % sans circularité de marché."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-09",
+      "created_at": "2026-07-09T16:00:53Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 11,
+      "metrics": {
+        "bankroll_units": 100.89,
+        "tips_total": 12,
+        "pending_total": 4,
+        "settled_total": 8,
+        "yield_pct": 32.36,
+        "roi_pct": 0.89,
+        "win_rate_pct": 75.0,
+        "average_odd": 1.81,
+        "current_drawdown_units": 0.25,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1852
+      },
+      "observations": [
+        "Cycle autonome du 2026-07-09T16:00Z: état local relu (bankroll 100,89 u; 12 tips, 4 pending, 8 réglés) et autorisation Henri active jusqu'au 2026-07-12 21:34 Europe/Paris.",
+        "Scan public Betclic HTTPS tracé dans data/cache/valuebot-radar-20260709T160037Z.json: 11 candidats couverts (4 football Coupe du Monde 2026 quarts, 7 tennis Wimbledon simples/doubles), Betclic vérifié ANJ via page opérateurs agréés, robots.txt consulté; URLs Betclic sans query-string.",
+        "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, total buts, BTTS, score exact visibles selon pages; tennis vainqueur match, total jeux, score sets, deux joueurs gagnent un set, écart/vainqueur de set visibles selon pages.",
+        "Aucun conseil publié: les 4 signaux football exploitables sont déjà publiés/pending (idempotence France-Maroc, Espagne-Belgique, Norvège-Angleterre, Argentine-Suisse); côté tennis, cotes ANJ horodatées disponibles mais aucune probabilité indépendante assez robuste/traçable (Elo surface, forme/fatigue, H2H vérifiables) pour démontrer EV >= 1 % sans circularité de marché."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-10",
+      "created_at": "2026-07-10T06:02:52Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 10,
+      "metrics": {
+        "bankroll_units": 101.03,
+        "tips_total": 12,
+        "pending_total": 3,
+        "settled_total": 9,
+        "yield_pct": 34.33,
+        "roi_pct": 1.03,
+        "win_rate_pct": 77.78,
+        "average_odd": 1.78,
+        "current_drawdown_units": 0.11,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1782
+      },
+      "observations": [
+        "Cycle autonome du 2026-07-10T06:02Z: état réel relu dans /home/hermes/apps/valuebot; autorisation Henri active jusqu'au 2026-07-12 21:34 Europe/Paris; France-Maroc (tip #9) réglé gagnant via ESPN, bankroll portée à 101,03 u.",
+        "Scan Betclic HTTPS tracé dans data/cache/valuebot-radar-20260710T060207Z.json: 10 candidats couverts (4 football Coupe du Monde 2026, 6 tennis Wimbledon simples/doubles); Betclic vérifié opérateur agréé ANJ via https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees.",
+        "Marchés au-delà du vainqueur contrôlés comme disponibles dans les pages détail: football 1N2, double chance, total buts, BTTS, score exact; tennis vainqueur match, total jeux, score sets, deux joueurs gagnent un set, écart/vainqueur de set.",
+        "Aucun conseil publié: Espagne-Belgique, Norvège-Angleterre et Argentine-Suisse sont déjà publiés/pending (idempotence); France-Espagne ou Belgique est une ligne conditionnelle avec adversaire non figé; tennis dispose de cotes ANJ horodatées mais pas de probabilité indépendante assez robuste et traçable pour démontrer EV >= 1 % sans copier le marché."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-10",
+      "created_at": "2026-07-10T11:02:21Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 10,
+      "metrics": {
+        "bankroll_units": 101.03,
+        "tips_total": 12,
+        "pending_total": 3,
+        "settled_total": 9,
+        "yield_pct": 34.33,
+        "roi_pct": 1.03,
+        "win_rate_pct": 77.78,
+        "average_odd": 1.78,
+        "current_drawdown_units": 0.11,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1782
+      },
+      "observations": [
+        "Scan HTTPS Betclic du 2026-07-10T11:01:11Z: 10 candidats analysés (4 football, 6 tennis), bookmaker Betclic vérifié présent sur la page ANJ des opérateurs agréés.",
+        "Football couvert: Coupe du Monde 2026 quarts Espagne-Belgique, Norvège-Angleterre, Argentine-Suisse + marché conditionnel France-Espagne/Belgique; marchés vus: 1N2, double chance, total buts, BTTS, bet-builder/score exact. Les trois vrais quarts ont déjà des signaux ValueBot en attente sur le même marché/sélection ou ne donnent pas de nouveau prix exploitable; le match conditionnel n'est pas publiable car adversaire non déterminé.",
+        "Tennis couvert: Wimbledon simples/doubles, marchés vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set. Aucune probabilité indépendante suffisamment robuste et sourcée n'a dépassé le seuil EV 1% après marge bookmaker; les prix favoris sont trop écrasés ou les outsiders insuffisamment justifiés.",
+        "Aucun conseil publié: les garde-fous cote ANJ horodatée + probabilité indépendante argumentée + EV minimale n'ont été satisfaits par aucun nouveau candidat non déjà publié."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-10",
+      "created_at": "2026-07-10T16:01:50Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 8,
+      "metrics": {
+        "bankroll_units": 101.03,
+        "tips_total": 12,
+        "pending_total": 3,
+        "settled_total": 9,
+        "yield_pct": 34.33,
+        "roi_pct": 1.03,
+        "win_rate_pct": 77.78,
+        "average_odd": 1.78,
+        "current_drawdown_units": 0.11,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1782
+      },
+      "observations": [
+        "Cycle autonome du 2026-07-10T16:01Z: état réel relu; bankroll 101,03 u, 12 tips au total dont 3 pending; validation Henri active jusqu'au 2026-07-12 21:34 Europe/Paris.",
+        "Scan HTTPS tracé dans data/cache/valuebot-radar-20260710T160128Z.json: 8 candidats disponibles dans le calendrier Betclic (4 football Coupe du Monde 2026, 4 tennis Wimbledon simples/doubles). Betclic vérifié présent sur la page ANJ; robots.txt consulté, URLs sans query-string.",
+        "Marchés couverts: football 1N2 avec familles secondaires visibles sur pages détail (double chance, total buts, BTTS, score exact); tennis vainqueur match avec familles secondaires visibles (total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set).",
+        "Aucun conseil publié: trois affiches football scannées sont déjà couvertes par des signaux pending ValueBot ou n'offrent pas de nouveau marché publiable; la demi-finale France - Espagne/Belgique reste conditionnelle; côté tennis, les cotes sont horodatées mais aucune probabilité indépendante suffisamment robuste et traçable n'a été établie pour EV >= 3% officiel ou EV >= 1% signal prudent."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-11",
+      "created_at": "2026-07-11T06:02:25Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 7,
+      "metrics": {
+        "bankroll_units": 101.18,
+        "tips_total": 12,
+        "pending_total": 2,
+        "settled_total": 10,
+        "yield_pct": 36.31,
+        "roi_pct": 1.18,
+        "win_rate_pct": 80.0,
+        "average_odd": 1.77,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1733
+      },
+      "observations": [
+        "Scan HTTPS Betclic + ANJ réalisé le 2026-07-11T06:01:51Z: 3 événements football Coupe du Monde 2026 et 4 événements tennis Wimbledon; bookmaker Betclic vérifié présent sur la page ANJ.",
+        "Marchés couverts: football 1N2 temps réglementaire, double chance, total buts, BTTS, score exact/handicap lorsque listés; tennis vainqueur match, total jeux, score sets, les deux gagnent un set, écart de sets/vainqueur de set lorsque listés.",
+        "Aucun nouveau conseil publié: Norvège-Angleterre et Argentine-Suisse ont déjà des conseils pending; France-Espagne et les finales Wimbledon ne franchissent pas les filtres avec probabilité indépendante suffisamment robuste/EV traçable; les marchés secondaires sont visibles mais les cotes détaillées et les stats indépendantes fiables ne suffisent pas à qualifier un signal."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-11",
+      "created_at": "2026-07-11T11:02:46Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 149,
+      "metrics": {
+        "bankroll_units": 101.18,
+        "tips_total": 12,
+        "pending_total": 2,
+        "settled_total": 10,
+        "yield_pct": 36.31,
+        "roi_pct": 1.18,
+        "win_rate_pct": 80.0,
+        "average_odd": 1.77,
+        "current_drawdown_units": 0.0,
+        "max_drawdown_units": 0.25,
+        "brier_score": 0.1733
+      },
+      "observations": [
+        "Run cron 2026-07-11 11:01 UTC: scan football + tennis effectué sur Betclic HTTPS (ANJ vérifié: Betclic présent sur page opérateurs agréés ANJ) et ESPN Coupe du monde pour le calendrier.",
+        "Périmètre couvert: football Coupe du Monde 2026 dans les 72h (Norvège-Angleterre, Argentine-Suisse, France-Espagne) avec 1N2, double chance, over/under buts, BTTS; tennis Wimbledon (4 finales simples/doubles) avec vainqueur, total jeux, score sets, les deux gagnent un set, écart de sets.",
+        "149 sélections/marchés extraits, mais aucune publication: les deux angles football principaux sont déjà en pending (id 11 et 12), les autres prix n'ont pas de probabilité indépendante assez robuste ou présentent une incohérence/traçabilité insuffisante pour franchir EV>=1% en signal prudent sans extrapoler.",
+        "Radar à surveiller: France-Espagne (1N2 et BTTS), Wimbledon Sinner-Zverev (marchés sets/jeux à revérifier car extraction score sets incohérente vs moneyline), Muchova-Noskova total jeux."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-13",
+      "created_at": "2026-07-13T06:02:50Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 12,
+      "metrics": {
+        "bankroll_units": 100.68,
+        "tips_total": 13,
+        "pending_total": 1,
+        "settled_total": 12,
+        "yield_pct": 18.13,
+        "roi_pct": 0.68,
+        "win_rate_pct": 66.67,
+        "average_odd": 1.77,
+        "current_drawdown_units": 0.5,
+        "max_drawdown_units": 0.5,
+        "brier_score": 0.2017
+      },
+      "observations": [
+        "Cycle 2026-07-13T06:02Z: scan football+tennis via Betclic HTTPS (robots.txt respecté, URLs sans query-string) + ANJ; 12 candidats couverts: 2 football Coupe du Monde 2026 et 10 tennis ATP/WTA.",
+        "Marchés visibles contrôlés: football 1N2, double chance, total buts, BTTS, score exact; tennis vainqueur, total jeux, score final sets, deux joueurs gagnent un set, écart de sets, vainqueur de set.",
+        "Aucun conseil publié: validation Henri de publication automatique expirée depuis le 2026-07-12 21:34 Europe/Paris; en plus, aucun nouveau candidat ne dispose dans ce cycle d’une probabilité indépendante robuste suffisante pour franchir les filtres EV sans circularité de marché. Le conseil déjà publié France-Espagne BTTS Non reste pending."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-13",
+      "created_at": "2026-07-13T11:01:17Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 12,
+      "metrics": {
+        "bankroll_units": 100.68,
+        "tips_total": 13,
+        "pending_total": 1,
+        "settled_total": 12,
+        "yield_pct": 18.13,
+        "roi_pct": 0.68,
+        "win_rate_pct": 66.67,
+        "average_odd": 1.77,
+        "current_drawdown_units": 0.5,
+        "max_drawdown_units": 0.5,
+        "brier_score": 0.2017
+      },
+      "observations": [
+        "Cycle 2026-07-13T11:00Z: état réel relu dans /home/hermes/apps/valuebot; métriques pré-run confirmées (bankroll 100,68 u; 13 tips; 1 pending; 12 réglés; ROI 0,68 %; yield 18,13 %).",
+        "Validation Henri de publication automatique expirée depuis le 2026-07-12 21:34 Europe/Paris (date système 2026-07-13T11:00:14Z): aucune publication automatique possible tant qu’un renouvellement explicite n’est pas reçu, même pour un signal prudent.",
+        "Scan public HTTPS Betclic tracé dans data/cache/valuebot-radar-20260713T110053Z.json: 12 candidats couverts (2 football Coupe du Monde 2026 demi-finales, 10 tennis ATP/WTA), Betclic vérifié présent sur la page ANJ, robots.txt consulté et URLs Betclic sans query-string.",
+        "Marchés couverts au-delà du vainqueur: football 1N2, double chance, total buts, BTTS, score exact; tennis vainqueur, total jeux, score final sets, deux joueurs gagnent un set, écart de sets, vainqueur de set.",
+        "Aucun conseil publié: autorisation automatique expirée; en outre, aucune probabilité indépendante suffisamment robuste et traçable n’a été établie sur les candidats tennis/football pour franchir EV>=3% officiel ou EV>=1% signal prudent sans circularité de marché. Le conseil déjà publié France-Espagne BTTS Non reste pending."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-15",
+      "created_at": "2026-07-15T11:08:30Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 6,
+      "metrics": {
+        "bankroll_units": 100.92,
+        "tips_total": 14,
+        "pending_total": 1,
+        "settled_total": 13,
+        "yield_pct": 23.0,
+        "roi_pct": 0.92,
+        "win_rate_pct": 69.23,
+        "average_odd": 1.78,
+        "current_drawdown_units": 0.26,
+        "max_drawdown_units": 0.5,
+        "brier_score": 0.2011
+      },
+      "observations": [
+        "Cycle du 2026-07-15T11:04Z: autorisation Henri vérifiée active jusqu'au 2026-07-12 (renouvelée 2026-07-02). La demi-finale Angleterre - Argentine est prévue ce soir à 19:00 UTC. Le tip #14 (BTTS Oui) est déjà publié et en attente pour ce match.",
+        "ESPN FIFA World Cup: 1 match aujourd'hui (Angleterre-Argentine), petite finale France vs TBD le 18/07, finale Espagne vs TBD le 19/07. Betclic Coupe du Monde: seul le match Angleterre-Argentine est côté avec 291 marchés ouverts. Les matchs des 18/07 et 19/07 ne sont pas encore ouverts à la réservation (adversaires non déterminés).",
+        "Tennis ATP/WTA: tournois Bastad, Gstaad, Umag (ATP) et Nordea Open, Athènes, Iasi (WTA) en cours sur Betclic. Pas de données ESPN détaillées disponibles pour ces tournois mineurs ni de probabilité indépendante publiable dans ce cycle.",
+        "Marchés secondaires explorés sur Angleterre-Argentine: Résultat 1N2 (Angleterre @2.70, Argentine @3.00, nul non trouvé), Double Chance (Angleterre/Argentine @1.41), Buteur (Messi @2.30, Kane @2.55). Aucun nouveau tip ajouté: le BTTS Oui est déjà couvert par le tip #14, et les autres marchés ne présentent pas de value suffisamment démontrable avec un modèle indépendant pour ce cycle.",
+        "Radar abonnés: petite finale France vs (perdant ENG/ARG) le 18/07 et finale Espagne vs (gagnant ENG/ARG) le 19/07 à suivre dès l'ouverture des cotes. Le vainqueur de ce soir déterminera les deux affiches; les cotes Betclic devraient ouvrir après le coup de sifflet final."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-15",
+      "created_at": "2026-07-15T16:14:32Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 5,
+      "metrics": {
+        "bankroll_units": 100.92,
+        "tips_total": 14,
+        "pending_total": 1,
+        "settled_total": 13,
+        "yield_pct": 23.0,
+        "roi_pct": 0.92,
+        "win_rate_pct": 69.23,
+        "average_odd": 1.78,
+        "current_drawdown_units": 0.26,
+        "max_drawdown_units": 0.5,
+        "brier_score": 0.2011
+      },
+      "observations": [
+        "Cycle du 2026-07-15T11:15Z: autorisation Henri vérifiée active jusqu'au 2026-07-12 (renouvelée 2026-07-02). Le tip #14 (Angleterre-Argentine BTTS Oui @1.88, signal prudent, 0.25u) est déjà publié et en attente pour la demi-finale de ce soir à 19:00 UTC.",
+        "ESPN FIFA World Cup: 1 match aujourd'hui (Angleterre-Argentine, semi-finale, 19:00 UTC). Petite finale France vs TBD le 18/07, finale Espagne vs TBD le 19/07 — cotes Betclic non ouvertes (adversaires non déterminés).",
+        "Marchés Betclic disponibles pour Angleterre-Argentine: Résultat 1N2, Double chance, Nombre total de buts, Buteur, BTTS (déjà couvert). Les cotes précises des marchés secondaires sont chargées dynamiquement et non extractibles du HTML statique; impossible de vérifier et horodater une cote ANJ pour un conseil supplémentaire dans ce cycle.",
+        "Tennis ATP/WTA: tournois Bastad, Gstaad, Umag (ATP) et Nordea Open, Athènes, Iasi (WTA) en cours. Aucune donnée ESPN fiable disponible pour ces tournois mineurs (API ESPN retourne 0 événements). Sans source publique traçable, aucune probabilité indépendante publiable.",
+        "Radar abonnés: Les affiches du 18/07 (petite finale France vs perdant ENG/ARG) et 19/07 (finale Espagne vs gagnant ENG/ARG) s'ouvriront après le match de ce soir. À scanner dès l'ouverture des cotes Betclic. Le vainqueur de Angleterre-Argentine déterminera les deux adversaires."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    },
+    {
+      "date": "2026-07-16",
+      "created_at": "2026-07-16T16:18:26Z",
+      "decision": "no_bet",
+      "candidates_reviewed": 22,
+      "metrics": {
+        "bankroll_units": 101.14,
+        "tips_total": 16,
+        "pending_total": 2,
+        "settled_total": 14,
+        "yield_pct": 26.82,
+        "roi_pct": 1.14,
+        "win_rate_pct": 71.43,
+        "average_odd": 1.79,
+        "current_drawdown_units": 0.04,
+        "max_drawdown_units": 0.5,
+        "brier_score": 0.1993
+      },
+      "observations": [
+        "Scan du 2026-07-16T16:13Z: 2 matchs football Coupe du Monde 2026 en attente (France-Angleterre 18/07 tip#15 officiel, Espagne-Argentine 19/07 tip#16 signal prudent) déjà publiés ce matin.",
+        "ESPN FIFA World Cup: aucun match aujourd'hui 16/07 ni demain 17/07 — seul week-end avec 3e place (18/07) et finale (19/07), déjà couverts.",
+        "Tennis: 20 matchs ATP/WTA (Bastad, Gstaad, Umag, Iasi, Athènes) listés sur Betclic. Pas de cotes accessibles en headless sans rendu JS — impossible de construire des probabilités indépendantes fiables. ESPN ne fournit pas de données à venir pour ces petits tournois.",
+        "Marchés explorés via Betclic SSR HTML: football 1N2, double chance, BTTS, total buts. Tennis non exploitable sans cotes.",
+        "Cote France-Angleterre France gagne passée de 2.00 (06:12Z) à 1.85 (16:13Z) — le tip#15 est déjà publié avec la cote 2.00 et ne peut être modifié.",
+        "ANJ vérifié: Betclic et Winamax toujours présents sur la page des opérateurs agréés."
+      ],
+      "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+      "model_version": "v1.0-launch"
+    }
+  ],
+  "last_cycle_at": "2026-07-16T16:18:26Z"
+}

@@ -1,0 +1,34 @@
+{
+  "sport": "football",
+  "competition": "Coupe du Monde 2026 — Demi-finale",
+  "event": "France - Espagne",
+  "start_time": "2026-07-14T19:00:00Z",
+  "market": "Les 2 équipes marquent (temps réglementaire)",
+  "selection": "Non",
+  "publication_tier": "prudent_signal",
+  "estimated_probability": 0.56,
+  "taken_odd": 1.98,
+  "bookmaker": "Betclic",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-07-11T16:01:17Z",
+  "expected_value": 0.109,
+  "confidence": 2,
+  "stake_units": 0.25,
+  "rationale": "Signal prudent — angle secondaire intéressant mais pas assez robuste pour un conseil officiel: la probabilité indépendante repose sur le marché Betclic + les scores récents ESPN Coupe du Monde, sans modèle xG/blessures/suspensions complet. Betclic cote 'Les 2 équipes marquent: Non' à 1.98, seuil de rentabilité 50,5 %. Sur les dix derniers matchs Coupe du Monde agrégés relevés via ESPN pour France/Espagne dans ce cycle, huit ont fini avec au moins une équipe muette; France reste sur 3-0, 4-1, 3-0, 1-0, 2-0 et Espagne sur 4-0, 1-0, 3-0, 1-0, 2-1. ValueBot retient volontairement 56 % seulement, car le niveau offensif des deux équipes et le format demi-finale peuvent augmenter le risque de but des deux côtés. EV estimée: 0,56 x 1,98 - 1 = +10,9 %. Mise limitée à 0,25 u.",
+  "sources": [
+    "Betclic France - Espagne Coupe du Monde 2026 — cote BTTS Non 1.98 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/france-espagne-m1165871812743168",
+    "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup scoreboard 20260714 — Spain at France, start 2026-07-14T19:00Z, formes France WWWWW / Espagne WWWWW: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260714",
+    "ESPN FIFA World Cup scoreboards 20260621-20260710 — scores récents France/Espagne utilisés pour le BTTS: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
+    "Cache ValueBot du scan: data/cache/valuebot-radar-20260711T160125Z.json"
+  ],
+  "factors": [
+    "Cote Betclic 1.98 capturée le 2026-07-11T16:01:17Z sur le marché Les 2 équipes marquent (temps réglementaire)",
+    "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+    "Marchés secondaires contrôlés sur la page: double chance, total buts, BTTS; le BTTS Non est le seul angle avec marge de sécurité suffisante selon le modèle léger",
+    "France: 4 clean sheets sur ses 5 derniers matchs ESPN Coupe du Monde; Espagne: 4 clean sheets sur ses 5 derniers matchs ESPN Coupe du Monde",
+    "Probabilité ValueBot prudente 56 % contre seuil de rentabilité 50,5 %, EV estimée +10,9 %",
+    "Risque principal: deux attaques élite et information effectif/xG incomplète, d'où signal prudent et mise 0,25 u"
+  ],
+  "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle."
+}

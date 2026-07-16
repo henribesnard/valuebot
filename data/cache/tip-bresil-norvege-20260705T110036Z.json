@@ -1,0 +1,32 @@
+{
+  "sport": "football",
+  "competition": "Coupe du Monde 2026 — Huitième de finale",
+  "event": "Brésil - Norvège",
+  "start_time": "2026-07-05T20:00:00Z",
+  "market": "Résultat 1N2 temps réglementaire",
+  "selection": "Brésil gagne",
+  "publication_tier": "prudent_signal",
+  "estimated_probability": 0.57,
+  "taken_odd": 1.78,
+  "bookmaker": "Betclic",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-07-05T11:00:36Z",
+  "expected_value": 0.015,
+  "confidence": 2,
+  "stake_units": 0.25,
+  "rationale": "Signal prudent — la probabilité reste issue d’un modèle léger marché + forme courte ESPN, donc insuffisante pour un conseil officiel: pas de xG/blessures/suspensions publiques complètes dans ce cycle et un match à élimination directe garde un risque de nul en 90 minutes. Betclic cote le Brésil à 1.78 en temps réglementaire; la probabilité no-vig du marché ressort autour de 54,2 %, puis ValueBot ajuste prudemment à 57 % grâce à une forme ESPN légèrement supérieure côté Brésil (WWWDW) face à la Norvège (WLWWD) et à un statut de favori de marché sans prix trop écrasé. Le seuil de rentabilité est 56,2 %, l’EV estimée ressort à environ +1,5 %. Mise limitée à 0,25 u.",
+  "sources": [
+    "Betclic football Coupe du Monde 2026 — cote Brésil 1.78 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/bresil-norvege-m1156739132125184",
+    "ANJ opérateurs agréés — Betclic vérifié présent lors du scan: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup scoreboard 20260705 — Norway at Brazil, start 2026-07-05T20:00Z, formes Brésil WWWDW / Norvège WLWWD: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260705",
+    "Cache ValueBot du scan: data/cache/valuebot-radar-20260705T110047Z.json"
+  ],
+  "factors": [
+    "Cote Betclic 1.78 capturée le 2026-07-05T11:00:36Z sur le marché Résultat du match (temps réglementaire)",
+    "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+    "Forme ESPN: Brésil WWWDW contre Norvège WLWWD",
+    "No-vig marché calculé autour de 54,2 %; probabilité ValueBot prudente 57 % contre seuil de rentabilité 56,2 %, EV estimée +1,5 %",
+    "Risque principal: value faible et nul possible en 90 minutes, d’où signal prudent et mise 0,25 u"
+  ],
+  "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle."
+}

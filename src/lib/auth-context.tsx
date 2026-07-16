@@ -16,6 +16,7 @@ interface AuthUser {
   first_name: string | null;
   last_name: string | null;
   plan: string;
+  role?: "user" | "admin";
   is_email_verified: boolean;
 }
 
@@ -70,6 +71,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       first_name: string | null;
       last_name: string | null;
       plan: string;
+      role?: "user" | "admin";
       is_email_verified: boolean;
     }>("/api/account", { token })
       .then((profile) => {
@@ -79,6 +81,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           first_name: profile.first_name,
           last_name: profile.last_name,
           plan: profile.plan,
+          role: profile.role,
           is_email_verified: profile.is_email_verified,
         });
       })

@@ -1,0 +1,636 @@
+{
+  "created_at": "2026-06-24T16:03:05Z",
+  "scope": "FIFA World Cup / Coupe du monde only",
+  "sources": {
+    "espn": [
+      "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260624",
+      "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260625"
+    ],
+    "winamax": "https://www.winamax.fr/paris-sportifs/sports/1",
+    "anj": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees"
+  },
+  "robots_respected": {
+    "winamax": "robots.txt checked; /paris-sportifs/sports/1 not disallowed by listed rules",
+    "anj": "robots.txt fetched; public operators page used"
+  },
+  "anj_check": {
+    "winamax_found": true,
+    "checked_at": "2026-06-24T16:03:05Z"
+  },
+  "espn_events": [
+    {
+      "id": "760462",
+      "name": "Qatar at Bosnia-Herzegovina",
+      "shortName": "QAT @ BIH",
+      "date": "2026-06-24T19:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Bosnia-Herzegovina",
+        "Qatar"
+      ]
+    },
+    {
+      "id": "760463",
+      "name": "Canada at Switzerland",
+      "shortName": "CAN @ SUI",
+      "date": "2026-06-24T19:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Switzerland",
+        "Canada"
+      ]
+    },
+    {
+      "id": "760464",
+      "name": "Haiti at Morocco",
+      "shortName": "HAI @ MAR",
+      "date": "2026-06-24T22:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Morocco",
+        "Haiti"
+      ]
+    },
+    {
+      "id": "760465",
+      "name": "Brazil at Scotland",
+      "shortName": "BRA @ SCO",
+      "date": "2026-06-24T22:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Scotland",
+        "Brazil"
+      ]
+    },
+    {
+      "id": "760467",
+      "name": "Mexico at Czechia",
+      "shortName": "MEX @ CZE",
+      "date": "2026-06-25T01:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Czechia",
+        "Mexico"
+      ]
+    },
+    {
+      "id": "760466",
+      "name": "South Korea at South Africa",
+      "shortName": "KOR @ RSA",
+      "date": "2026-06-25T01:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "South Africa",
+        "South Korea"
+      ]
+    },
+    {
+      "id": "760473",
+      "name": "Ivory Coast at Curaçao",
+      "shortName": "CIV @ CUW",
+      "date": "2026-06-25T20:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Curaçao",
+        "Ivory Coast"
+      ]
+    },
+    {
+      "id": "760468",
+      "name": "Germany at Ecuador",
+      "shortName": "GER @ ECU",
+      "date": "2026-06-25T20:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Ecuador",
+        "Germany"
+      ]
+    },
+    {
+      "id": "760471",
+      "name": "Sweden at Japan",
+      "shortName": "SWE @ JPN",
+      "date": "2026-06-25T23:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Japan",
+        "Sweden"
+      ]
+    },
+    {
+      "id": "760472",
+      "name": "Netherlands at Tunisia",
+      "shortName": "NED @ TUN",
+      "date": "2026-06-25T23:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Tunisia",
+        "Netherlands"
+      ]
+    },
+    {
+      "id": "760469",
+      "name": "Australia at Paraguay",
+      "shortName": "AUS @ PAR",
+      "date": "2026-06-26T02:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Paraguay",
+        "Australia"
+      ]
+    },
+    {
+      "id": "760470",
+      "name": "United States at Türkiye",
+      "shortName": "USA @ TUR",
+      "date": "2026-06-26T02:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Türkiye",
+        "United States"
+      ]
+    }
+  ],
+  "winamax_1n2_odds": [
+    {
+      "match_id": 66456924,
+      "title": "Suisse - Canada",
+      "start_time": "2026-06-24T19:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "Suisse": "DWDDW",
+        "Canada": "DWDDW"
+      },
+      "outcomes": [
+        {
+          "selection": "Suisse",
+          "odd": 2.45,
+          "percent_distribution": 49,
+          "no_vig_probability": 0.3873,
+          "market_only_ev": -0.0512
+        },
+        {
+          "selection": "Match nul",
+          "odd": 3.0,
+          "percent_distribution": 32,
+          "no_vig_probability": 0.3163,
+          "market_only_ev": -0.0512
+        },
+        {
+          "selection": "Canada",
+          "odd": 3.2,
+          "percent_distribution": 19,
+          "no_vig_probability": 0.2965,
+          "market_only_ev": -0.0512
+        }
+      ],
+      "bookmaker_margin_estimate": 0.054
+    },
+    {
+      "match_id": 66456926,
+      "title": "Bosnie-Herzégovine - Qatar",
+      "start_time": "2026-06-24T19:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "Bosnie-Herzégovine": "WDDDL",
+        "Qatar": "LLDDL"
+      },
+      "outcomes": [
+        {
+          "selection": "Bosnie-Herzégovine",
+          "odd": 1.34,
+          "percent_distribution": 90,
+          "no_vig_probability": 0.7081,
+          "market_only_ev": -0.0511
+        },
+        {
+          "selection": "Match nul",
+          "odd": 5.6,
+          "percent_distribution": 8,
+          "no_vig_probability": 0.1694,
+          "market_only_ev": -0.0511
+        },
+        {
+          "selection": "Qatar",
+          "odd": 7.75,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.1224,
+          "market_only_ev": -0.0511
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0539
+    },
+    {
+      "match_id": 1000186687,
+      "title": "MultiFoot Coupe du Monde 2026 : J3",
+      "start_time": "2026-06-24T19:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "null": null
+      },
+      "outcomes": [
+        {
+          "selection": "Domicile",
+          "odd": 7.0,
+          "percent_distribution": 37,
+          "no_vig_probability": 0.132,
+          "market_only_ev": -0.076
+        },
+        {
+          "selection": "Match nul",
+          "odd": 26.0,
+          "percent_distribution": 6,
+          "no_vig_probability": 0.0355,
+          "market_only_ev": -0.076
+        },
+        {
+          "selection": "Extérieur",
+          "odd": 1.11,
+          "percent_distribution": 57,
+          "no_vig_probability": 0.8325,
+          "market_only_ev": -0.076
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0822
+    },
+    {
+      "match_id": 1000186933,
+      "title": "MultiFoot Coupe du Monde 2026 (J3 - Groupes A, B & C)",
+      "start_time": "2026-06-24T19:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "null": null
+      },
+      "outcomes": [
+        {
+          "selection": "Domicile",
+          "odd": 1.7,
+          "percent_distribution": 25,
+          "no_vig_probability": 0.5128,
+          "market_only_ev": -0.1282
+        },
+        {
+          "selection": "Match nul",
+          "odd": 7.5,
+          "percent_distribution": 11,
+          "no_vig_probability": 0.1162,
+          "market_only_ev": -0.1282
+        },
+        {
+          "selection": "Extérieur",
+          "odd": 2.35,
+          "percent_distribution": 64,
+          "no_vig_probability": 0.371,
+          "market_only_ev": -0.1282
+        }
+      ],
+      "bookmaker_margin_estimate": 0.1471
+    },
+    {
+      "match_id": 66456936,
+      "title": "Écosse - Brésil",
+      "start_time": "2026-06-24T22:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "Écosse": "LWWWL",
+        "Brésil": "WWWDW"
+      },
+      "outcomes": [
+        {
+          "selection": "Écosse",
+          "odd": 8.5,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.1107,
+          "market_only_ev": -0.0587
+        },
+        {
+          "selection": "Match nul",
+          "odd": 5.7,
+          "percent_distribution": 5,
+          "no_vig_probability": 0.1651,
+          "market_only_ev": -0.0587
+        },
+        {
+          "selection": "Brésil",
+          "odd": 1.3,
+          "percent_distribution": 94,
+          "no_vig_probability": 0.7241,
+          "market_only_ev": -0.0587
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0623
+    },
+    {
+      "match_id": 66456938,
+      "title": "Maroc - Haïti",
+      "start_time": "2026-06-24T22:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "Maroc": "WWDDW",
+        "Haïti": "DWLLL"
+      },
+      "outcomes": [
+        {
+          "selection": "Maroc",
+          "odd": 1.17,
+          "percent_distribution": 98,
+          "no_vig_probability": 0.8131,
+          "market_only_ev": -0.0486
+        },
+        {
+          "selection": "Match nul",
+          "odd": 8.0,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.1189,
+          "market_only_ev": -0.0486
+        },
+        {
+          "selection": "Haïti",
+          "odd": 14.0,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.068,
+          "market_only_ev": -0.0486
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0511
+    },
+    {
+      "match_id": 66456912,
+      "title": "République Tchèque - Mexique",
+      "start_time": "2026-06-25T01:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "République Tchèque": "WWWLD",
+        "Mexique": "WWWWW"
+      },
+      "outcomes": [
+        {
+          "selection": "République Tchèque",
+          "odd": 3.65,
+          "percent_distribution": 10,
+          "no_vig_probability": 0.2606,
+          "market_only_ev": -0.0487
+        },
+        {
+          "selection": "Match nul",
+          "odd": 3.9,
+          "percent_distribution": 16,
+          "no_vig_probability": 0.2439,
+          "market_only_ev": -0.0487
+        },
+        {
+          "selection": "Mexique",
+          "odd": 1.92,
+          "percent_distribution": 74,
+          "no_vig_probability": 0.4955,
+          "market_only_ev": -0.0487
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0512
+    },
+    {
+      "match_id": 66456914,
+      "title": "Afrique du Sud - Corée du Sud",
+      "start_time": "2026-06-25T01:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "Afrique du Sud": "LDDLD",
+        "Corée du Sud": "LWWWL"
+      },
+      "outcomes": [
+        {
+          "selection": "Afrique du Sud",
+          "odd": 5.6,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.1692,
+          "market_only_ev": -0.0525
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.1,
+          "percent_distribution": 7,
+          "no_vig_probability": 0.2311,
+          "market_only_ev": -0.0525
+        },
+        {
+          "selection": "Corée du Sud",
+          "odd": 1.58,
+          "percent_distribution": 91,
+          "no_vig_probability": 0.5997,
+          "market_only_ev": -0.0525
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0554
+    },
+    {
+      "match_id": 66457078,
+      "title": "Équateur - Allemagne",
+      "start_time": "2026-06-25T20:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "Équateur": "DWWLD",
+        "Allemagne": "WWWWW"
+      },
+      "outcomes": [
+        {
+          "selection": "Équateur",
+          "odd": 3.55,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.2605,
+          "market_only_ev": -0.0751
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.1,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.2256,
+          "market_only_ev": -0.0751
+        },
+        {
+          "selection": "Allemagne",
+          "odd": 1.8,
+          "percent_distribution": 97,
+          "no_vig_probability": 0.5139,
+          "market_only_ev": -0.0751
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0811
+    },
+    {
+      "match_id": 66457080,
+      "title": "Curaçao - Côte d'Ivoire",
+      "start_time": "2026-06-25T20:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "Curaçao": "LLWLD",
+        "Côte d'Ivoire": "WWWWL"
+      },
+      "outcomes": [
+        {
+          "selection": "Curaçao",
+          "odd": 14.0,
+          "percent_distribution": 0,
+          "no_vig_probability": 0.0661,
+          "market_only_ev": -0.0753
+        },
+        {
+          "selection": "Match nul",
+          "odd": 8.0,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.1156,
+          "market_only_ev": -0.0753
+        },
+        {
+          "selection": "Côte d'Ivoire",
+          "odd": 1.13,
+          "percent_distribution": 98,
+          "no_vig_probability": 0.8184,
+          "market_only_ev": -0.0753
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0814
+    },
+    {
+      "match_id": 1000186941,
+      "title": "MultiFoot Coupe du Monde 2026 (J3 - Groupes D, E & F)",
+      "start_time": "2026-06-25T20:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "null": null
+      },
+      "outcomes": [
+        {
+          "selection": "Domicile",
+          "odd": 8.0,
+          "percent_distribution": null,
+          "no_vig_probability": 0.115,
+          "market_only_ev": -0.0799
+        },
+        {
+          "selection": "Match nul",
+          "odd": 14.5,
+          "percent_distribution": null,
+          "no_vig_probability": 0.0635,
+          "market_only_ev": -0.0799
+        },
+        {
+          "selection": "Extérieur",
+          "odd": 1.12,
+          "percent_distribution": 100,
+          "no_vig_probability": 0.8215,
+          "market_only_ev": -0.0799
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0868
+    },
+    {
+      "match_id": 66456976,
+      "title": "Tunisie - Pays-Bas",
+      "start_time": "2026-06-25T23:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "Tunisie": "DLLLL",
+        "Pays-Bas": "DLWDW"
+      },
+      "outcomes": [
+        {
+          "selection": "Tunisie",
+          "odd": 18.0,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.0515,
+          "market_only_ev": -0.0726
+        },
+        {
+          "selection": "Match nul",
+          "odd": 9.5,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.0976,
+          "market_only_ev": -0.0726
+        },
+        {
+          "selection": "Pays-Bas",
+          "odd": 1.09,
+          "percent_distribution": 98,
+          "no_vig_probability": 0.8509,
+          "market_only_ev": -0.0726
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0782
+    },
+    {
+      "match_id": 66456978,
+      "title": "Japon - Suède",
+      "start_time": "2026-06-25T23:00:00Z",
+      "status": "PREMATCH",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-24T16:03:05Z",
+      "form": {
+        "Japon": "WWWDW",
+        "Suède": "WLDWL"
+      },
+      "outcomes": [
+        {
+          "selection": "Japon",
+          "odd": 1.82,
+          "percent_distribution": 87,
+          "no_vig_probability": 0.51,
+          "market_only_ev": -0.0718
+        },
+        {
+          "selection": "Match nul",
+          "odd": 3.45,
+          "percent_distribution": 8,
+          "no_vig_probability": 0.269,
+          "market_only_ev": -0.0718
+        },
+        {
+          "selection": "Suède",
+          "odd": 4.2,
+          "percent_distribution": 5,
+          "no_vig_probability": 0.221,
+          "market_only_ev": -0.0718
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0774
+    }
+  ],
+  "decision": "no_bet",
+  "reason": "Cotes ANJ capturées, mais absence de modèle indépendant robuste (Poisson/xG/buts) ; forme W/N/D seule jugée insuffisante pour proba publiable. Contrôle market-only no-vig: EV négative pour chaque issue à cause de la marge."
+}

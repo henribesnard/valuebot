@@ -43,3 +43,6 @@ next-env.d.ts
 # handoff bundle
 Valuebot-handoff/
 Valuebot-handoff.zip
+valuebot-server.log
+.next/
+node_modules/

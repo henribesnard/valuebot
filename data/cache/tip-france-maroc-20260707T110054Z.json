@@ -1,0 +1,32 @@
+{
+  "sport": "football",
+  "competition": "Coupe du Monde 2026 — Quart de finale",
+  "event": "France - Maroc",
+  "start_time": "2026-07-09T20:00:00Z",
+  "market": "Résultat 1N2 temps réglementaire",
+  "selection": "France gagne",
+  "publication_tier": "prudent_signal",
+  "estimated_probability": 0.65,
+  "taken_odd": 1.57,
+  "bookmaker": "Betclic",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-07-07T11:00:45Z",
+  "expected_value": 0.021,
+  "confidence": 2,
+  "stake_units": 0.25,
+  "rationale": "Signal prudent — la probabilité est construite avec un modèle léger marché + forme courte ESPN, donc insuffisamment robuste pour un conseil officiel: pas de xG, blessures ni compositions confirmées dans ce cycle, et un quart de finale reste exposé au nul en 90 minutes. Betclic cote la France à 1.57 sur le 1N2 temps réglementaire; le no-vig du marché la place autour de 60 %, puis ValueBot applique un ajustement prudent à 65 % avec la forme ESPN parfaite de la France (WWWWW), un profil de favori net et un Maroc solide mais un peu moins dominant récemment (WWWWD). Le seuil de rentabilité de la cote est 63,7 %, l'EV estimée ressort à environ +2,1 %. Mise plafonnée à 0,25 u car c'est un signal intermédiaire et non un conseil officiel.",
+  "sources": [
+    "Betclic football Coupe du Monde 2026 — cote France 1.57 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/france-maroc-m1160514126254080",
+    "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup scoreboard 20260709 — Morocco at France, start 2026-07-09T20:00Z, formes France WWWWW / Maroc WWWWD: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260709",
+    "Cache ValueBot du scan: data/cache/valuebot-radar-20260707T110054Z.json"
+  ],
+  "factors": [
+    "Cote Betclic 1.57 capturée le 2026-07-07T11:00:45Z sur le marché Résultat du match (temps réglementaire)",
+    "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+    "Forme ESPN: France WWWWW contre Maroc WWWWD",
+    "No-vig marché calculé autour de 60 %; probabilité ValueBot prudente 65 % contre seuil de rentabilité 63,7 %, EV estimée +2,1 %",
+    "Risque principal: quart de finale et nul possible en 90 minutes, d'où signal prudent et mise 0,25 u"
+  ],
+  "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle."
+}

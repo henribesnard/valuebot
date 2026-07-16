@@ -1,0 +1,29 @@
+{
+  "sport": "football",
+  "competition": "FIFA World Cup / Coupe du Monde",
+  "event": "Écosse - Brésil",
+  "start_time": "2026-06-24T22:00:00Z",
+  "market": "Résultat 1N2",
+  "selection": "Brésil gagne",
+  "estimated_probability": 0.78,
+  "taken_odd": 1.37,
+  "bookmaker": "Winamax",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-06-22T07:43:09Z",
+  "expected_value": 0.069,
+  "confidence": 3,
+  "stake_units": 1.0,
+  "rationale": "Le Brésil arrive avec une série récente très supérieure (WWWDW contre LWWWL pour l’Écosse) et reste fortement soutenu par le marché Winamax (88 % de distribution utilisateurs). La probabilité ValueBot est volontairement décotée à 78 %, au-dessus du seuil de rentabilité de la cote 1.37 (≈73,0 %), ce qui donne une EV estimée d’environ +6,9 %. Mise prudente: 1 unité, car le prix est bas et le marché 1N2 reste sensible à un nul.",
+  "sources": [
+    "Winamax sports football page scraped live: https://www.winamax.fr/paris-sportifs/sports/1",
+    "ANJ opérateurs agréés checked previously for Winamax: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup schedule API: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260624"
+  ],
+  "factors": [
+    "Cote Winamax 1.37 capturée en direct sur le marché Résultat",
+    "Forme récente: Écosse LWWWL, Brésil WWWDW",
+    "Distribution utilisateurs Winamax: Brésil 88 %, nul 11 %, Écosse 1 %",
+    "Probabilité ValueBot décotée à 78 %, EV estimée +6,9 %"
+  ],
+  "h2h": "Non utilisé: signal principal basé sur cote ANJ horodatée, forme récente Winamax et calendrier ESPN."
+}

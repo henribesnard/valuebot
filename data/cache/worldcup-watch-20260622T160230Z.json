@@ -1,0 +1,358 @@
+{
+  "created_at": "2026-06-22T16:02:30Z",
+  "scope": "FIFA World Cup / Coupe du monde only",
+  "sources": {
+    "espn": [
+      "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260622",
+      "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260623"
+    ],
+    "winamax": "https://www.winamax.fr/paris-sportifs/sports/1",
+    "anj": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees"
+  },
+  "anj_check": {
+    "winamax_found": true,
+    "checked_at": "2026-06-22T16:02:30Z"
+  },
+  "espn_events": [
+    {
+      "id": "760456",
+      "name": "Austria at Argentina",
+      "shortName": "AUT @ ARG",
+      "date": "2026-06-22T17:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "id": "760457",
+      "name": "Iraq at France",
+      "shortName": "IRQ @ FRA",
+      "date": "2026-06-22T21:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "id": "760454",
+      "name": "Senegal at Norway",
+      "shortName": "SEN @ NOR",
+      "date": "2026-06-23T00:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Norway",
+        "Senegal"
+      ]
+    },
+    {
+      "id": "760455",
+      "name": "Algeria at Jordan",
+      "shortName": "ALG @ JOR",
+      "date": "2026-06-23T03:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Jordan",
+        "Algeria"
+      ]
+    },
+    {
+      "id": "760461",
+      "name": "Uzbekistan at Portugal",
+      "shortName": "UZB @ POR",
+      "date": "2026-06-23T17:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "id": "760458",
+      "name": "Ghana at England",
+      "shortName": "GHA @ ENG",
+      "date": "2026-06-23T20:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "id": "760460",
+      "name": "Croatia at Panama",
+      "shortName": "CRO @ PAN",
+      "date": "2026-06-23T23:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Panama",
+        "Croatia"
+      ]
+    },
+    {
+      "id": "760459",
+      "name": "Congo DR at Colombia",
+      "shortName": "COD @ COL",
+      "date": "2026-06-24T02:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Colombia",
+        "Congo DR"
+      ]
+    }
+  ],
+  "winamax_1n2_odds": [
+    {
+      "match_id": 66457022,
+      "title": "Argentine - Autriche",
+      "start_time": "2026-06-22T17:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-22T16:02:30Z",
+      "outcomes": [
+        {
+          "selection": "Argentine",
+          "odd": 1.44,
+          "percent_distribution": 96,
+          "no_vig_probability": 0.6554,
+          "market_only_ev": -0.0562
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.5,
+          "percent_distribution": 3,
+          "no_vig_probability": 0.2097,
+          "market_only_ev": -0.0564
+        },
+        {
+          "selection": "Autriche",
+          "odd": 7,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.1348,
+          "market_only_ev": -0.0564
+        }
+      ]
+    },
+    {
+      "match_id": 66457010,
+      "title": "France - Irak",
+      "start_time": "2026-06-22T21:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-22T16:02:30Z",
+      "outcomes": [
+        {
+          "selection": "France",
+          "odd": 1.08,
+          "percent_distribution": 98,
+          "no_vig_probability": 0.8807,
+          "market_only_ev": -0.0488
+        },
+        {
+          "selection": "Match nul",
+          "odd": 12.5,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.0761,
+          "market_only_ev": -0.0487
+        },
+        {
+          "selection": "Irak",
+          "odd": 22,
+          "percent_distribution": 0,
+          "no_vig_probability": 0.0432,
+          "market_only_ev": -0.0496
+        }
+      ]
+    },
+    {
+      "match_id": 66457012,
+      "title": "Norvège - Sénégal",
+      "start_time": "2026-06-23T00:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-22T16:02:30Z",
+      "outcomes": [
+        {
+          "selection": "Norvège",
+          "odd": 2.15,
+          "percent_distribution": 52,
+          "no_vig_probability": 0.4411,
+          "market_only_ev": -0.0516
+        },
+        {
+          "selection": "Match nul",
+          "odd": 3.55,
+          "percent_distribution": 21,
+          "no_vig_probability": 0.2671,
+          "market_only_ev": -0.0518
+        },
+        {
+          "selection": "Sénégal",
+          "odd": 3.25,
+          "percent_distribution": 27,
+          "no_vig_probability": 0.2918,
+          "market_only_ev": -0.0516
+        }
+      ]
+    },
+    {
+      "match_id": 66457024,
+      "title": "Jordanie - Algérie",
+      "start_time": "2026-06-23T03:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-22T16:02:30Z",
+      "outcomes": [
+        {
+          "selection": "Jordanie",
+          "odd": 5.9,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.1607,
+          "market_only_ev": -0.0519
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.4,
+          "percent_distribution": 6,
+          "no_vig_probability": 0.2155,
+          "market_only_ev": -0.0518
+        },
+        {
+          "selection": "Algérie",
+          "odd": 1.52,
+          "percent_distribution": 92,
+          "no_vig_probability": 0.6238,
+          "market_only_ev": -0.0518
+        }
+      ]
+    },
+    {
+      "match_id": 66457034,
+      "title": "Portugal - Ouzbékistan",
+      "start_time": "2026-06-23T17:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-22T16:02:30Z",
+      "outcomes": [
+        {
+          "selection": "Portugal",
+          "odd": 1.17,
+          "percent_distribution": 98,
+          "no_vig_probability": 0.8013,
+          "market_only_ev": -0.0625
+        },
+        {
+          "selection": "Match nul",
+          "odd": 7.25,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.1293,
+          "market_only_ev": -0.0626
+        },
+        {
+          "selection": "Ouzbékistan",
+          "odd": 13.5,
+          "percent_distribution": 0,
+          "no_vig_probability": 0.0694,
+          "market_only_ev": -0.0631
+        }
+      ]
+    },
+    {
+      "match_id": 66457046,
+      "title": "Angleterre - Ghana",
+      "start_time": "2026-06-23T20:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-22T16:02:30Z",
+      "outcomes": [
+        {
+          "selection": "Angleterre",
+          "odd": 1.2,
+          "percent_distribution": 98,
+          "no_vig_probability": 0.78,
+          "market_only_ev": -0.064
+        },
+        {
+          "selection": "Match nul",
+          "odd": 6.75,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.1387,
+          "market_only_ev": -0.0638
+        },
+        {
+          "selection": "Ghana",
+          "odd": 11.5,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.0814,
+          "market_only_ev": -0.0639
+        }
+      ]
+    },
+    {
+      "match_id": 66457048,
+      "title": "Panama - Croatie",
+      "start_time": "2026-06-23T23:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-22T16:02:30Z",
+      "outcomes": [
+        {
+          "selection": "Panama",
+          "odd": 6,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.1556,
+          "market_only_ev": -0.0664
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.2,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.2222,
+          "market_only_ev": -0.0668
+        },
+        {
+          "selection": "Croatie",
+          "odd": 1.5,
+          "percent_distribution": 98,
+          "no_vig_probability": 0.6222,
+          "market_only_ev": -0.0667
+        }
+      ]
+    },
+    {
+      "match_id": 66457036,
+      "title": "Colombie - RD Congo",
+      "start_time": "2026-06-24T02:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-22T16:02:30Z",
+      "outcomes": [
+        {
+          "selection": "Colombie",
+          "odd": 1.47,
+          "percent_distribution": 84,
+          "no_vig_probability": 0.6377,
+          "market_only_ev": -0.0626
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.3,
+          "percent_distribution": 10,
+          "no_vig_probability": 0.218,
+          "market_only_ev": -0.0626
+        },
+        {
+          "selection": "RD Congo",
+          "odd": 6.5,
+          "percent_distribution": 6,
+          "no_vig_probability": 0.1442,
+          "market_only_ev": -0.0627
+        }
+      ]
+    }
+  ],
+  "decision": "no_bet",
+  "reason": "Cotes ANJ capturées, mais aucune probabilité indépendante robuste; modèle de contrôle market-only no-vig ne crée aucune EV positive publiable."
+}

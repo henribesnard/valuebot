@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-10",
+  "created_at": "2026-07-10T16:01:50Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 8,
+  "metrics": {
+    "bankroll_units": 101.03,
+    "tips_total": 12,
+    "pending_total": 3,
+    "settled_total": 9,
+    "yield_pct": 34.33,
+    "roi_pct": 1.03,
+    "win_rate_pct": 77.78,
+    "average_odd": 1.78,
+    "current_drawdown_units": 0.11,
+    "max_drawdown_units": 0.25,
+    "brier_score": 0.1782
+  },
+  "observations": [
+    "Cycle autonome du 2026-07-10T16:01Z: état réel relu; bankroll 101,03 u, 12 tips au total dont 3 pending; validation Henri active jusqu'au 2026-07-12 21:34 Europe/Paris.",
+    "Scan HTTPS tracé dans data/cache/valuebot-radar-20260710T160128Z.json: 8 candidats disponibles dans le calendrier Betclic (4 football Coupe du Monde 2026, 4 tennis Wimbledon simples/doubles). Betclic vérifié présent sur la page ANJ; robots.txt consulté, URLs sans query-string.",
+    "Marchés couverts: football 1N2 avec familles secondaires visibles sur pages détail (double chance, total buts, BTTS, score exact); tennis vainqueur match avec familles secondaires visibles (total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set).",
+    "Aucun conseil publié: trois affiches football scannées sont déjà couvertes par des signaux pending ValueBot ou n'offrent pas de nouveau marché publiable; la demi-finale France - Espagne/Belgique reste conditionnelle; côté tennis, les cotes sont horodatées mais aucune probabilité indépendante suffisamment robuste et traçable n'a été établie pour EV >= 3% officiel ou EV >= 1% signal prudent."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

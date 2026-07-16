@@ -1,0 +1,559 @@
+{
+  "created_at": "2026-06-23T11:04:08Z",
+  "scope": "FIFA World Cup / Coupe du monde only",
+  "sources": {
+    "espn": [
+      "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260623",
+      "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260624"
+    ],
+    "winamax": "https://www.winamax.fr/paris-sportifs/sports/1",
+    "anj": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees"
+  },
+  "anj_check": {
+    "winamax_found": true,
+    "checked_at": "2026-06-23T11:04:08Z"
+  },
+  "espn_events": [
+    {
+      "id": "760461",
+      "name": "Uzbekistan at Portugal",
+      "shortName": "UZB @ POR",
+      "date": "2026-06-23T17:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "id": "760458",
+      "name": "Ghana at England",
+      "shortName": "GHA @ ENG",
+      "date": "2026-06-23T20:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "id": "760460",
+      "name": "Croatia at Panama",
+      "shortName": "CRO @ PAN",
+      "date": "2026-06-23T23:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Panama",
+        "Croatia"
+      ]
+    },
+    {
+      "id": "760459",
+      "name": "Congo DR at Colombia",
+      "shortName": "COD @ COL",
+      "date": "2026-06-24T02:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Colombia",
+        "Congo DR"
+      ]
+    },
+    {
+      "id": "760462",
+      "name": "Qatar at Bosnia-Herzegovina",
+      "shortName": "QAT @ BIH",
+      "date": "2026-06-24T19:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Bosnia-Herzegovina",
+        "Qatar"
+      ]
+    },
+    {
+      "id": "760463",
+      "name": "Canada at Switzerland",
+      "shortName": "CAN @ SUI",
+      "date": "2026-06-24T19:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Switzerland",
+        "Canada"
+      ]
+    },
+    {
+      "id": "760464",
+      "name": "Haiti at Morocco",
+      "shortName": "HAI @ MAR",
+      "date": "2026-06-24T22:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Morocco",
+        "Haiti"
+      ]
+    },
+    {
+      "id": "760465",
+      "name": "Brazil at Scotland",
+      "shortName": "BRA @ SCO",
+      "date": "2026-06-24T22:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Scotland",
+        "Brazil"
+      ]
+    },
+    {
+      "id": "760467",
+      "name": "Mexico at Czechia",
+      "shortName": "MEX @ CZE",
+      "date": "2026-06-25T01:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Czechia",
+        "Mexico"
+      ]
+    },
+    {
+      "id": "760466",
+      "name": "South Korea at South Africa",
+      "shortName": "KOR @ RSA",
+      "date": "2026-06-25T01:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "South Africa",
+        "South Korea"
+      ]
+    }
+  ],
+  "winamax_1n2_odds": [
+    {
+      "match_id": 66457034,
+      "title": "Portugal - Ouzbékistan",
+      "start_time": "2026-06-23T17:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-23T11:04:08Z",
+      "form": {
+        "Portugal": "DWWWD",
+        "Ouzbékistan": "WWLLL"
+      },
+      "form_points_5": {
+        "Portugal": 11,
+        "Ouzbékistan": 6
+      },
+      "outcomes": [
+        {
+          "selection": "Portugal",
+          "odd": 1.13,
+          "percent_distribution": 97,
+          "no_vig_probability": 0.836,
+          "market_only_ev": -0.0553
+        },
+        {
+          "selection": "Match nul",
+          "odd": 9.0,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.105,
+          "market_only_ev": -0.0553
+        },
+        {
+          "selection": "Ouzbékistan",
+          "odd": 16.0,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.059,
+          "market_only_ev": -0.0553
+        }
+      ]
+    },
+    {
+      "match_id": 1000186437,
+      "title": "MultiFoot Coupe du Monde 2026 (J2 - Groupes K & L)",
+      "start_time": "2026-06-23T17:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-23T11:04:08Z",
+      "form": {
+        "null": null
+      },
+      "form_points_5": {
+        "null": 0
+      },
+      "outcomes": [
+        {
+          "selection": "Domicile",
+          "odd": 1.12,
+          "percent_distribution": 97,
+          "no_vig_probability": 0.8212,
+          "market_only_ev": -0.0803
+        },
+        {
+          "selection": "Match nul",
+          "odd": 12.0,
+          "percent_distribution": 0,
+          "no_vig_probability": 0.0766,
+          "market_only_ev": -0.0803
+        },
+        {
+          "selection": "Extérieur",
+          "odd": 9.0,
+          "percent_distribution": 3,
+          "no_vig_probability": 0.1022,
+          "market_only_ev": -0.0803
+        }
+      ]
+    },
+    {
+      "match_id": 66457046,
+      "title": "Angleterre - Ghana",
+      "start_time": "2026-06-23T20:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-23T11:04:08Z",
+      "form": {
+        "Angleterre": "DLWWW",
+        "Ghana": "LLLDW"
+      },
+      "form_points_5": {
+        "Angleterre": 10,
+        "Ghana": 4
+      },
+      "outcomes": [
+        {
+          "selection": "Angleterre",
+          "odd": 1.17,
+          "percent_distribution": 98,
+          "no_vig_probability": 0.81,
+          "market_only_ev": -0.0523
+        },
+        {
+          "selection": "Match nul",
+          "odd": 7.75,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.1223,
+          "market_only_ev": -0.0523
+        },
+        {
+          "selection": "Ghana",
+          "odd": 14.0,
+          "percent_distribution": 0,
+          "no_vig_probability": 0.0677,
+          "market_only_ev": -0.0523
+        }
+      ]
+    },
+    {
+      "match_id": 66457048,
+      "title": "Panama - Croatie",
+      "start_time": "2026-06-23T23:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-23T11:04:08Z",
+      "form": {
+        "Panama": "WLWDL",
+        "Croatie": "WLLWL"
+      },
+      "form_points_5": {
+        "Panama": 7,
+        "Croatie": 6
+      },
+      "outcomes": [
+        {
+          "selection": "Panama",
+          "odd": 6.5,
+          "percent_distribution": 0,
+          "no_vig_probability": 0.1449,
+          "market_only_ev": -0.0578
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.4,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.2141,
+          "market_only_ev": -0.0578
+        },
+        {
+          "selection": "Croatie",
+          "odd": 1.47,
+          "percent_distribution": 98,
+          "no_vig_probability": 0.6409,
+          "market_only_ev": -0.0578
+        }
+      ]
+    },
+    {
+      "match_id": 66457036,
+      "title": "Colombie - RD Congo",
+      "start_time": "2026-06-24T02:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-23T11:04:08Z",
+      "form": {
+        "Colombie": "LLWWW",
+        "RD Congo": "LWDLD"
+      },
+      "form_points_5": {
+        "Colombie": 9,
+        "RD Congo": 5
+      },
+      "outcomes": [
+        {
+          "selection": "Colombie",
+          "odd": 1.52,
+          "percent_distribution": 84,
+          "no_vig_probability": 0.6157,
+          "market_only_ev": -0.0641
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.1,
+          "percent_distribution": 10,
+          "no_vig_probability": 0.2283,
+          "market_only_ev": -0.0641
+        },
+        {
+          "selection": "RD Congo",
+          "odd": 6.0,
+          "percent_distribution": 6,
+          "no_vig_probability": 0.156,
+          "market_only_ev": -0.0641
+        }
+      ]
+    },
+    {
+      "match_id": 66456924,
+      "title": "Suisse - Canada",
+      "start_time": "2026-06-24T19:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-23T11:04:08Z",
+      "form": {
+        "Suisse": "DWDDW",
+        "Canada": "DWDDW"
+      },
+      "form_points_5": {
+        "Suisse": 9,
+        "Canada": 9
+      },
+      "outcomes": [
+        {
+          "selection": "Suisse",
+          "odd": 2.3,
+          "percent_distribution": 50,
+          "no_vig_probability": 0.4006,
+          "market_only_ev": -0.0785
+        },
+        {
+          "selection": "Match nul",
+          "odd": 3.05,
+          "percent_distribution": 32,
+          "no_vig_probability": 0.3021,
+          "market_only_ev": -0.0785
+        },
+        {
+          "selection": "Canada",
+          "odd": 3.1,
+          "percent_distribution": 18,
+          "no_vig_probability": 0.2972,
+          "market_only_ev": -0.0785
+        }
+      ]
+    },
+    {
+      "match_id": 66456926,
+      "title": "Bosnie-Herzégovine - Qatar",
+      "start_time": "2026-06-24T19:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-23T11:04:08Z",
+      "form": {
+        "Bosnie-Herzégovine": "WDDDL",
+        "Qatar": "LLDDL"
+      },
+      "form_points_5": {
+        "Bosnie-Herzégovine": 6,
+        "Qatar": 2
+      },
+      "outcomes": [
+        {
+          "selection": "Bosnie-Herzégovine",
+          "odd": 1.37,
+          "percent_distribution": 93,
+          "no_vig_probability": 0.676,
+          "market_only_ev": -0.0739
+        },
+        {
+          "selection": "Match nul",
+          "odd": 5.1,
+          "percent_distribution": 5,
+          "no_vig_probability": 0.1816,
+          "market_only_ev": -0.0739
+        },
+        {
+          "selection": "Qatar",
+          "odd": 6.5,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.1425,
+          "market_only_ev": -0.0739
+        }
+      ]
+    },
+    {
+      "match_id": 66456936,
+      "title": "Écosse - Brésil",
+      "start_time": "2026-06-24T22:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-23T11:04:08Z",
+      "form": {
+        "Écosse": "LWWWL",
+        "Brésil": "WWWDW"
+      },
+      "form_points_5": {
+        "Écosse": 9,
+        "Brésil": 13
+      },
+      "outcomes": [
+        {
+          "selection": "Écosse",
+          "odd": 6.5,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.142,
+          "market_only_ev": -0.0769
+        },
+        {
+          "selection": "Match nul",
+          "odd": 5.3,
+          "percent_distribution": 10,
+          "no_vig_probability": 0.1742,
+          "market_only_ev": -0.0769
+        },
+        {
+          "selection": "Brésil",
+          "odd": 1.35,
+          "percent_distribution": 89,
+          "no_vig_probability": 0.6838,
+          "market_only_ev": -0.0769
+        }
+      ]
+    },
+    {
+      "match_id": 66456938,
+      "title": "Maroc - Haïti",
+      "start_time": "2026-06-24T22:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-23T11:04:08Z",
+      "form": {
+        "Maroc": "WWDDW",
+        "Haïti": "DWLLL"
+      },
+      "form_points_5": {
+        "Maroc": 11,
+        "Haïti": 4
+      },
+      "outcomes": [
+        {
+          "selection": "Maroc",
+          "odd": 1.15,
+          "percent_distribution": 99,
+          "no_vig_probability": 0.8074,
+          "market_only_ev": -0.0715
+        },
+        {
+          "selection": "Match nul",
+          "odd": 7.5,
+          "percent_distribution": 0,
+          "no_vig_probability": 0.1238,
+          "market_only_ev": -0.0715
+        },
+        {
+          "selection": "Haïti",
+          "odd": 13.5,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.0688,
+          "market_only_ev": -0.0715
+        }
+      ]
+    },
+    {
+      "match_id": 66456912,
+      "title": "République Tchèque - Mexique",
+      "start_time": "2026-06-25T01:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-23T11:04:08Z",
+      "form": {
+        "République Tchèque": "WWWLD",
+        "Mexique": "WWWWW"
+      },
+      "form_points_5": {
+        "République Tchèque": 10,
+        "Mexique": 15
+      },
+      "outcomes": [
+        {
+          "selection": "République Tchèque",
+          "odd": 3.45,
+          "percent_distribution": 9,
+          "no_vig_probability": 0.2688,
+          "market_only_ev": -0.0725
+        },
+        {
+          "selection": "Match nul",
+          "odd": 3.9,
+          "percent_distribution": 14,
+          "no_vig_probability": 0.2378,
+          "market_only_ev": -0.0725
+        },
+        {
+          "selection": "Mexique",
+          "odd": 1.88,
+          "percent_distribution": 77,
+          "no_vig_probability": 0.4933,
+          "market_only_ev": -0.0725
+        }
+      ]
+    },
+    {
+      "match_id": 66456914,
+      "title": "Afrique du Sud - Corée du Sud",
+      "start_time": "2026-06-25T01:00:00Z",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-23T11:04:08Z",
+      "form": {
+        "Afrique du Sud": "LDDLD",
+        "Corée du Sud": "LWWWL"
+      },
+      "form_points_5": {
+        "Afrique du Sud": 3,
+        "Corée du Sud": 9
+      },
+      "outcomes": [
+        {
+          "selection": "Afrique du Sud",
+          "odd": 4.8,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.1927,
+          "market_only_ev": -0.0751
+        },
+        {
+          "selection": "Match nul",
+          "odd": 3.8,
+          "percent_distribution": 5,
+          "no_vig_probability": 0.2434,
+          "market_only_ev": -0.0751
+        },
+        {
+          "selection": "Corée du Sud",
+          "odd": 1.64,
+          "percent_distribution": 93,
+          "no_vig_probability": 0.5639,
+          "market_only_ev": -0.0751
+        }
+      ]
+    }
+  ],
+  "decision": "no_bet",
+  "reason": "Cotes ANJ capturées, mais aucune probabilité indépendante robuste (Poisson/xG/forme fiable) suffisante; le contrôle market-only no-vig reste négatif par construction et la forme W/D/L seule ne permet pas une EV publiable."
+}

@@ -1,0 +1,531 @@
+{
+  "created_at": "2026-06-22T06:09:35Z",
+  "espn_events": [
+    {
+      "source_date": "20260622",
+      "event_id": "760456",
+      "name": "Austria at Argentina",
+      "shortName": "AUT @ ARG",
+      "date": "2026-06-22T17:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Argentina",
+        "Austria"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260622"
+    },
+    {
+      "source_date": "20260622",
+      "event_id": "760457",
+      "name": "Iraq at France",
+      "shortName": "IRQ @ FRA",
+      "date": "2026-06-22T21:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "France",
+        "Iraq"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260622"
+    },
+    {
+      "source_date": "20260622",
+      "event_id": "760454",
+      "name": "Senegal at Norway",
+      "shortName": "SEN @ NOR",
+      "date": "2026-06-23T00:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Norway",
+        "Senegal"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260622"
+    },
+    {
+      "source_date": "20260622",
+      "event_id": "760455",
+      "name": "Algeria at Jordan",
+      "shortName": "ALG @ JOR",
+      "date": "2026-06-23T03:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Jordan",
+        "Algeria"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260622"
+    },
+    {
+      "source_date": "20260623",
+      "event_id": "760461",
+      "name": "Uzbekistan at Portugal",
+      "shortName": "UZB @ POR",
+      "date": "2026-06-23T17:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Portugal",
+        "Uzbekistan"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260623"
+    },
+    {
+      "source_date": "20260623",
+      "event_id": "760458",
+      "name": "Ghana at England",
+      "shortName": "GHA @ ENG",
+      "date": "2026-06-23T20:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "England",
+        "Ghana"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260623"
+    },
+    {
+      "source_date": "20260623",
+      "event_id": "760460",
+      "name": "Croatia at Panama",
+      "shortName": "CRO @ PAN",
+      "date": "2026-06-23T23:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Panama",
+        "Croatia"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260623"
+    },
+    {
+      "source_date": "20260623",
+      "event_id": "760459",
+      "name": "Congo DR at Colombia",
+      "shortName": "COD @ COL",
+      "date": "2026-06-24T02:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Colombia",
+        "Congo DR"
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260623"
+    }
+  ],
+  "winamax_world_cup_odds": [
+    {
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj_checked_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "captured_at": "2026-06-22T06:09:35Z",
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1",
+      "match_id": "66456924",
+      "event": "Suisse - Canada",
+      "start_time": "2026-06-24T19:00:00Z",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "forms": {
+        "Suisse": "DWDDW",
+        "Canada": "DWDDW"
+      },
+      "market": "Résultat",
+      "outcomes": [
+        {
+          "label": "Suisse",
+          "code": "1",
+          "odd": 2.35,
+          "percentDistribution": 51
+        },
+        {
+          "label": "Match nul",
+          "code": "x",
+          "odd": 3.05,
+          "percentDistribution": 31
+        },
+        {
+          "label": "Canada",
+          "code": "2",
+          "odd": 3.05,
+          "percentDistribution": 18
+        }
+      ]
+    },
+    {
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj_checked_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "captured_at": "2026-06-22T06:09:35Z",
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1",
+      "match_id": "66456926",
+      "event": "Bosnie-Herzégovine - Qatar",
+      "start_time": "2026-06-24T19:00:00Z",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "forms": {
+        "Bosnie-Herzégovine": "WDDDL",
+        "Qatar": "LLDDL"
+      },
+      "market": "Résultat",
+      "outcomes": [
+        {
+          "label": "Bosnie-Herzégovine",
+          "code": "1",
+          "odd": 1.4,
+          "percentDistribution": 95
+        },
+        {
+          "label": "Match nul",
+          "code": "x",
+          "odd": 4.9,
+          "percentDistribution": 3
+        },
+        {
+          "label": "Qatar",
+          "code": "2",
+          "odd": 6.25,
+          "percentDistribution": 2
+        }
+      ]
+    },
+    {
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj_checked_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "captured_at": "2026-06-22T06:09:35Z",
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1",
+      "match_id": "66456936",
+      "event": "Écosse - Brésil",
+      "start_time": "2026-06-24T22:00:00Z",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "forms": {
+        "Écosse": "LWWWL",
+        "Brésil": "WWWDW"
+      },
+      "market": "Résultat",
+      "outcomes": [
+        {
+          "label": "Écosse",
+          "code": "1",
+          "odd": 6,
+          "percentDistribution": 1
+        },
+        {
+          "label": "Match nul",
+          "code": "x",
+          "odd": 5.5,
+          "percentDistribution": 11
+        },
+        {
+          "label": "Brésil",
+          "code": "2",
+          "odd": 1.37,
+          "percentDistribution": 88
+        }
+      ]
+    },
+    {
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj_checked_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "captured_at": "2026-06-22T06:09:35Z",
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1",
+      "match_id": "66456938",
+      "event": "Maroc - Haïti",
+      "start_time": "2026-06-24T22:00:00Z",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "forms": {
+        "Maroc": "WWDDW",
+        "Haïti": "DWLLL"
+      },
+      "market": "Résultat",
+      "outcomes": [
+        {
+          "label": "Maroc",
+          "code": "1",
+          "odd": 1.17,
+          "percentDistribution": 100
+        },
+        {
+          "label": "Match nul",
+          "code": "x",
+          "odd": 7,
+          "percentDistribution": 0
+        },
+        {
+          "label": "Haïti",
+          "code": "2",
+          "odd": 12.5,
+          "percentDistribution": 0
+        }
+      ]
+    },
+    {
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj_checked_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "captured_at": "2026-06-22T06:09:35Z",
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1",
+      "match_id": "66457010",
+      "event": "France - Irak",
+      "start_time": "2026-06-22T21:00:00Z",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "forms": {
+        "France": "WWLWW",
+        "Irak": "WWDLL"
+      },
+      "market": "Résultat",
+      "outcomes": [
+        {
+          "label": "France",
+          "code": "1",
+          "odd": 1.06,
+          "percentDistribution": 98
+        },
+        {
+          "label": "Match nul",
+          "code": "x",
+          "odd": 12.5,
+          "percentDistribution": 1
+        },
+        {
+          "label": "Irak",
+          "code": "2",
+          "odd": 22,
+          "percentDistribution": 1
+        }
+      ]
+    },
+    {
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj_checked_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "captured_at": "2026-06-22T06:09:35Z",
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1",
+      "match_id": "66457012",
+      "event": "Norvège - Sénégal",
+      "start_time": "2026-06-23T00:00:00Z",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "forms": {
+        "Norvège": "LDWDW",
+        "Sénégal": "WWLDL"
+      },
+      "market": "Résultat",
+      "outcomes": [
+        {
+          "label": "Norvège",
+          "code": "1",
+          "odd": 2.2,
+          "percentDistribution": 57
+        },
+        {
+          "label": "Match nul",
+          "code": "x",
+          "odd": 3.55,
+          "percentDistribution": 17
+        },
+        {
+          "label": "Sénégal",
+          "code": "2",
+          "odd": 3,
+          "percentDistribution": 26
+        }
+      ]
+    },
+    {
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj_checked_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "captured_at": "2026-06-22T06:09:35Z",
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1",
+      "match_id": "66457022",
+      "event": "Argentine - Autriche",
+      "start_time": "2026-06-22T17:00:00Z",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "forms": {
+        "Argentine": "WWWWW",
+        "Autriche": "DWWWW"
+      },
+      "market": "Résultat",
+      "outcomes": [
+        {
+          "label": "Argentine",
+          "code": "1",
+          "odd": 1.47,
+          "percentDistribution": 98
+        },
+        {
+          "label": "Match nul",
+          "code": "x",
+          "odd": 4.3,
+          "percentDistribution": 2
+        },
+        {
+          "label": "Autriche",
+          "code": "2",
+          "odd": 6.25,
+          "percentDistribution": 0
+        }
+      ]
+    },
+    {
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj_checked_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "captured_at": "2026-06-22T06:09:35Z",
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1",
+      "match_id": "66457024",
+      "event": "Jordanie - Algérie",
+      "start_time": "2026-06-23T03:00:00Z",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "forms": {
+        "Jordanie": "DDLLL",
+        "Algérie": "WDWWL"
+      },
+      "market": "Résultat",
+      "outcomes": [
+        {
+          "label": "Jordanie",
+          "code": "1",
+          "odd": 5.5,
+          "percentDistribution": 1
+        },
+        {
+          "label": "Match nul",
+          "code": "x",
+          "odd": 4.2,
+          "percentDistribution": 3
+        },
+        {
+          "label": "Algérie",
+          "code": "2",
+          "odd": 1.54,
+          "percentDistribution": 96
+        }
+      ]
+    },
+    {
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj_checked_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "captured_at": "2026-06-22T06:09:35Z",
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1",
+      "match_id": "66457034",
+      "event": "Portugal - Ouzbékistan",
+      "start_time": "2026-06-23T17:00:00Z",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "forms": {
+        "Portugal": "DWWWD",
+        "Ouzbékistan": "WWLLL"
+      },
+      "market": "Résultat",
+      "outcomes": [
+        {
+          "label": "Portugal",
+          "code": "1",
+          "odd": 1.17,
+          "percentDistribution": 98
+        },
+        {
+          "label": "Match nul",
+          "code": "x",
+          "odd": 7,
+          "percentDistribution": 2
+        },
+        {
+          "label": "Ouzbékistan",
+          "code": "2",
+          "odd": 13,
+          "percentDistribution": 0
+        }
+      ]
+    },
+    {
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj_checked_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "captured_at": "2026-06-22T06:09:35Z",
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1",
+      "match_id": "66457036",
+      "event": "Colombie - RD Congo",
+      "start_time": "2026-06-24T02:00:00Z",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "forms": {
+        "Colombie": "LLWWW",
+        "RD Congo": "LWDLD"
+      },
+      "market": "Résultat",
+      "outcomes": [
+        {
+          "label": "Colombie",
+          "code": "1",
+          "odd": 1.46,
+          "percentDistribution": 87
+        },
+        {
+          "label": "Match nul",
+          "code": "x",
+          "odd": 4.2,
+          "percentDistribution": 7
+        },
+        {
+          "label": "RD Congo",
+          "code": "2",
+          "odd": 6.25,
+          "percentDistribution": 6
+        }
+      ]
+    },
+    {
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj_checked_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "captured_at": "2026-06-22T06:09:35Z",
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1",
+      "match_id": "66457046",
+      "event": "Angleterre - Ghana",
+      "start_time": "2026-06-23T20:00:00Z",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "forms": {
+        "Angleterre": "DLWWW",
+        "Ghana": "LLLDW"
+      },
+      "market": "Résultat",
+      "outcomes": [
+        {
+          "label": "Angleterre",
+          "code": "1",
+          "odd": 1.19,
+          "percentDistribution": 99
+        },
+        {
+          "label": "Match nul",
+          "code": "x",
+          "odd": 6.5,
+          "percentDistribution": 1
+        },
+        {
+          "label": "Ghana",
+          "code": "2",
+          "odd": 11,
+          "percentDistribution": 0
+        }
+      ]
+    },
+    {
+      "bookmaker": "Winamax",
+      "bookmaker_authorized_anj_checked_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "captured_at": "2026-06-22T06:09:35Z",
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1",
+      "match_id": "66457048",
+      "event": "Panama - Croatie",
+      "start_time": "2026-06-23T23:00:00Z",
+      "competition": "FIFA World Cup / Coupe du Monde",
+      "forms": {
+        "Panama": "WLWDL",
+        "Croatie": "WLLWL"
+      },
+      "market": "Résultat",
+      "outcomes": [
+        {
+          "label": "Panama",
+          "code": "1",
+          "odd": 6,
+          "percentDistribution": 1
+        },
+        {
+          "label": "Match nul",
+          "code": "x",
+          "odd": 4,
+          "percentDistribution": 1
+        },
+        {
+          "label": "Croatie",
+          "code": "2",
+          "odd": 1.52,
+          "percentDistribution": 98
+        }
+      ]
+    }
+  ]
+}

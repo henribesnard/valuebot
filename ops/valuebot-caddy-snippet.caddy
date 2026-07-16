@@ -1,0 +1,4 @@
+# ValueBot — à placer avant le bloc générique :443 dans /etc/caddy/Caddyfile
+valuebot.wezon.fr {
+    reverse_proxy 127.0.0.1:4010
+}

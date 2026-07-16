@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-06",
+  "created_at": "2026-07-06T06:03:45Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 16,
+  "metrics": {
+    "bankroll_units": 100.43,
+    "tips_total": 8,
+    "pending_total": 4,
+    "settled_total": 4,
+    "yield_pct": 24.57,
+    "roi_pct": 0.43,
+    "win_rate_pct": 75.0,
+    "average_odd": 1.6,
+    "current_drawdown_units": 0.25,
+    "max_drawdown_units": 0.25,
+    "brier_score": 0.1613
+  },
+  "observations": [
+    "Cycle ValueBot 2026-07-06T06:02Z: état réel relu; tip #7 Brésil - Norvège réglé perdu via ESPN FT Brésil 1-2 Norvège (-0,25 u). Bankroll après règlement: 100,43 u.",
+    "Scan HTTPS tracé dans data/cache/valuebot-radar-20260706T060241Z.json: 16 candidats analysés, dont 6 football Coupe du Monde 2026 et 10 tennis Wimbledon; Betclic consulté sans query-string, robots.txt contrôlé, Betclic vérifié présent sur la page ANJ des opérateurs agréés.",
+    "Marchés couverts au-delà du vainqueur: football 1N2 temps réglementaire, double chance, total buts, BTTS, score exact et familles buteur/décisif visibles; tennis vainqueur match, total jeux, score final en sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set selon disponibilité.",
+    "Aucun conseil publié: plusieurs cotes ANJ horodatées sont disponibles, mais les nouveaux événements non déjà publiés (France-Maroc, Norvège-Angleterre et Wimbledon) n'ont pas fourni de probabilité indépendante assez robuste pour démontrer EV >= 3% en officiel ou >= 1% en signal prudent; les probabilités no-vig seules restent refusées car circulaires. Les matchs Portugal-Espagne, USA-Belgique, Argentine-Égypte et Suisse-Colombie ont déjà des signaux prudents en attente, donc pas de doublon."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

@@ -1,0 +1,1135 @@
+{
+  "collected_at_utc": "2026-07-11T11:01:24Z",
+  "method": "HTTPS Betclic listing/detail + ANJ + ESPN scoreboard; no query-string URLs on Betclic",
+  "candidates": [
+    {
+      "sport": "football",
+      "event": "Norvège - Angleterre",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/norvege-angleterre-m1161570996490240",
+      "competition": "Coupe du Monde 2026 • Quart de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Norvège",
+          "odd": 3.85
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.9
+        },
+        {
+          "selection": "Angleterre",
+          "odd": 1.91
+        }
+      ],
+      "captured_at_utc": "2026-07-11T11:01:24Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 868361,
+      "detail_markets_seen": [
+        "Double chance (t. rég)",
+        "Nombre total de buts (t. rég)",
+        "Les 2 équipes marquent (t. rég)",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+        "Double chance buteur (t. rég)",
+        "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+        "Score exact (t. rég)"
+      ],
+      "markets_extracted": [
+        {
+          "market": "Résultat du match (t. rég) – Extra gains à chaque but d’écart",
+          "selections": [
+            {
+              "selection": "H. Kane buteur (t. rég) et l'Angleterre se qualifie",
+              "odd": 2.97
+            },
+            {
+              "selection": "E. Haaland buteur et la Norvège ne perd pas (t. rég)",
+              "odd": 1.53
+            },
+            {
+              "selection": "Le duo Ju. Bellingham, M. Ødegaard décisif 2 fois ou + (t. rég)",
+              "odd": 4.1
+            },
+            {
+              "selection": "H. Kane et E. Haaland buteurs (t. rég)",
+              "odd": 8.0
+            },
+            {
+              "selection": "H. Kane buteur sur une passe décisive de Ju. Bellingham (t. rég)",
+              "odd": 2.25
+            }
+          ]
+        },
+        {
+          "market": "Double chance (t. rég)",
+          "selections": [
+            {
+              "selection": "Norvège ou Nul",
+              "odd": 1.83
+            },
+            {
+              "selection": "Norvège ou Angleterre",
+              "odd": 1.25
+            },
+            {
+              "selection": "Nul ou Angleterre",
+              "odd": 1.23
+            }
+          ]
+        },
+        {
+          "market": "Nombre total de buts (t. rég)",
+          "selections": [
+            {
+              "selection": "+ de 0,5",
+              "odd": 1.03
+            },
+            {
+              "selection": "- de 0,5",
+              "odd": 9.25
+            },
+            {
+              "selection": "+ de 1,5",
+              "odd": 1.2
+            },
+            {
+              "selection": "- de 1,5",
+              "odd": 4.05
+            },
+            {
+              "selection": "+ de 2,5",
+              "odd": 1.66
+            },
+            {
+              "selection": "- de 2,5",
+              "odd": 2.08
+            }
+          ]
+        },
+        {
+          "market": "Les 2 équipes marquent (t. rég)",
+          "selections": [
+            {
+              "selection": "Oui",
+              "odd": 1.62
+            },
+            {
+              "selection": "Non",
+              "odd": 2.17
+            }
+          ]
+        },
+        {
+          "market": "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+          "selections": [
+            {
+              "selection": "Oui",
+              "odd": 1.38
+            },
+            {
+              "selection": "Non",
+              "odd": 2.7
+            }
+          ]
+        },
+        {
+          "market": "Double chance buteur (t. rég)",
+          "selections": [
+            {
+              "selection": "H. Kane / E. Haaland",
+              "odd": 1.31
+            },
+            {
+              "selection": "H. Kane / I. Toney",
+              "odd": 1.39
+            },
+            {
+              "selection": "H. Kane / O. Watkins",
+              "odd": 1.41
+            },
+            {
+              "selection": "I. Toney / E. Haaland",
+              "odd": 1.47
+            },
+            {
+              "selection": "O. Watkins / E. Haaland",
+              "odd": 1.49
+            },
+            {
+              "selection": "I. Toney / O. Watkins",
+              "odd": 1.53
+            }
+          ]
+        },
+        {
+          "market": "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+          "selections": [
+            {
+              "selection": "I. Toney / H. Kane",
+              "odd": 1.2
+            },
+            {
+              "selection": "H. Kane / O. Watkins",
+              "odd": 1.21
+            },
+            {
+              "selection": "E. Haaland / H. Kane",
+              "odd": 1.21
+            },
+            {
+              "selection": "H. Kane / M. Rashford",
+              "odd": 1.26
+            },
+            {
+              "selection": "I. Toney / E. Haaland",
+              "odd": 1.26
+            },
+            {
+              "selection": "I. Toney / O. Watkins",
+              "odd": 1.27
+            }
+          ]
+        }
+      ],
+      "selection_count_extracted": 30
+    },
+    {
+      "sport": "football",
+      "event": "Argentine - Suisse",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/argentine-suisse-m1163224593752064",
+      "competition": "Coupe du Monde 2026 • Quart de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Argentine",
+          "odd": 1.68
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.7
+        },
+        {
+          "selection": "Suisse",
+          "odd": 5.75
+        }
+      ],
+      "captured_at_utc": "2026-07-11T11:01:24Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 856598,
+      "detail_markets_seen": [
+        "Double chance (t. rég)",
+        "Nombre total de buts (t. rég)",
+        "Les 2 équipes marquent (t. rég)",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+        "Double chance buteur (t. rég)",
+        "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+        "Score exact (t. rég)"
+      ],
+      "markets_extracted": [
+        {
+          "market": "Résultat du match (t. rég) – Extra gains à chaque but d’écart",
+          "selections": [
+            {
+              "selection": "L. Messi buteur (t.rég) et l'Argentine se qualifie",
+              "odd": 1.38
+            },
+            {
+              "selection": "L. Messi décisif 2 fois ou + (t.rég)",
+              "odd": 4.85
+            },
+            {
+              "selection": "Victoire de l'Argentine et les 2 équipes marquent (t.rég)",
+              "odd": 2.33
+            },
+            {
+              "selection": "L. Messi buteur depuis l'extérieur de la surface de réparation (t.rég)",
+              "odd": 5.0
+            }
+          ]
+        },
+        {
+          "market": "Double chance (t. rég)",
+          "selections": [
+            {
+              "selection": "Argentine ou Nul",
+              "odd": 1.15
+            },
+            {
+              "selection": "Argentine ou Suisse",
+              "odd": 1.25
+            },
+            {
+              "selection": "Nul ou Suisse",
+              "odd": 1.89
+            }
+          ]
+        },
+        {
+          "market": "Nombre total de buts (t. rég)",
+          "selections": [
+            {
+              "selection": "+ de 0,5",
+              "odd": 1.06
+            },
+            {
+              "selection": "- de 0,5",
+              "odd": 6.4
+            },
+            {
+              "selection": "+ de 1,5",
+              "odd": 1.36
+            },
+            {
+              "selection": "- de 1,5",
+              "odd": 2.75
+            },
+            {
+              "selection": "+ de 2,5",
+              "odd": 2.12
+            },
+            {
+              "selection": "- de 2,5",
+              "odd": 1.59
+            }
+          ]
+        },
+        {
+          "market": "Les 2 équipes marquent (t. rég)",
+          "selections": [
+            {
+              "selection": "Oui",
+              "odd": 2.05
+            },
+            {
+              "selection": "Non",
+              "odd": 1.63
+            }
+          ]
+        },
+        {
+          "market": "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+          "selections": [
+            {
+              "selection": "Oui",
+              "odd": 1.68
+            },
+            {
+              "selection": "Non",
+              "odd": 2.05
+            }
+          ]
+        },
+        {
+          "market": "Double chance buteur (t. rég)",
+          "selections": [
+            {
+              "selection": "L. Messi / Lau. Martínez",
+              "odd": 1.46
+            },
+            {
+              "selection": "L. Messi / J. Álvarez",
+              "odd": 1.48
+            },
+            {
+              "selection": "L. Messi / N. Paz",
+              "odd": 1.57
+            },
+            {
+              "selection": "L. Messi / B. Embolo",
+              "odd": 1.58
+            },
+            {
+              "selection": "L. Messi / C. Itten",
+              "odd": 1.59
+            },
+            {
+              "selection": "L. Messi / Thiago Almada",
+              "odd": 1.61
+            }
+          ]
+        },
+        {
+          "market": "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+          "selections": [
+            {
+              "selection": "J. Álvarez / L. Messi",
+              "odd": 1.2
+            },
+            {
+              "selection": "L. Messi / Lau. Martínez",
+              "odd": 1.21
+            },
+            {
+              "selection": "N. Paz / L. Messi",
+              "odd": 1.22
+            },
+            {
+              "selection": "L. Messi / Thiago Almada",
+              "odd": 1.28
+            },
+            {
+              "selection": "L. Messi / E. Fernandez",
+              "odd": 1.29
+            },
+            {
+              "selection": "L. Messi / R. De Paul",
+              "odd": 1.31
+            }
+          ]
+        }
+      ],
+      "selection_count_extracted": 29
+    },
+    {
+      "sport": "football",
+      "event": "France - Espagne",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/france-espagne-m1165871812743168",
+      "competition": "Coupe du Monde 2026 • Demi-Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "France",
+          "odd": 2.3
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.28
+        },
+        {
+          "selection": "Espagne",
+          "odd": 3.22
+        }
+      ],
+      "captured_at_utc": "2026-07-11T11:01:24Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 805990,
+      "detail_markets_seen": [
+        "Double chance (t. rég)",
+        "Nombre total de buts (t. rég)",
+        "Les 2 équipes marquent (t. rég)",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+        "Double chance buteur (t. rég)",
+        "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+        "Score exact (t. rég)"
+      ],
+      "markets_extracted": [
+        {
+          "market": "Double chance (t. rég)",
+          "selections": [
+            {
+              "selection": "France ou Nul",
+              "odd": 1.31
+            },
+            {
+              "selection": "France ou Espagne",
+              "odd": 1.27
+            },
+            {
+              "selection": "Nul ou Espagne",
+              "odd": 1.56
+            }
+          ]
+        },
+        {
+          "market": "Nombre total de buts (t. rég)",
+          "selections": [
+            {
+              "selection": "+ de 0,5",
+              "odd": 1.04
+            },
+            {
+              "selection": "- de 0,5",
+              "odd": 10.5
+            },
+            {
+              "selection": "+ de 1,5",
+              "odd": 1.25
+            },
+            {
+              "selection": "- de 1,5",
+              "odd": 3.25
+            },
+            {
+              "selection": "+ de 2,5",
+              "odd": 1.82
+            },
+            {
+              "selection": "- de 2,5",
+              "odd": 1.79
+            }
+          ]
+        },
+        {
+          "market": "Les 2 équipes marquent (t. rég)",
+          "selections": [
+            {
+              "selection": "Oui",
+              "odd": 1.65
+            },
+            {
+              "selection": "Non",
+              "odd": 1.98
+            }
+          ]
+        },
+        {
+          "market": "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+          "selections": [
+            {
+              "selection": "Oui",
+              "odd": 1.45
+            },
+            {
+              "selection": "Non",
+              "odd": 2.5
+            }
+          ]
+        },
+        {
+          "market": "Double chance buteur (t. rég)",
+          "selections": [
+            {
+              "selection": "K. Mbappé / M. Oyarzabal",
+              "odd": 1.58
+            },
+            {
+              "selection": "K. Mbappé / J. Mateta",
+              "odd": 1.61
+            },
+            {
+              "selection": "O. Dembélé / K. Mbappé",
+              "odd": 1.62
+            },
+            {
+              "selection": "M. Thuram / K. Mbappé",
+              "odd": 1.63
+            },
+            {
+              "selection": "K. Mbappé / F. Torres",
+              "odd": 1.63
+            },
+            {
+              "selection": "B. Iglesias / K. Mbappé",
+              "odd": 1.64
+            }
+          ]
+        },
+        {
+          "market": "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+          "selections": [
+            {
+              "selection": "O. Dembélé / K. Mbappé",
+              "odd": 1.33
+            },
+            {
+              "selection": "K. Mbappé / M. Oyarzabal",
+              "odd": 1.35
+            },
+            {
+              "selection": "M. Olise / K. Mbappé",
+              "odd": 1.36
+            },
+            {
+              "selection": "K. Mbappé / R. Cherki",
+              "odd": 1.4
+            },
+            {
+              "selection": "L. Yamal / K. Mbappé",
+              "odd": 1.41
+            },
+            {
+              "selection": "K. Mbappé / M. Thuram",
+              "odd": 1.41
+            }
+          ]
+        }
+      ],
+      "selection_count_extracted": 25
+    },
+    {
+      "sport": "tennis",
+      "event": "Heliovaara H / Patten H - Arevalo M / Pavic M",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-h-c1571/heliovaara-h-patten-h-arevalo-m-pavic-m-m1164792605741056",
+      "competition": "Wimbledon Doubles H. • Finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Heliovaara H / Patten H",
+          "odd": 1.73
+        },
+        {
+          "selection": "Arevalo M / Pavic M",
+          "odd": 2.08
+        }
+      ],
+      "captured_at_utc": "2026-07-11T11:01:24Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 223362,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ],
+      "markets_extracted": [
+        {
+          "market": "Nombre total de jeux",
+          "selections": [
+            {
+              "selection": "+ de 25,5",
+              "odd": 1.75
+            },
+            {
+              "selection": "- de 25,5",
+              "odd": 1.73
+            }
+          ]
+        },
+        {
+          "market": "Score final (sets)",
+          "selections": [
+            {
+              "selection": "2 - 0",
+              "odd": 2.55
+            },
+            {
+              "selection": "0 - 2",
+              "odd": 3.2
+            },
+            {
+              "selection": "2 - 1",
+              "odd": 3.45
+            },
+            {
+              "selection": "1 - 2",
+              "odd": 4.0
+            }
+          ]
+        },
+        {
+          "market": "Les deux joueurs gagnent un set",
+          "selections": [
+            {
+              "selection": "Oui",
+              "odd": 1.98
+            },
+            {
+              "selection": "Non",
+              "odd": 1.55
+            }
+          ]
+        },
+        {
+          "market": "Écart de sets",
+          "selections": [
+            {
+              "selection": "Heliovaara H / Patten H gagne de 2 ou +",
+              "odd": 2.55
+            },
+            {
+              "selection": "Arevalo M / Pavic M ne perd pas ou perd de 1 exactement",
+              "odd": 1.34
+            },
+            {
+              "selection": "Heliovaara H / Patten H ne perd pas ou perd de 1 exactement",
+              "odd": 1.22
+            },
+            {
+              "selection": "Arevalo M / Pavic M gagne de 2 ou +",
+              "odd": 3.2
+            }
+          ]
+        },
+        {
+          "market": "Vainqueur du set",
+          "selections": [
+            {
+              "selection": "Heliovaara H / Patten H",
+              "odd": 1.64
+            },
+            {
+              "selection": "Arevalo M / Pavic M",
+              "odd": 1.64
+            }
+          ]
+        }
+      ],
+      "selection_count_extracted": 14
+    },
+    {
+      "sport": "tennis",
+      "event": "Karolina Muchova - Linda Noskova",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-f-c51/karolina-muchova-linda-noskova-m1164820874477568",
+      "competition": "Wimbledon F. • Finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Karolina Muchova",
+          "odd": 1.71
+        },
+        {
+          "selection": "Linda Noskova",
+          "odd": 2.23
+        }
+      ],
+      "captured_at_utc": "2026-07-11T11:01:24Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 236784,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ],
+      "markets_extracted": [
+        {
+          "market": "Nombre total de jeux",
+          "selections": [
+            {
+              "selection": "+ de 19,5",
+              "odd": 1.19
+            },
+            {
+              "selection": "- de 19,5",
+              "odd": 3.25
+            },
+            {
+              "selection": "+ de 20,5",
+              "odd": 1.32
+            },
+            {
+              "selection": "- de 20,5",
+              "odd": 2.55
+            },
+            {
+              "selection": "+ de 21,5",
+              "odd": 1.41
+            },
+            {
+              "selection": "- de 21,5",
+              "odd": 2.26
+            }
+          ]
+        },
+        {
+          "market": "Score final (sets)",
+          "selections": [
+            {
+              "selection": "2 - 0",
+              "odd": 2.48
+            },
+            {
+              "selection": "0 - 2",
+              "odd": 3.35
+            },
+            {
+              "selection": "2 - 1",
+              "odd": 4.0
+            },
+            {
+              "selection": "1 - 2",
+              "odd": 4.7
+            }
+          ]
+        },
+        {
+          "market": "Les deux joueurs gagnent un set",
+          "selections": [
+            {
+              "selection": "Oui",
+              "odd": 2.2
+            },
+            {
+              "selection": "Non",
+              "odd": 1.5
+            }
+          ]
+        },
+        {
+          "market": "Écart de sets",
+          "selections": [
+            {
+              "selection": "Karolina Muchova gagne de 2 ou +",
+              "odd": 2.48
+            },
+            {
+              "selection": "Linda Noskova ne perd pas ou perd de 1 exactement",
+              "odd": 1.39
+            },
+            {
+              "selection": "Karolina Muchova ne perd pas ou perd de 1 exactement",
+              "odd": 1.23
+            },
+            {
+              "selection": "Linda Noskova gagne de 2 ou +",
+              "odd": 3.35
+            }
+          ]
+        },
+        {
+          "market": "Vainqueur du set",
+          "selections": [
+            {
+              "selection": "Karolina Muchova",
+              "odd": 1.61
+            },
+            {
+              "selection": "Linda Noskova",
+              "odd": 1.6
+            }
+          ]
+        }
+      ],
+      "selection_count_extracted": 18
+    },
+    {
+      "sport": "tennis",
+      "event": "Guo H / Mladenovic K - Dabrowski G / Stefani L",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-f-c1572/guo-h-mladenovic-k-dabrowski-g-stefani-l-m1165781654257664",
+      "competition": "Wimbledon Doubles F. • Finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Guo H / Mladenovic K",
+          "odd": 2.55
+        },
+        {
+          "selection": "Dabrowski G / Stefani L",
+          "odd": 1.41
+        }
+      ],
+      "captured_at_utc": "2026-07-11T11:01:24Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 192275,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ],
+      "markets_extracted": [
+        {
+          "market": "Score final (sets)",
+          "selections": [
+            {
+              "selection": "2 - 0",
+              "odd": 3.9
+            },
+            {
+              "selection": "0 - 2",
+              "odd": 1.96
+            },
+            {
+              "selection": "2 - 1",
+              "odd": 4.8
+            },
+            {
+              "selection": "1 - 2",
+              "odd": 3.3
+            }
+          ]
+        },
+        {
+          "market": "Les deux joueurs gagnent un set",
+          "selections": [
+            {
+              "selection": "Oui",
+              "odd": 2.2
+            },
+            {
+              "selection": "Non",
+              "odd": 1.44
+            }
+          ]
+        },
+        {
+          "market": "Écart de sets",
+          "selections": [
+            {
+              "selection": "Guo H / Mladenovic K gagne de 2 ou +",
+              "odd": 3.9
+            },
+            {
+              "selection": "Dabrowski G / Stefani L ne perd pas ou perd de 1 exactement",
+              "odd": 1.14
+            },
+            {
+              "selection": "Guo H / Mladenovic K ne perd pas ou perd de 1 exactement",
+              "odd": 1.56
+            },
+            {
+              "selection": "Dabrowski G / Stefani L gagne de 2 ou +",
+              "odd": 1.96
+            }
+          ]
+        },
+        {
+          "market": "Vainqueur du set",
+          "selections": [
+            {
+              "selection": "Guo H / Mladenovic K",
+              "odd": 2.12
+            },
+            {
+              "selection": "Dabrowski G / Stefani L",
+              "odd": 2.12
+            }
+          ]
+        }
+      ],
+      "selection_count_extracted": 12
+    },
+    {
+      "sport": "tennis",
+      "event": "Jannik Sinner - Alexander Zverev",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-h-c24/jannik-sinner-alexander-zverev-m1165747534716928",
+      "competition": "Wimbledon H. • Finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Jannik Sinner",
+          "odd": 1.2
+        },
+        {
+          "selection": "Alexander Zverev",
+          "odd": 4.75
+        }
+      ],
+      "captured_at_utc": "2026-07-11T11:01:24Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 245875,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ],
+      "markets_extracted": [
+        {
+          "market": "Nombre total de jeux",
+          "selections": [
+            {
+              "selection": "+ de 34,5",
+              "odd": 1.44
+            },
+            {
+              "selection": "- de 34,5",
+              "odd": 2.06
+            },
+            {
+              "selection": "+ de 35,5",
+              "odd": 1.52
+            },
+            {
+              "selection": "- de 35,5",
+              "odd": 1.91
+            },
+            {
+              "selection": "+ de 36,5",
+              "odd": 1.59
+            },
+            {
+              "selection": "- de 36,5",
+              "odd": 1.81
+            }
+          ]
+        },
+        {
+          "market": "Score final (sets)",
+          "selections": [
+            {
+              "selection": "3 - 0",
+              "odd": 2.12
+            },
+            {
+              "selection": "0 - 3",
+              "odd": 3.15
+            },
+            {
+              "selection": "3 - 1",
+              "odd": 5.4
+            },
+            {
+              "selection": "1 - 3",
+              "odd": 9.4
+            }
+          ]
+        },
+        {
+          "market": "Les deux joueurs gagnent un set",
+          "selections": [
+            {
+              "selection": "Oui",
+              "odd": 1.62
+            },
+            {
+              "selection": "Non",
+              "odd": 1.98
+            }
+          ]
+        },
+        {
+          "market": "Écart de sets",
+          "selections": [
+            {
+              "selection": "Jannik Sinner gagne de 3 ou +",
+              "odd": 2.12
+            },
+            {
+              "selection": "Alexander Zverev ne perd pas ou perd de 2 ou -",
+              "odd": 1.5
+            },
+            {
+              "selection": "Jannik Sinner gagne de 2 ou +",
+              "odd": 1.36
+            },
+            {
+              "selection": "Alexander Zverev ne perd pas ou perd de 1 exactement",
+              "odd": 2.4
+            },
+            {
+              "selection": "Jannik Sinner ne perd pas ou perd de 1 exactement",
+              "odd": 1.06
+            },
+            {
+              "selection": "Alexander Zverev gagne de 2 ou +",
+              "odd": 4.9
+            },
+            {
+              "selection": "Jannik Sinner ne perd pas ou perd de 2 ou -",
+              "odd": 1.01
+            }
+          ]
+        },
+        {
+          "market": "Vainqueur du set",
+          "selections": [
+            {
+              "selection": "Jannik Sinner",
+              "odd": 1.26
+            },
+            {
+              "selection": "Alexander Zverev",
+              "odd": 1.27
+            }
+          ]
+        }
+      ],
+      "selection_count_extracted": 21
+    }
+  ],
+  "checks": {
+    "betclic_robots": {
+      "url": "https://www.betclic.fr/robots.txt",
+      "status": 200,
+      "bytes": 29,
+      "sample": "User-agent: *\nDisallow: /*?*\n"
+    },
+    "anj": {
+      "url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "status": 200,
+      "bytes": 97306,
+      "betclic_present": true
+    },
+    "football": {
+      "url": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1",
+      "status": 200,
+      "bytes": 255499
+    },
+    "tennis": {
+      "url": "https://www.betclic.fr/tennis-stennis",
+      "status": 200,
+      "bytes": 185670
+    }
+  },
+  "espn_worldcup": [
+    {
+      "name": "France at Norway",
+      "date": "2026-06-26T19:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Iraq at Senegal",
+      "date": "2026-06-26T19:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Saudi Arabia at Cape Verde",
+      "date": "2026-06-27T00:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Spain at Uruguay",
+      "date": "2026-06-27T00:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Iran at Egypt",
+      "date": "2026-06-27T03:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Belgium at New Zealand",
+      "date": "2026-06-27T03:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Ghana at Croatia",
+      "date": "2026-06-27T21:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "England at Panama",
+      "date": "2026-06-27T21:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Portugal at Colombia",
+      "date": "2026-06-27T23:30Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Uzbekistan at Congo DR",
+      "date": "2026-06-27T23:30Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Austria at Algeria",
+      "date": "2026-06-28T02:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Argentina at Jordan",
+      "date": "2026-06-28T02:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Canada at South Africa",
+      "date": "2026-06-28T19:00Z",
+      "status": "Full Time"
+    }
+  ],
+  "extracted_at_utc": "2026-07-11T11:02:38Z",
+  "selection_count_extracted": 149
+}

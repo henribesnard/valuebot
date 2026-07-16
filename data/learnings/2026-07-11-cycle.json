@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-11",
+  "created_at": "2026-07-11T06:02:25Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 7,
+  "metrics": {
+    "bankroll_units": 101.18,
+    "tips_total": 12,
+    "pending_total": 2,
+    "settled_total": 10,
+    "yield_pct": 36.31,
+    "roi_pct": 1.18,
+    "win_rate_pct": 80.0,
+    "average_odd": 1.77,
+    "current_drawdown_units": 0.0,
+    "max_drawdown_units": 0.25,
+    "brier_score": 0.1733
+  },
+  "observations": [
+    "Scan HTTPS Betclic + ANJ réalisé le 2026-07-11T06:01:51Z: 3 événements football Coupe du Monde 2026 et 4 événements tennis Wimbledon; bookmaker Betclic vérifié présent sur la page ANJ.",
+    "Marchés couverts: football 1N2 temps réglementaire, double chance, total buts, BTTS, score exact/handicap lorsque listés; tennis vainqueur match, total jeux, score sets, les deux gagnent un set, écart de sets/vainqueur de set lorsque listés.",
+    "Aucun nouveau conseil publié: Norvège-Angleterre et Argentine-Suisse ont déjà des conseils pending; France-Espagne et les finales Wimbledon ne franchissent pas les filtres avec probabilité indépendante suffisamment robuste/EV traçable; les marchés secondaires sont visibles mais les cotes détaillées et les stats indépendantes fiables ne suffisent pas à qualifier un signal."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

@@ -1,0 +1,640 @@
+{
+  "collected_at_utc": "2026-06-26T06:26:49Z",
+  "source_cache": "data/cache/valuebot-radar-20260626T061812Z.json",
+  "live_checks": [],
+  "candidates": [
+    {
+      "sport": "football",
+      "event": "Sénégal - Irak",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/senegal-irak-m1117886432563200",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Sénégal",
+          "odd": 1.23
+        },
+        {
+          "selection": "Nul",
+          "odd": 7.0
+        },
+        {
+          "selection": "Irak",
+          "odd": 11.5
+        }
+      ],
+      "hour_fr": "21:00",
+      "day_label": "Aujourd'hui",
+      "detail_markets_seen": [
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double Chance Buteur",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Sénégal",
+        "Total de buts - Irak",
+        "Score exact"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "football",
+      "event": "Norvège - France",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/norvege-france-m1117886904311808",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Norvège",
+          "odd": 5.0
+        },
+        {
+          "selection": "Nul",
+          "odd": 4.9
+        },
+        {
+          "selection": "France",
+          "odd": 1.59
+        }
+      ],
+      "hour_fr": "21:00",
+      "day_label": "Aujourd'hui",
+      "detail_markets_seen": [
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double Chance Buteur",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Norvège",
+        "Total de buts - France",
+        "Score exact"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "football",
+      "event": "Uruguay - Espagne",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/uruguay-espagne-m1044643178733568",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Uruguay",
+          "odd": 7.0
+        },
+        {
+          "selection": "Nul",
+          "odd": 4.0
+        },
+        {
+          "selection": "Espagne",
+          "odd": 1.54
+        }
+      ],
+      "hour_fr": "02:00",
+      "day_label": "Demain",
+      "detail_markets_seen": [
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double Chance Buteur",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Uruguay",
+        "Total de buts - Espagne",
+        "Score exact"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "football",
+      "event": "Cap-Vert - Arabie Saoudite",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/cap-vert-arabie-saoudite-m1044643189964800",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Cap-Vert",
+          "odd": 2.65
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.4
+        },
+        {
+          "selection": "Arabie Saou",
+          "odd": 2.72
+        }
+      ],
+      "hour_fr": "02:00",
+      "day_label": "Demain",
+      "detail_markets_seen": [
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double Chance Buteur",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Cap-Vert",
+        "Total de buts - Arabie Saoudite",
+        "Score exact"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "football",
+      "event": "Égypte - Iran",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/egypte-iran-m1044756422541312",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Égypte",
+          "odd": 2.52
+        },
+        {
+          "selection": "Nul",
+          "odd": 2.65
+        },
+        {
+          "selection": "Iran",
+          "odd": 3.78
+        }
+      ],
+      "hour_fr": "05:00",
+      "day_label": "Demain",
+      "detail_markets_seen": [
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double Chance Buteur",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Égypte",
+        "Total de buts - Iran",
+        "Score exact"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "football",
+      "event": "Nouvelle-Zélande - Belgique",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/nouvelle-zelande-belgique-m1044756423938048",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Nouvelle-Zél",
+          "odd": 17.0
+        },
+        {
+          "selection": "Nul",
+          "odd": 8.0
+        },
+        {
+          "selection": "Belgique",
+          "odd": 1.15
+        }
+      ],
+      "hour_fr": "05:00",
+      "day_label": "Demain",
+      "detail_markets_seen": [
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double Chance Buteur",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Nouvelle-Zélande",
+        "Total de buts - Belgique",
+        "Score exact"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "football",
+      "event": "Croatie - Ghana",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/croatie-ghana-m1117886706999296",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Croatie",
+          "odd": 1.76
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.25
+        },
+        {
+          "selection": "Ghana",
+          "odd": 5.75
+        }
+      ],
+      "hour_fr": "23:00",
+      "day_label": "Demain",
+      "detail_markets_seen": [
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double Chance Buteur",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Croatie",
+        "Total de buts - Ghana",
+        "Score exact"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "football",
+      "event": "Panama - Angleterre",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/panama-angleterre-m1117886801473536",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Panama",
+          "odd": 16.0
+        },
+        {
+          "selection": "Nul",
+          "odd": 8.0
+        },
+        {
+          "selection": "Angleterre",
+          "odd": 1.16
+        }
+      ],
+      "hour_fr": "23:00",
+      "day_label": "Demain",
+      "detail_markets_seen": [
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double Chance Buteur",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Panama",
+        "Total de buts - Angleterre",
+        "Score exact"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "football",
+      "event": "Colombie - Portugal",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/colombie-portugal-m1101087127207936",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Colombie",
+          "odd": 4.35
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.7
+        },
+        {
+          "selection": "Portugal",
+          "odd": 1.82
+        }
+      ],
+      "hour_fr": "01:30",
+      "day_label": "Demain",
+      "detail_markets_seen": [
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double Chance Buteur",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Colombie",
+        "Total de buts - Portugal",
+        "Score exact"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "football",
+      "event": "RD Congo - Ouzbékistan",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/rd-congo-ouzbekistan-m1117886900039680",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "RD Congo",
+          "odd": 1.73
+        },
+        {
+          "selection": "Nul",
+          "odd": 4.15
+        },
+        {
+          "selection": "Ouzbéki",
+          "odd": 4.35
+        }
+      ],
+      "hour_fr": "01:30",
+      "day_label": "Demain",
+      "detail_markets_seen": [
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double Chance Buteur",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - RD Congo",
+        "Total de buts - Ouzbékistan",
+        "Score exact"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "tennis",
+      "event": "Tatjana Maria - Jelena Ostapenko",
+      "href": "https://www.betclic.fr/tennis-stennis/eastbourne-wta-c177/tatjana-maria-jelena-ostapenko-m1152085070774272",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Tatjana M",
+          "odd": 2.55
+        },
+        {
+          "selection": "Jelena Ostap",
+          "odd": 1.5
+        }
+      ],
+      "hour_fr": "12:00",
+      "day_label": "Aujourd'hui",
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Le joueur remporte le 1er set 6-0, 6-1 ou 6-2 ou gagne le match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "tennis",
+      "event": "Xin Yu Wang - Naomi Osaka",
+      "href": "https://www.betclic.fr/tennis-stennis/bad-homburg-wta-c28855/xin-yu-wang-naomi-osaka-m1151965118947328",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Xin Yu",
+          "odd": 3.55
+        },
+        {
+          "selection": "Naomi O",
+          "odd": 1.28
+        }
+      ],
+      "hour_fr": "13:00",
+      "day_label": "Aujourd'hui",
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Le joueur remporte le 1er set 6-0, 6-1 ou 6-2 ou gagne le match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "tennis",
+      "event": "Petra Marcinko - Madison Keys",
+      "href": "https://www.betclic.fr/tennis-stennis/eastbourne-wta-c177/petra-marcinko-madison-keys-m1152180659949568",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Petra Marc",
+          "odd": 5.4
+        },
+        {
+          "selection": "Madison",
+          "odd": 1.14
+        }
+      ],
+      "hour_fr": "13:10",
+      "day_label": "Aujourd'hui",
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Le joueur remporte le 1er set 6-0, 6-1 ou 6-2 ou gagne le match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "tennis",
+      "event": "Nuno Borges - Ethan Quinn",
+      "href": "https://www.betclic.fr/tennis-stennis/majorque-atp-c28858/nuno-borges-ethan-quinn-m1151986918842368",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Nuno Bo",
+          "odd": 1.71
+        },
+        {
+          "selection": "Ethan Q",
+          "odd": 2.2
+        }
+      ],
+      "hour_fr": "15:00",
+      "day_label": "Aujourd'hui",
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Le joueur remporte le 1er set 6-0, 6-1 ou 6-2 ou gagne le match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "tennis",
+      "event": "Elena Gabriela Ruse - Karolina Muchova",
+      "href": "https://www.betclic.fr/tennis-stennis/bad-homburg-wta-c28855/elena-gabriela-ruse-karolina-muchova-m1152147953643520",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Elena Gabriela",
+          "odd": 2.7
+        },
+        {
+          "selection": "Karolina Muc",
+          "odd": 1.45
+        }
+      ],
+      "hour_fr": "15:00",
+      "day_label": "Aujourd'hui",
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Le joueur remporte le 1er set 6-0, 6-1 ou 6-2 ou gagne le match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "tennis",
+      "event": "Zizou Bergs - Toby Samuel",
+      "href": "https://www.betclic.fr/tennis-stennis/eastbourne-atp-c3417/zizou-bergs-toby-samuel-m1151984434765843",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Zizou B",
+          "odd": 1.49
+        },
+        {
+          "selection": "Toby Sa",
+          "odd": 2.7
+        }
+      ],
+      "hour_fr": "15:30",
+      "day_label": "Aujourd'hui",
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Le joueur remporte le 1er set 6-0, 6-1 ou 6-2 ou gagne le match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "tennis",
+      "event": "Jack Draper - Ugo Humbert",
+      "href": "https://www.betclic.fr/tennis-stennis/eastbourne-atp-c3417/jack-draper-ugo-humbert-m1152107677048832",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Jack Dr",
+          "odd": 1.57
+        },
+        {
+          "selection": "Ugo Hum",
+          "odd": 2.49
+        }
+      ],
+      "hour_fr": "16:40",
+      "day_label": "Aujourd'hui",
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Le joueur remporte le 1er set 6-0, 6-1 ou 6-2 ou gagne le match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ],
+      "live_detail_ok": true
+    },
+    {
+      "sport": "tennis",
+      "event": "Fabian Marozsan - Alejandro Davidovich Fokina",
+      "href": "https://www.betclic.fr/tennis-stennis/majorque-atp-c28858/fabian-marozsan-alejandro-davidovich-fokina-m1152126551330816",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Fabian Maro",
+          "odd": 3.15
+        },
+        {
+          "selection": "Alejandro Davidovich Fo",
+          "odd": 1.38
+        }
+      ],
+      "hour_fr": "17:30",
+      "day_label": "Aujourd'hui",
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Le joueur remporte le 1er set 6-0, 6-1 ou 6-2 ou gagne le match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ],
+      "live_detail_ok": true
+    }
+  ],
+  "betclic_robots_ok": true,
+  "betclic_robots_live": "User-agent: *\nDisallow: /*?*",
+  "anj_ok": true,
+  "anj_betclic_present_live": true,
+  "espn_worldcup_live": [
+    {
+      "name": "France at Norway",
+      "date": "2026-06-26T19:00Z",
+      "status": "Scheduled"
+    },
+    {
+      "name": "Iraq at Senegal",
+      "date": "2026-06-26T19:00Z",
+      "status": "Scheduled"
+    },
+    {
+      "name": "Saudi Arabia at Cape Verde",
+      "date": "2026-06-27T00:00Z",
+      "status": "Scheduled"
+    },
+    {
+      "name": "Spain at Uruguay",
+      "date": "2026-06-27T00:00Z",
+      "status": "Scheduled"
+    },
+    {
+      "name": "Iran at Egypt",
+      "date": "2026-06-27T03:00Z",
+      "status": "Scheduled"
+    },
+    {
+      "name": "Belgium at New Zealand",
+      "date": "2026-06-27T03:00Z",
+      "status": "Scheduled"
+    },
+    {
+      "name": "Ghana at Croatia",
+      "date": "2026-06-27T21:00Z",
+      "status": "Scheduled"
+    },
+    {
+      "name": "England at Panama",
+      "date": "2026-06-27T21:00Z",
+      "status": "Scheduled"
+    },
+    {
+      "name": "Portugal at Colombia",
+      "date": "2026-06-27T23:30Z",
+      "status": "Scheduled"
+    },
+    {
+      "name": "Uzbekistan at Congo DR",
+      "date": "2026-06-27T23:30Z",
+      "status": "Scheduled"
+    },
+    {
+      "name": "Austria at Algeria",
+      "date": "2026-06-28T02:00Z",
+      "status": "Scheduled"
+    },
+    {
+      "name": "Argentina at Jordan",
+      "date": "2026-06-28T02:00Z",
+      "status": "Scheduled"
+    },
+    {
+      "name": "Canada at South Africa",
+      "date": "2026-06-28T19:00Z",
+      "status": "Scheduled"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-21",
+  "cycle": "initialisation",
+  "bankroll_units": 100.0,
+  "period_metrics": {
+    "tips_total": 0,
+    "settled_total": 0,
+    "yield": 0.0,
+    "roi": 0.0,
+    "win_rate": null,
+    "average_odd": null,
+    "current_drawdown": 0.0,
+    "max_drawdown": 0.0,
+    "brier_score": null
+  },
+  "decision": "no_bet",
+  "observations": [
+    "Lancement public de ValueBot avec bankroll de référence à 100 unités.",
+    "Aucun pari n'a été publié pendant le cycle initial : aucune sélection ne dispose encore d'un ensemble complet données publiques fiables + probabilité modèle + cote ANJ horodatée + EV >= 0.03.",
+    "Les anciennes données de démonstration du frontend ont été retirées de l'affichage public pour éviter toute confusion avec des conseils réels."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain.",
+  "model_version": {
+    "label": "v1.0-launch",
+    "params": {
+      "ev_min": 0.03,
+      "kelly_fraction": 0.25,
+      "stake_max_units": 3,
+      "daily_exposure_max_units": null,
+      "drawdown_conservative_threshold": 0.30
+    }
+  }
+}

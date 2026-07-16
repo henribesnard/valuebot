@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-11",
+  "created_at": "2026-07-11T11:02:46Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 149,
+  "metrics": {
+    "bankroll_units": 101.18,
+    "tips_total": 12,
+    "pending_total": 2,
+    "settled_total": 10,
+    "yield_pct": 36.31,
+    "roi_pct": 1.18,
+    "win_rate_pct": 80.0,
+    "average_odd": 1.77,
+    "current_drawdown_units": 0.0,
+    "max_drawdown_units": 0.25,
+    "brier_score": 0.1733
+  },
+  "observations": [
+    "Run cron 2026-07-11 11:01 UTC: scan football + tennis effectué sur Betclic HTTPS (ANJ vérifié: Betclic présent sur page opérateurs agréés ANJ) et ESPN Coupe du monde pour le calendrier.",
+    "Périmètre couvert: football Coupe du Monde 2026 dans les 72h (Norvège-Angleterre, Argentine-Suisse, France-Espagne) avec 1N2, double chance, over/under buts, BTTS; tennis Wimbledon (4 finales simples/doubles) avec vainqueur, total jeux, score sets, les deux gagnent un set, écart de sets.",
+    "149 sélections/marchés extraits, mais aucune publication: les deux angles football principaux sont déjà en pending (id 11 et 12), les autres prix n'ont pas de probabilité indépendante assez robuste ou présentent une incohérence/traçabilité insuffisante pour franchir EV>=1% en signal prudent sans extrapoler.",
+    "Radar à surveiller: France-Espagne (1N2 et BTTS), Wimbledon Sinner-Zverev (marchés sets/jeux à revérifier car extraction score sets incohérente vs moneyline), Muchova-Noskova total jeux."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

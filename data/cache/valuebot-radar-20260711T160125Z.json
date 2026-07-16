@@ -1,0 +1,500 @@
+{
+  "collected_at_utc": "2026-07-11T16:01:17Z",
+  "method": "HTTPS Betclic listing/detail + ANJ + ESPN scoreboard; no query-string URLs on Betclic",
+  "candidates": [
+    {
+      "sport": "football",
+      "event": "Norvège - Angleterre",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/norvege-angleterre-m1161570996490240",
+      "competition": "Coupe du Monde 2026 • Quart de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Norvège",
+          "odd": 3.85
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.8
+        },
+        {
+          "selection": "Angleterre",
+          "odd": 1.93
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 867956,
+      "detail_markets_seen": [
+        "Double chance (t. rég)",
+        "Nombre total de buts (t. rég)",
+        "Les 2 équipes marquent (t. rég)",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+        "Double chance buteur (t. rég)",
+        "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+        "Score exact (t. rég)"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "Argentine - Suisse",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/argentine-suisse-m1163224593752064",
+      "competition": "Coupe du Monde 2026 • Quart de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Argentine",
+          "odd": 1.68
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.7
+        },
+        {
+          "selection": "Suisse",
+          "odd": 5.75
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 854937,
+      "detail_markets_seen": [
+        "Double chance (t. rég)",
+        "Nombre total de buts (t. rég)",
+        "Les 2 équipes marquent (t. rég)",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+        "Double chance buteur (t. rég)",
+        "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+        "Score exact (t. rég)"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "France - Espagne",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/france-espagne-m1165871812743168",
+      "competition": "Coupe du Monde 2026 • Demi-Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "France",
+          "odd": 2.35
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.3
+        },
+        {
+          "selection": "Espagne",
+          "odd": 3.1
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 805300,
+      "detail_markets_seen": [
+        "Double chance (t. rég)",
+        "Nombre total de buts (t. rég)",
+        "Les 2 équipes marquent (t. rég)",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+        "Double chance buteur (t. rég)",
+        "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+        "Score exact (t. rég)"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Karolina Muchova - Linda Noskova",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-f-c51/karolina-muchova-linda-noskova-m1164820874477568",
+      "competition": "Wimbledon F. • Finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Karolina Muchova",
+          "odd": 2.88
+        },
+        {
+          "selection": "Linda Noskova",
+          "odd": 1.33
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 325877,
+      "detail_markets_seen": [
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Guo H / Mladenovic K - Dabrowski G / Stefani L",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-f-c1572/guo-h-mladenovic-k-dabrowski-g-stefani-l-m1165781654257664",
+      "competition": "Wimbledon Doubles F. • Finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Guo H / Mladenovic K",
+          "odd": 2.55
+        },
+        {
+          "selection": "Dabrowski G / Stefani L",
+          "odd": 1.41
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 203420,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Jannik Sinner - Alexander Zverev",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-h-c24/jannik-sinner-alexander-zverev-m1165747534716928",
+      "competition": "Wimbledon H. • Finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Jannik Sinner",
+          "odd": 1.2
+        },
+        {
+          "selection": "Alexander Zverev",
+          "odd": 4.8
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 245012,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Jaime Faria - Stan Wawrinka",
+      "href": "https://www.betclic.fr/tennis-stennis/gstaad-atp-c189/jaime-faria-stan-wawrinka-m1166514827980800",
+      "competition": "Gstaad ATP • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Jaime Faria",
+          "odd": 1.54
+        },
+        {
+          "selection": "Stan Wawrinka",
+          "odd": 2.21
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 191731,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Juan Manuel Cerundolo - Zdenek Kolar",
+      "href": "https://www.betclic.fr/tennis-stennis/gstaad-atp-c189/juan-manuel-cerundolo-zdenek-kolar-m1166515740368896",
+      "competition": "Gstaad ATP • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Juan Manuel Cerundolo",
+          "odd": 1.27
+        },
+        {
+          "selection": "Zdenek Kolar",
+          "odd": 3.2
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 192046,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Kilian Feldbausch - Miomir Kecmanovic",
+      "href": "https://www.betclic.fr/tennis-stennis/gstaad-atp-c189/kilian-feldbausch-miomir-kecmanovic-m1166516519387136",
+      "competition": "Gstaad ATP • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Kilian Feldbausch",
+          "odd": 2.49
+        },
+        {
+          "selection": "Miomir Kecmanovic",
+          "odd": 1.43
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 191910,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Pedro Martinez Portero - Yannick Hanfmann",
+      "href": "https://www.betclic.fr/tennis-stennis/gstaad-atp-c189/pedro-martinez-portero-yannick-hanfmann-m1166517190549504",
+      "competition": "Gstaad ATP • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Pedro Martinez Portero",
+          "odd": 2.7
+        },
+        {
+          "selection": "Yannick Hanfmann",
+          "odd": 1.37
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 192331,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Alexandre Müller - Alexander Shevchenko",
+      "href": "https://www.betclic.fr/tennis-stennis/gstaad-atp-c189/alexandre-muller-alexander-shevchenko-m1166517915041792",
+      "competition": "Gstaad ATP • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Alexandre Müller",
+          "odd": 2.1
+        },
+        {
+          "selection": "Alexander Shevchenko",
+          "odd": 1.6
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 192159,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Lorenzo Sonego - Joel Josef Schwarzler",
+      "href": "https://www.betclic.fr/tennis-stennis/gstaad-atp-c189/lorenzo-sonego-joel-josef-schwarzler-m1166518602981376",
+      "competition": "Gstaad ATP • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Lorenzo Sonego",
+          "odd": 1.43
+        },
+        {
+          "selection": "Joel Josef Schwarzler",
+          "odd": 2.5
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 192205,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Dominic Stephan Stricker - Jaume Munar",
+      "href": "https://www.betclic.fr/tennis-stennis/gstaad-atp-c189/dominic-stephan-stricker-jaume-munar-m1166519334637568",
+      "competition": "Gstaad ATP • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Dominic Stephan Stricker",
+          "odd": 3.05
+        },
+        {
+          "selection": "Jaume Munar",
+          "odd": 1.29
+        }
+      ],
+      "captured_at_utc": "2026-07-11T16:01:17Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 192122,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    }
+  ],
+  "checks": {
+    "betclic_robots": {
+      "url": "https://www.betclic.fr/robots.txt",
+      "status": 200,
+      "bytes": 29,
+      "sample": "User-agent: *\nDisallow: /*?*\n"
+    },
+    "anj": {
+      "url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "status": 200,
+      "bytes": 97306,
+      "betclic_present": true
+    },
+    "football": {
+      "url": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1",
+      "status": 200,
+      "bytes": 255851
+    },
+    "tennis": {
+      "url": "https://www.betclic.fr/tennis-stennis",
+      "status": 200,
+      "bytes": 249371
+    }
+  },
+  "espn_worldcup": [
+    {
+      "name": "France at Norway",
+      "date": "2026-06-26T19:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Iraq at Senegal",
+      "date": "2026-06-26T19:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Saudi Arabia at Cape Verde",
+      "date": "2026-06-27T00:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Spain at Uruguay",
+      "date": "2026-06-27T00:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Iran at Egypt",
+      "date": "2026-06-27T03:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Belgium at New Zealand",
+      "date": "2026-06-27T03:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Ghana at Croatia",
+      "date": "2026-06-27T21:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "England at Panama",
+      "date": "2026-06-27T21:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Portugal at Colombia",
+      "date": "2026-06-27T23:30Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Uzbekistan at Congo DR",
+      "date": "2026-06-27T23:30Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Austria at Algeria",
+      "date": "2026-06-28T02:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Argentina at Jordan",
+      "date": "2026-06-28T02:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Canada at South Africa",
+      "date": "2026-06-28T19:00Z",
+      "status": "Full Time"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-06-23T16:03:38Z",
+  "scope": "FIFA World Cup / Coupe du monde only",
+  "sources": {
+    "espn": [
+      "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260623",
+      "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260624"
+    ],
+    "anj": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees"
+  },
+  "anj_check": {
+    "operator_page_reachable": true,
+    "checked_at": "2026-06-23T16:03:38Z"
+  },
+  "espn_events": [
+    {
+      "id": "760461",
+      "name": "Uzbekistan at Portugal",
+      "shortName": "UZB @ POR",
+      "date": "2026-06-23T17:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "id": "760458",
+      "name": "Ghana at England",
+      "shortName": "GHA @ ENG",
+      "date": "2026-06-23T20:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "id": "760460",
+      "name": "Croatia at Panama",
+      "shortName": "CRO @ PAN",
+      "date": "2026-06-23T23:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Panama",
+        "Croatia"
+      ]
+    },
+    {
+      "id": "760459",
+      "name": "Congo DR at Colombia",
+      "shortName": "COD @ COL",
+      "date": "2026-06-24T02:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Colombia",
+        "Congo DR"
+      ]
+    },
+    {
+      "id": "760462",
+      "name": "Qatar at Bosnia-Herzegovina",
+      "shortName": "QAT @ BIH",
+      "date": "2026-06-24T19:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Bosnia-Herzegovina",
+        "Qatar"
+      ]
+    },
+    {
+      "id": "760463",
+      "name": "Canada at Switzerland",
+      "shortName": "CAN @ SUI",
+      "date": "2026-06-24T19:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Switzerland",
+        "Canada"
+      ]
+    },
+    {
+      "id": "760464",
+      "name": "Haiti at Morocco",
+      "shortName": "HAI @ MAR",
+      "date": "2026-06-24T22:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Morocco",
+        "Haiti"
+      ]
+    },
+    {
+      "id": "760465",
+      "name": "Brazil at Scotland",
+      "shortName": "BRA @ SCO",
+      "date": "2026-06-24T22:00Z",
+      "status": "Scheduled",
+      "competitors": [
+        "Scotland",
+        "Brazil"
+      ]
+    }
+  ],
+  "odds_status": {
+    "exact_anj_odds_available": false,
+    "reason": "Aucune cote opérateur ANJ exploitable en respectant robots.txt/CGU dans ce cycle; pages Winamax non retenues car robots.txt interdit le crawl de /paris-sportifs."
+  },
+  "decision": "no_bet",
+  "reason": "Sans cote ANJ exacte et horodatée exploitable légalement, aucune proposition publiable; sans modèle indépendant Poisson/xG/forme fiable, aucune EV >= 0,03 ne peut être établie."
+}

@@ -1,0 +1,32 @@
+{
+  "sport": "football",
+  "competition": "Coupe du Monde 2026 — Huitième de finale",
+  "event": "Argentine - Égypte",
+  "start_time": "2026-07-07T16:00:00Z",
+  "market": "Résultat 1N2 temps réglementaire",
+  "selection": "Argentine gagne",
+  "publication_tier": "prudent_signal",
+  "estimated_probability": 0.77,
+  "taken_odd": 1.34,
+  "bookmaker": "Betclic",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-07-04T16:00:36Z",
+  "expected_value": 0.032,
+  "confidence": 2,
+  "stake_units": 0.25,
+  "rationale": "Signal prudent — la probabilité reste issue d’un modèle léger marché + forme courte ESPN, donc insuffisante pour un conseil officiel: pas de xG/blessures/suspensions publiques complètes dans ce cycle et le 1N2 en match à élimination directe garde un risque de nul. Betclic cote l’Argentine à 1.34 en temps réglementaire; la probabilité no-vig du marché ressort autour de 71,0 %, puis ValueBot ajuste prudemment à 77 % grâce à la forme ESPN parfaite côté Argentine (WWWWW) contre une Égypte plus irrégulière (WDWDL) et un statut de favori très net. Le seuil de rentabilité est 74,6 %, l’EV estimée ressort à environ +3,2 %. Mise limitée à 0,25 u.",
+  "sources": [
+    "Betclic football Coupe du Monde 2026 — cote Argentine 1.34 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/argentine-egypte-m1159679249117184",
+    "ANJ opérateurs agréés — Betclic vérifié présent lors du scan: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup scoreboard 20260707 — Egypt at Argentina, start 2026-07-07T16:00Z, formes Argentine WWWWW / Égypte WDWDL: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260707",
+    "Cache ValueBot du scan: data/cache/valuebot-radar-20260704T160048Z.json"
+  ],
+  "factors": [
+    "Cote Betclic 1.34 capturée le 2026-07-04T16:00:36Z sur le marché Résultat du match (temps réglementaire)",
+    "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+    "Forme ESPN: Argentine WWWWW contre Égypte WDWDL",
+    "No-vig marché calculé autour de 71,0 %; probabilité ValueBot prudente 77 % contre seuil de rentabilité 74,6 %, EV estimée +3,2 %",
+    "Risque principal: prix bas et risque de nul en 90 minutes, d’où signal prudent et mise 0,25 u"
+  ],
+  "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle."
+}

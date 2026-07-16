@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-06",
+  "created_at": "2026-07-06T11:01:22Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 16,
+  "metrics": {
+    "bankroll_units": 100.43,
+    "tips_total": 8,
+    "pending_total": 4,
+    "settled_total": 4,
+    "yield_pct": 24.57,
+    "roi_pct": 0.43,
+    "win_rate_pct": 75.0,
+    "average_odd": 1.6,
+    "current_drawdown_units": 0.25,
+    "max_drawdown_units": 0.25,
+    "brier_score": 0.1613
+  },
+  "observations": [
+    "Cycle 2026-07-06T11:00Z: 16 candidats scannés via sources HTTPS publiques/conformes: 6 football Coupe du Monde et 10 tennis Wimbledon, cache data/cache/valuebot-radar-20260706T110048Z.json.",
+    "Marchés couverts: football 1N2 avec contrôle des familles secondaires visibles sur les détails Betclic (double chance, total buts, BTTS, score exact); tennis vainqueur avec familles secondaires visibles (total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set).",
+    "Aucun conseil publié: Betclic est bien vérifié ANJ et les cotes sont horodatées, mais aucune sélection n'a une probabilité indépendante assez robuste; les données indépendantes disponibles dans ce cycle se limitent surtout à la forme courte ESPN pour le football et à la structure de marché Betclic pour Wimbledon, insuffisant pour valider EV >= 3% officiel ou >= 1% signal prudent sans inventer.",
+    "Radar à surveiller sans publication: Portugal-Espagne, USA-Belgique, Argentine-Égypte, Suisse-Colombie, France-Maroc, Norvège-Angleterre côté football; Bouzkova-Mertens, Paolini-Eala, De Minaur-Cobolli et Kostyuk-Krueger côté Wimbledon. Recontrôler si une source publique gratuite apporte blessures/compositions/xG ou forme tennis détaillée exploitable."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-01",
+  "created_at": "2026-07-01T06:06:51Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 20,
+  "metrics": {
+    "bankroll_units": 100.37,
+    "tips_total": 1,
+    "pending_total": 0,
+    "settled_total": 1,
+    "yield_pct": 37.0,
+    "roi_pct": 0.37,
+    "win_rate_pct": 100.0,
+    "average_odd": 1.37,
+    "current_drawdown_units": 0.0,
+    "max_drawdown_units": 0.0,
+    "brier_score": 0.0484
+  },
+  "observations": [
+    "Cycle foot+tennis du 2026-07-01T06:06Z: autorisation Henri vérifiée active (Europe/Paris 08:06, expiration 2026-07-06 08:23); état local relu: bankroll 100,37 u, 1 tip réglé gagnant, aucun pending.",
+    "Scan live tracé dans data/cache/valuebot-radar-20260701T060636Z.json: 20 candidats (10 football Coupe du Monde 2026, 10 tennis Wimbledon dont 7 simples et 3 doubles), Betclic consulté en HTTPS sur URLs sans query-string; robots.txt consulté (Disallow /*?*) et Betclic retrouvé sur la page ANJ des opérateurs agréés.",
+    "Marchés contrôlés au-delà du vainqueur: football 1N2, double chance, totals buts, BTTS, total équipe, score exact; tennis vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set selon page.",
+    "Aucun nouveau pari publié: cotes ANJ Betclic disponibles/horodatées sur marchés principaux et familles secondaires, mais pas de probabilité indépendante robuste vérifiable (Elo/xG/fatigue/surface ou Poisson/xG football) suffisante dans ce cycle; probabilités no-vig de marché rejetées car circulaires, donc EV>=0,03 non démontrable."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

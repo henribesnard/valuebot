@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-13",
+  "created_at": "2026-07-13T06:02:50Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 12,
+  "metrics": {
+    "bankroll_units": 100.68,
+    "tips_total": 13,
+    "pending_total": 1,
+    "settled_total": 12,
+    "yield_pct": 18.13,
+    "roi_pct": 0.68,
+    "win_rate_pct": 66.67,
+    "average_odd": 1.77,
+    "current_drawdown_units": 0.5,
+    "max_drawdown_units": 0.5,
+    "brier_score": 0.2017
+  },
+  "observations": [
+    "Cycle 2026-07-13T06:02Z: scan football+tennis via Betclic HTTPS (robots.txt respecté, URLs sans query-string) + ANJ; 12 candidats couverts: 2 football Coupe du Monde 2026 et 10 tennis ATP/WTA.",
+    "Marchés visibles contrôlés: football 1N2, double chance, total buts, BTTS, score exact; tennis vainqueur, total jeux, score final sets, deux joueurs gagnent un set, écart de sets, vainqueur de set.",
+    "Aucun conseil publié: validation Henri de publication automatique expirée depuis le 2026-07-12 21:34 Europe/Paris; en plus, aucun nouveau candidat ne dispose dans ce cycle d’une probabilité indépendante robuste suffisante pour franchir les filtres EV sans circularité de marché. Le conseil déjà publié France-Espagne BTTS Non reste pending."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

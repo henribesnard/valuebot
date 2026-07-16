@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-15",
+  "created_at": "2026-07-15T11:08:30Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 6,
+  "metrics": {
+    "bankroll_units": 100.92,
+    "tips_total": 14,
+    "pending_total": 1,
+    "settled_total": 13,
+    "yield_pct": 23.0,
+    "roi_pct": 0.92,
+    "win_rate_pct": 69.23,
+    "average_odd": 1.78,
+    "current_drawdown_units": 0.26,
+    "max_drawdown_units": 0.5,
+    "brier_score": 0.2011
+  },
+  "observations": [
+    "Cycle du 2026-07-15T11:04Z: autorisation Henri vérifiée active jusqu'au 2026-07-12 (renouvelée 2026-07-02). La demi-finale Angleterre - Argentine est prévue ce soir à 19:00 UTC. Le tip #14 (BTTS Oui) est déjà publié et en attente pour ce match.",
+    "ESPN FIFA World Cup: 1 match aujourd'hui (Angleterre-Argentine), petite finale France vs TBD le 18/07, finale Espagne vs TBD le 19/07. Betclic Coupe du Monde: seul le match Angleterre-Argentine est côté avec 291 marchés ouverts. Les matchs des 18/07 et 19/07 ne sont pas encore ouverts à la réservation (adversaires non déterminés).",
+    "Tennis ATP/WTA: tournois Bastad, Gstaad, Umag (ATP) et Nordea Open, Athènes, Iasi (WTA) en cours sur Betclic. Pas de données ESPN détaillées disponibles pour ces tournois mineurs ni de probabilité indépendante publiable dans ce cycle.",
+    "Marchés secondaires explorés sur Angleterre-Argentine: Résultat 1N2 (Angleterre @2.70, Argentine @3.00, nul non trouvé), Double Chance (Angleterre/Argentine @1.41), Buteur (Messi @2.30, Kane @2.55). Aucun nouveau tip ajouté: le BTTS Oui est déjà couvert par le tip #14, et les autres marchés ne présentent pas de value suffisamment démontrable avec un modèle indépendant pour ce cycle.",
+    "Radar abonnés: petite finale France vs (perdant ENG/ARG) le 18/07 et finale Espagne vs (gagnant ENG/ARG) le 19/07 à suivre dès l'ouverture des cotes. Le vainqueur de ce soir déterminera les deux affiches; les cotes Betclic devraient ouvrir après le coup de sifflet final."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

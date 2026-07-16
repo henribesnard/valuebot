@@ -1,0 +1,30 @@
+{
+  "sport": "football",
+  "competition": "Coupe du Monde 2026 — Seizième de finale",
+  "event": "Colombie - Ghana",
+  "start_time": "2026-07-04T01:30:00Z",
+  "market": "Résultat 1N2 temps réglementaire",
+  "selection": "Colombie gagne",
+  "publication_tier": "prudent_signal",
+  "estimated_probability": 0.72,
+  "taken_odd": 1.42,
+  "bookmaker": "Betclic",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-07-03T16:00:44Z",
+  "expected_value": 0.022,
+  "confidence": 2,
+  "stake_units": 0.25,
+  "rationale": "Signal prudent — la probabilité est construite avec un modèle léger marché + forme, donc insuffisamment robuste pour un conseil officiel. Betclic cote la Colombie à 1.42 sur le 1N2 temps réglementaire; la probabilité no-vig du marché est proche de 68 %, puis ValueBot applique un ajustement prudent à 72 % grâce à la forme ESPN nettement supérieure (Colombie DWWWW, Ghana LDWDL) et au contexte de favori régulier. Le seuil de rentabilité est 70,4 %, l'EV estimée ressort à environ +2,2 %. Mise plafonnée à 0,25 u car signal intermédiaire et match à élimination directe sensible au nul.",
+  "sources": [
+    "Betclic football Coupe du Monde 2026 — cote capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/colombie-ghana-m1154265967235072",
+    "ANJ opérateurs agréés — Betclic vérifié présent: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup scoreboard 20260703 — Ghana at Colombia, start 2026-07-04T01:30Z, formes Colombie DWWWW / Ghana LDWDL: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260703"
+  ],
+  "factors": [
+    "Cote Betclic 1.42 capturée le 2026-07-03T16:00:44Z sur le marché Résultat du match (temps réglementaire)",
+    "Bookmaker vérifié sur la page ANJ des opérateurs agréés lors du scan",
+    "Forme ESPN: Colombie DWWWW contre Ghana LDWDL",
+    "Probabilité ValueBot prudente 72 % contre seuil de rentabilité 70,4 %, EV estimée +2,2 %"
+  ],
+  "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle."
+}

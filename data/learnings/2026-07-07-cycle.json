@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-07",
+  "created_at": "2026-07-07T06:03:24Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 15,
+  "metrics": {
+    "bankroll_units": 101.05,
+    "tips_total": 8,
+    "pending_total": 2,
+    "settled_total": 6,
+    "yield_pct": 46.67,
+    "roi_pct": 1.05,
+    "win_rate_pct": 83.33,
+    "average_odd": 1.82,
+    "current_drawdown_units": 0.0,
+    "max_drawdown_units": 0.25,
+    "brier_score": 0.2028
+  },
+  "observations": [
+    "Cycle 2026-07-07T06:02Z: 15 candidats analysés via sources HTTPS publiques/conformes: 5 football Coupe du Monde et 10 tennis Wimbledon; cache data/cache/valuebot-radar-20260707T060234Z.json.",
+    "Marchés couverts: football 1N2 + vérification disponibilité double chance, over/under buts, BTTS sur pages détail; tennis vainqueur + vérification disponibilité over/under jeux, score sets, handicap/écart de sets, les deux joueurs gagnent un set / vainqueur de set selon affiches.",
+    "Aucun nouveau conseil publié: Argentine-Égypte et Suisse-Colombie déjà couverts par des signaux prudents en attente; France-Maroc, Espagne-Belgique, Norvège-Angleterre et les affiches Wimbledon ne franchissent pas simultanément probabilité indépendante robuste, EV minimale et traçabilité suffisante sur marchés secondaires.",
+    "Deux paris réglés sur résultat ESPN: Belgique gagne vs USA et Espagne gagne vs Portugal, tous deux gagnants."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

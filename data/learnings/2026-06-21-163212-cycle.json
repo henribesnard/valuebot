@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-21",
+  "created_at": "2026-06-21T16:32:12Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 6,
+  "metrics": {
+    "bankroll_units": 100.0,
+    "tips_total": 0,
+    "pending_total": 0,
+    "settled_total": 0,
+    "yield_pct": 0.0,
+    "roi_pct": 0.0,
+    "win_rate_pct": null,
+    "average_odd": null,
+    "current_drawdown_units": 0.0,
+    "max_drawdown_units": 0.0,
+    "brier_score": null
+  },
+  "observations": [
+    "Collecte publique du 2026-06-21/22: TheSportsDB a retourné 6 matchs football (Coupe du monde/FIFA World Cup et Irish Premier Division) et 0 match tennis; 2 matchs étaient déjà terminés, 4 restaient à venir.",
+    "Aucun pari publié: les cotes ANJ n'ont pas été vérifiables de façon complète et horodatée. ParionsSport/FDJ a répondu 403/410, Betclic n'a fourni qu'une coquille applicative sans cote de match traçable dans le HTML, PMU n'a pas exposé de cote statique exploitable.",
+    "Filtre ValueBot appliqué: sans cote exacte + bookmaker ANJ + timestamp/source, aucun calcul EV publiable n'est autorisé, même si des affiches existent."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

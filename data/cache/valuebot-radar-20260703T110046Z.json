@@ -1,0 +1,716 @@
+{
+  "collected_at_utc": "2026-07-03T11:00:33Z",
+  "method": "HTTPS Betclic listing/detail + ANJ + ESPN scoreboard; no query-string URLs on Betclic",
+  "candidates": [
+    {
+      "sport": "football",
+      "event": "Australie - Égypte",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/australie-egypte-m1153496414015488",
+      "competition": "Coupe du Monde 2026 • Seizième de finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Australie",
+          "odd": 3.75
+        },
+        {
+          "selection": "Nul",
+          "odd": 2.95
+        },
+        {
+          "selection": "Égypte",
+          "odd": 2.35
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 698083,
+      "detail_markets_seen": [
+        "Résultat du match (tps rég.)",
+        "Résultat du match (tps rég.) – Extra gains à chaque but d’écart",
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Australie",
+        "Total de buts - Égypte",
+        "Score exact"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "Argentine - Cap-Vert",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/argentine-cap-vert-m1153382760058880",
+      "competition": "Coupe du Monde 2026 • Seizième de finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Argentine",
+          "odd": 1.13
+        },
+        {
+          "selection": "Nul",
+          "odd": 9.0
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 774743,
+      "detail_markets_seen": [
+        "Résultat du match (tps rég.)",
+        "Nombre total de buts",
+        "Double chance",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Argentine",
+        "Total de buts - Cap-Vert",
+        "Score exact"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "Colombie - Ghana",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/colombie-ghana-m1154265967235072",
+      "competition": "Coupe du Monde 2026 • Seizième de finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Colombie",
+          "odd": 1.42
+        },
+        {
+          "selection": "Nul",
+          "odd": 4.5
+        },
+        {
+          "selection": "Ghana",
+          "odd": 9.25
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 748524,
+      "detail_markets_seen": [
+        "Résultat du match (tps rég.)",
+        "Résultat du match (tps rég.) – Extra gains à chaque but d’écart",
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Colombie",
+        "Total de buts - Ghana",
+        "Score exact"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "Canada - Maroc",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/canada-maroc-m1156168539242496",
+      "competition": "Coupe du Monde 2026 • Huitième de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Canada",
+          "odd": 5.1
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.58
+        },
+        {
+          "selection": "Maroc",
+          "odd": 1.74
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 807480,
+      "detail_markets_seen": [
+        "Résultat du match (tps rég.)",
+        "Résultat du match (tps rég.) – Extra gains à chaque but d’écart",
+        "Nombre total de buts",
+        "Double chance",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Canada",
+        "Total de buts - Maroc",
+        "Score exact"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "Paraguay - France",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/paraguay-france-m1156889475166208",
+      "competition": "Coupe du Monde 2026 • Huitième de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Paraguay",
+          "odd": 15.75
+        },
+        {
+          "selection": "Nul",
+          "odd": 7.0
+        },
+        {
+          "selection": "France",
+          "odd": 1.18
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 796896,
+      "detail_markets_seen": [
+        "Résultat du match (tps rég.)",
+        "Nombre total de buts",
+        "Double chance",
+        "Les 2 équipes marquent",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Paraguay",
+        "Total de buts - France",
+        "Score exact"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "Brésil - Norvège",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/bresil-norvege-m1156739132125184",
+      "competition": "Coupe du Monde 2026 • Huitième de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Brésil",
+          "odd": 1.83
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.75
+        },
+        {
+          "selection": "Norvège",
+          "odd": 4.2
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 805257,
+      "detail_markets_seen": [
+        "Résultat du match (tps rég.)",
+        "Résultat du match (tps rég.) – Extra gains à chaque but d’écart",
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Brésil",
+        "Total de buts - Norvège",
+        "Score exact"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "Mexique - Angleterre",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/mexique-angleterre-m1157611910356992",
+      "competition": "Coupe du Monde 2026 • Huitième de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Mexique",
+          "odd": 3.15
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.17
+        },
+        {
+          "selection": "Angleterre",
+          "odd": 2.4
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 791586,
+      "detail_markets_seen": [
+        "Résultat du match (tps rég.)",
+        "Résultat du match (tps rég.) – Extra gains à chaque but d’écart",
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Double chance décisif (Buteur ou passeur décisif)",
+        "Total de buts - Mexique",
+        "Total de buts - Angleterre",
+        "Score exact"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "Portugal - Espagne",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/portugal-espagne-m1158791044481024",
+      "competition": "Coupe du Monde 2026 • Huitième de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Portugal",
+          "odd": 4.1
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.65
+        },
+        {
+          "selection": "Espagne",
+          "odd": 1.88
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 615577,
+      "detail_markets_seen": [
+        "Résultat du match (tps rég.)",
+        "Résultat du match (tps rég.) – Extra gains à chaque but d’écart",
+        "Nombre total de buts",
+        "Double chance",
+        "Les 2 équipes marquent",
+        "Total de buts - Portugal",
+        "Total de buts - Espagne",
+        "Score exact"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "USA - Belgique",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/usa-belgique-m1157911236861952",
+      "competition": "Coupe du Monde 2026 • Huitième de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "USA",
+          "odd": 2.6
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.45
+        },
+        {
+          "selection": "Belgique",
+          "odd": 2.67
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 612254,
+      "detail_markets_seen": [
+        "Résultat du match (tps rég.)",
+        "Résultat du match (tps rég.) – Extra gains à chaque but d’écart",
+        "Double chance",
+        "Nombre total de buts",
+        "Les 2 équipes marquent",
+        "Total de buts - USA",
+        "Total de buts - Belgique",
+        "Score exact"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Roman Safiullin - Joao Fonseca",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-h-c24/roman-safiullin-joao-fonseca-m1157588819652608",
+      "competition": "Wimbledon H. • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Roman Safiullin",
+          "odd": 1.9
+        },
+        {
+          "selection": "Joao Fonseca",
+          "odd": 1.76
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 523724,
+      "detail_markets_seen": [
+        "Les deux joueurs gagnent un set",
+        "Score final (sets)",
+        "Vainqueur du match",
+        "Vainqueur du set",
+        "Nombre total de jeux",
+        "Écart de sets"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Belinda Bencic - Anna Kalinskaya",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-f-c51/belinda-bencic-anna-kalinskaya-m1157663988682752",
+      "competition": "Wimbledon F. • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Belinda Bencic",
+          "odd": 1.09
+        },
+        {
+          "selection": "Anna Kalinskaya",
+          "odd": 5.9
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 498544,
+      "detail_markets_seen": [
+        "Les deux joueurs gagnent un set",
+        "Nombre total de jeux",
+        "Vainqueur du match",
+        "Score final (sets)",
+        "Écart de sets"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Paul J / Seggerman R - Harrison C / Skupski N",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-h-c1571/paul-j-seggerman-r-harrison-c-skupski-n-m1157652133732352",
+      "competition": "Wimbledon Doubles H. • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Paul J / Seggerman R",
+          "odd": 5.1
+        },
+        {
+          "selection": "Harrison C / Skupski N",
+          "odd": 1.12
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 496095,
+      "detail_markets_seen": [
+        "Les deux joueurs gagnent un set",
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Écart de sets"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Moutet C / Reymond A - Cash J / Glasspool L",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-h-c1571/moutet-c-reymond-a-cash-j-glasspool-l-m1157786647158784",
+      "competition": "Wimbledon Doubles H. • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Moutet C / Reymond A",
+          "odd": 2.8
+        },
+        {
+          "selection": "Cash J / Glasspool L",
+          "odd": 1.36
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 492607,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Écart de sets",
+        "Les deux joueurs gagnent un set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Heliovaara H / Patten H - Kiger M / Trhac P",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-h-c1571/heliovaara-h-patten-h-kiger-m-trhac-p-m1157846411784192",
+      "competition": "Wimbledon Doubles H. • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Heliovaara H / Patten H",
+          "odd": 1.03
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 495870,
+      "detail_markets_seen": [
+        "Les deux joueurs gagnent un set",
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Écart de sets"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Liutarevich I / Reyes-Varela M A - Krajicek A / Mektic N",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-h-c1571/liutarevich-i-reyes-varela-m-a-krajicek-a-mektic-n-m1158359910748160",
+      "competition": "Wimbledon Doubles H. • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Liutarevich I / Reyes-Varela M A",
+          "odd": 3.85
+        },
+        {
+          "selection": "Krajicek A / Mektic N",
+          "odd": 1.2
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 495712,
+      "detail_markets_seen": [
+        "Les deux joueurs gagnent un set",
+        "Vainqueur du match",
+        "Vainqueur du set",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Écart de sets"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Buse I / Trungelliti M - Cabral F / Miedler L",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-h-c1571/buse-i-trungelliti-m-cabral-f-miedler-l-m1158359910985728",
+      "competition": "Wimbledon Doubles H. • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Buse I / Trungelliti M",
+          "odd": 2.0
+        },
+        {
+          "selection": "Cabral F / Miedler L",
+          "odd": 1.71
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 495780,
+      "detail_markets_seen": [
+        "Les deux joueurs gagnent un set",
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Écart de sets"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Krawietz K / Puetz T - Burruchaga R A / Tirante T A",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-h-c1571/krawietz-k-puetz-t-burruchaga-r-a-tirante-t-a-m1158452711944192",
+      "competition": "Wimbledon Doubles H. • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Krawietz K / Puetz T",
+          "odd": 2.0
+        },
+        {
+          "selection": "Burruchaga R A / Tirante T A",
+          "odd": 1.68
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 495892,
+      "detail_markets_seen": [
+        "Les deux joueurs gagnent un set",
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Écart de sets"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Kichenok N / Ninomiya M - Muhammad A / Stollar F",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-f-c1572/kichenok-n-ninomiya-m-muhammad-a-stollar-f-m1153899030646784",
+      "competition": "Wimbledon Doubles F. • 1/32e",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Kichenok N / Ninomiya M",
+          "odd": 5.25
+        },
+        {
+          "selection": "Muhammad A / Stollar F",
+          "odd": 1.11
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 492787,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Écart de sets",
+        "Les deux joueurs gagnent un set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Kessler M / Shnaider D - Detiuc A / Khromacheva I",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-f-c1572/kessler-m-shnaider-d-detiuc-a-khromacheva-i-m1154288107745280",
+      "competition": "Wimbledon Doubles F. • 1/32e",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Kessler M / Shnaider D",
+          "odd": 2.07
+        },
+        {
+          "selection": "Detiuc A / Khromacheva I",
+          "odd": 1.66
+        }
+      ],
+      "captured_at_utc": "2026-07-03T11:00:33Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 493822,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Vainqueur du set",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Écart de sets",
+        "Les deux joueurs gagnent un set"
+      ]
+    }
+  ],
+  "checks": {
+    "betclic_robots": {
+      "url": "https://www.betclic.fr/robots.txt",
+      "status": 200,
+      "bytes": 29,
+      "sample": "User-agent: *\nDisallow: /*?*\n"
+    },
+    "anj": {
+      "url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "status": 200,
+      "bytes": 97306,
+      "betclic_present": true
+    },
+    "football": {
+      "url": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1",
+      "status": 200,
+      "bytes": 330880
+    },
+    "tennis": {
+      "url": "https://www.betclic.fr/tennis-stennis",
+      "status": 200,
+      "bytes": 328219
+    }
+  },
+  "espn_worldcup": [
+    {
+      "name": "France at Norway",
+      "date": "2026-06-26T19:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Iraq at Senegal",
+      "date": "2026-06-26T19:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Saudi Arabia at Cape Verde",
+      "date": "2026-06-27T00:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Spain at Uruguay",
+      "date": "2026-06-27T00:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Iran at Egypt",
+      "date": "2026-06-27T03:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Belgium at New Zealand",
+      "date": "2026-06-27T03:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Ghana at Croatia",
+      "date": "2026-06-27T21:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "England at Panama",
+      "date": "2026-06-27T21:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Portugal at Colombia",
+      "date": "2026-06-27T23:30Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Uzbekistan at Congo DR",
+      "date": "2026-06-27T23:30Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Austria at Algeria",
+      "date": "2026-06-28T02:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Argentina at Jordan",
+      "date": "2026-06-28T02:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Canada at South Africa",
+      "date": "2026-06-28T19:00Z",
+      "status": "Full Time"
+    }
+  ]
+}

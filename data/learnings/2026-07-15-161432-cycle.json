@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-15",
+  "created_at": "2026-07-15T16:14:32Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 5,
+  "metrics": {
+    "bankroll_units": 100.92,
+    "tips_total": 14,
+    "pending_total": 1,
+    "settled_total": 13,
+    "yield_pct": 23.0,
+    "roi_pct": 0.92,
+    "win_rate_pct": 69.23,
+    "average_odd": 1.78,
+    "current_drawdown_units": 0.26,
+    "max_drawdown_units": 0.5,
+    "brier_score": 0.2011
+  },
+  "observations": [
+    "Cycle du 2026-07-15T11:15Z: autorisation Henri vérifiée active jusqu'au 2026-07-12 (renouvelée 2026-07-02). Le tip #14 (Angleterre-Argentine BTTS Oui @1.88, signal prudent, 0.25u) est déjà publié et en attente pour la demi-finale de ce soir à 19:00 UTC.",
+    "ESPN FIFA World Cup: 1 match aujourd'hui (Angleterre-Argentine, semi-finale, 19:00 UTC). Petite finale France vs TBD le 18/07, finale Espagne vs TBD le 19/07 — cotes Betclic non ouvertes (adversaires non déterminés).",
+    "Marchés Betclic disponibles pour Angleterre-Argentine: Résultat 1N2, Double chance, Nombre total de buts, Buteur, BTTS (déjà couvert). Les cotes précises des marchés secondaires sont chargées dynamiquement et non extractibles du HTML statique; impossible de vérifier et horodater une cote ANJ pour un conseil supplémentaire dans ce cycle.",
+    "Tennis ATP/WTA: tournois Bastad, Gstaad, Umag (ATP) et Nordea Open, Athènes, Iasi (WTA) en cours. Aucune donnée ESPN fiable disponible pour ces tournois mineurs (API ESPN retourne 0 événements). Sans source publique traçable, aucune probabilité indépendante publiable.",
+    "Radar abonnés: Les affiches du 18/07 (petite finale France vs perdant ENG/ARG) et 19/07 (finale Espagne vs gagnant ENG/ARG) s'ouvriront après le match de ce soir. À scanner dès l'ouverture des cotes Betclic. Le vainqueur de Angleterre-Argentine déterminera les deux adversaires."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

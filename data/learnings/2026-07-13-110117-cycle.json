@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-13",
+  "created_at": "2026-07-13T11:01:17Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 12,
+  "metrics": {
+    "bankroll_units": 100.68,
+    "tips_total": 13,
+    "pending_total": 1,
+    "settled_total": 12,
+    "yield_pct": 18.13,
+    "roi_pct": 0.68,
+    "win_rate_pct": 66.67,
+    "average_odd": 1.77,
+    "current_drawdown_units": 0.5,
+    "max_drawdown_units": 0.5,
+    "brier_score": 0.2017
+  },
+  "observations": [
+    "Cycle 2026-07-13T11:00Z: état réel relu dans /home/hermes/apps/valuebot; métriques pré-run confirmées (bankroll 100,68 u; 13 tips; 1 pending; 12 réglés; ROI 0,68 %; yield 18,13 %).",
+    "Validation Henri de publication automatique expirée depuis le 2026-07-12 21:34 Europe/Paris (date système 2026-07-13T11:00:14Z): aucune publication automatique possible tant qu’un renouvellement explicite n’est pas reçu, même pour un signal prudent.",
+    "Scan public HTTPS Betclic tracé dans data/cache/valuebot-radar-20260713T110053Z.json: 12 candidats couverts (2 football Coupe du Monde 2026 demi-finales, 10 tennis ATP/WTA), Betclic vérifié présent sur la page ANJ, robots.txt consulté et URLs Betclic sans query-string.",
+    "Marchés couverts au-delà du vainqueur: football 1N2, double chance, total buts, BTTS, score exact; tennis vainqueur, total jeux, score final sets, deux joueurs gagnent un set, écart de sets, vainqueur de set.",
+    "Aucun conseil publié: autorisation automatique expirée; en outre, aucune probabilité indépendante suffisamment robuste et traçable n’a été établie sur les candidats tennis/football pour franchir EV>=3% officiel ou EV>=1% signal prudent sans circularité de marché. Le conseil déjà publié France-Espagne BTTS Non reste pending."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

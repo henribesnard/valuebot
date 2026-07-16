@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-10",
+  "created_at": "2026-07-10T11:02:21Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 10,
+  "metrics": {
+    "bankroll_units": 101.03,
+    "tips_total": 12,
+    "pending_total": 3,
+    "settled_total": 9,
+    "yield_pct": 34.33,
+    "roi_pct": 1.03,
+    "win_rate_pct": 77.78,
+    "average_odd": 1.78,
+    "current_drawdown_units": 0.11,
+    "max_drawdown_units": 0.25,
+    "brier_score": 0.1782
+  },
+  "observations": [
+    "Scan HTTPS Betclic du 2026-07-10T11:01:11Z: 10 candidats analysés (4 football, 6 tennis), bookmaker Betclic vérifié présent sur la page ANJ des opérateurs agréés.",
+    "Football couvert: Coupe du Monde 2026 quarts Espagne-Belgique, Norvège-Angleterre, Argentine-Suisse + marché conditionnel France-Espagne/Belgique; marchés vus: 1N2, double chance, total buts, BTTS, bet-builder/score exact. Les trois vrais quarts ont déjà des signaux ValueBot en attente sur le même marché/sélection ou ne donnent pas de nouveau prix exploitable; le match conditionnel n'est pas publiable car adversaire non déterminé.",
+    "Tennis couvert: Wimbledon simples/doubles, marchés vainqueur, total jeux, score sets, les deux joueurs gagnent un set, écart de sets, vainqueur de set. Aucune probabilité indépendante suffisamment robuste et sourcée n'a dépassé le seuil EV 1% après marge bookmaker; les prix favoris sont trop écrasés ou les outsiders insuffisamment justifiés.",
+    "Aucun conseil publié: les garde-fous cote ANJ horodatée + probabilité indépendante argumentée + EV minimale n'ont été satisfaits par aucun nouveau candidat non déjà publié."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

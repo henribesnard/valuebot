@@ -1,0 +1,348 @@
+{
+  "collected_at_utc": "2026-07-10T16:01:22Z",
+  "method": "HTTPS Betclic listing/detail + ANJ + ESPN scoreboard; no query-string URLs on Betclic",
+  "candidates": [
+    {
+      "sport": "football",
+      "event": "Espagne - Belgique",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/espagne-belgique-m1162435735273472",
+      "competition": "Coupe du Monde 2026 • Quart de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Espagne",
+          "odd": 1.61
+        },
+        {
+          "selection": "Nul",
+          "odd": 4.05
+        },
+        {
+          "selection": "Belgique",
+          "odd": 6.0
+        }
+      ],
+      "captured_at_utc": "2026-07-10T16:01:22Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 858761,
+      "detail_markets_seen": [
+        "Double chance (t. rég)",
+        "Nombre total de buts (t. rég)",
+        "Les 2 équipes marquent (t. rég)",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+        "Double chance buteur (t. rég)",
+        "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+        "Score exact (t. rég)"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "Norvège - Angleterre",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/norvege-angleterre-m1161570996490240",
+      "competition": "Coupe du Monde 2026 • Quart de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Norvège",
+          "odd": 4.0
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.73
+        },
+        {
+          "selection": "Angleterre",
+          "odd": 1.88
+        }
+      ],
+      "captured_at_utc": "2026-07-10T16:01:22Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 856843,
+      "detail_markets_seen": [
+        "Double chance (t. rég)",
+        "Nombre total de buts (t. rég)",
+        "Les 2 équipes marquent (t. rég)",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+        "Double chance buteur (t. rég)",
+        "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+        "Score exact (t. rég)"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "Argentine - Suisse",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/argentine-suisse-m1163224593752064",
+      "competition": "Coupe du Monde 2026 • Quart de Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Argentine",
+          "odd": 1.66
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.68
+        },
+        {
+          "selection": "Suisse",
+          "odd": 5.75
+        }
+      ],
+      "captured_at_utc": "2026-07-10T16:01:22Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 857359,
+      "detail_markets_seen": [
+        "Double chance (t. rég)",
+        "Nombre total de buts (t. rég)",
+        "Les 2 équipes marquent (t. rég)",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+        "Double chance buteur (t. rég)",
+        "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+        "Score exact (t. rég)"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "France - Espagne ou Belgique",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/france-espagne-ou-belgique-m1165001571459105",
+      "competition": "Coupe du Monde 2026",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "France",
+          "odd": 1.85
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.3
+        },
+        {
+          "selection": "Espagne ou Belgique",
+          "odd": 3.7
+        }
+      ],
+      "captured_at_utc": "2026-07-10T16:01:22Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 140935,
+      "detail_markets_seen": []
+    },
+    {
+      "sport": "tennis",
+      "event": "Jannik Sinner - Novak Djokovic",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-h-c24/jannik-sinner-novak-djokovic-m1163187647176704",
+      "competition": "Wimbledon H. • Demi-Finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Jannik Sinner",
+          "odd": 1.07
+        },
+        {
+          "selection": "Novak Djokovic",
+          "odd": 7.0
+        }
+      ],
+      "captured_at_utc": "2026-07-10T16:01:22Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 306256,
+      "detail_markets_seen": [
+        "Les deux joueurs gagnent un set",
+        "Vainqueur du match",
+        "Vainqueur du set",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Écart de sets"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Guo H / Mladenovic K - Jiang X / Xu Y",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-f-c1572/guo-h-mladenovic-k-jiang-x-xu-y-m1164722101764096",
+      "competition": "Wimbledon Doubles F. • Demi-Finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Guo H / Mladenovic K",
+          "odd": 1.32
+        },
+        {
+          "selection": "Jiang X / Xu Y",
+          "odd": 3.3
+        }
+      ],
+      "captured_at_utc": "2026-07-10T16:01:22Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 220335,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Heliovaara H / Patten H - Arevalo M / Pavic M",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-doubles-h-c1571/heliovaara-h-patten-h-arevalo-m-pavic-m-m1164792605741056",
+      "competition": "Wimbledon Doubles H. • Finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Heliovaara H / Patten H",
+          "odd": 1.77
+        },
+        {
+          "selection": "Arevalo M / Pavic M",
+          "odd": 2.02
+        }
+      ],
+      "captured_at_utc": "2026-07-10T16:01:22Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 222417,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Karolina Muchova - Linda Noskova",
+      "href": "https://www.betclic.fr/tennis-stennis/wimbledon-f-c51/karolina-muchova-linda-noskova-m1164820874477568",
+      "competition": "Wimbledon F. • Finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Karolina Muchova",
+          "odd": 1.81
+        },
+        {
+          "selection": "Linda Noskova",
+          "odd": 2.05
+        }
+      ],
+      "captured_at_utc": "2026-07-10T16:01:22Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 234383,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    }
+  ],
+  "checks": {
+    "betclic_robots": {
+      "url": "https://www.betclic.fr/robots.txt",
+      "status": 200,
+      "bytes": 29,
+      "sample": "User-agent: *\nDisallow: /*?*\n"
+    },
+    "anj": {
+      "url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "status": 200,
+      "bytes": 97306,
+      "betclic_present": true
+    },
+    "football": {
+      "url": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1",
+      "status": 200,
+      "bytes": 269096
+    },
+    "tennis": {
+      "url": "https://www.betclic.fr/tennis-stennis",
+      "status": 200,
+      "bytes": 194668
+    }
+  },
+  "espn_worldcup": [
+    {
+      "name": "France at Norway",
+      "date": "2026-06-26T19:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Iraq at Senegal",
+      "date": "2026-06-26T19:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Saudi Arabia at Cape Verde",
+      "date": "2026-06-27T00:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Spain at Uruguay",
+      "date": "2026-06-27T00:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Iran at Egypt",
+      "date": "2026-06-27T03:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Belgium at New Zealand",
+      "date": "2026-06-27T03:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Ghana at Croatia",
+      "date": "2026-06-27T21:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "England at Panama",
+      "date": "2026-06-27T21:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Portugal at Colombia",
+      "date": "2026-06-27T23:30Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Uzbekistan at Congo DR",
+      "date": "2026-06-27T23:30Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Austria at Algeria",
+      "date": "2026-06-28T02:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Argentina at Jordan",
+      "date": "2026-06-28T02:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Canada at South Africa",
+      "date": "2026-06-28T19:00Z",
+      "status": "Full Time"
+    }
+  ]
+}

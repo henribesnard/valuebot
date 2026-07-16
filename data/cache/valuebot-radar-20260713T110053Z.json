@@ -1,0 +1,463 @@
+{
+  "collected_at_utc": "2026-07-13T11:00:47Z",
+  "method": "HTTPS Betclic listing/detail + ANJ + ESPN scoreboard; no query-string URLs on Betclic",
+  "candidates": [
+    {
+      "sport": "football",
+      "event": "France - Espagne",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/france-espagne-m1165871812743168",
+      "competition": "Coupe du Monde 2026 • Demi-Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "France",
+          "odd": 2.25
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.35
+        },
+        {
+          "selection": "Espagne",
+          "odd": 3.37
+        }
+      ],
+      "captured_at_utc": "2026-07-13T11:00:47Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 819399,
+      "detail_markets_seen": [
+        "Double chance (t. rég)",
+        "Nombre total de buts (t. rég)",
+        "Les 2 équipes marquent (t. rég)",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+        "Double chance buteur (t. rég)",
+        "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+        "Score exact (t. rég)"
+      ]
+    },
+    {
+      "sport": "football",
+      "event": "Angleterre - Argentine",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/angleterre-argentine-m1167032888487936",
+      "competition": "Coupe du Monde 2026 • Demi-Finale",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Angleterre",
+          "odd": 2.55
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.02
+        },
+        {
+          "selection": "Argentine",
+          "odd": 3.15
+        }
+      ],
+      "captured_at_utc": "2026-07-13T11:00:47Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 828464,
+      "detail_markets_seen": [
+        "Double chance (t. rég)",
+        "Nombre total de buts (t. rég)",
+        "Les 2 équipes marquent (t. rég)",
+        "Les 2 équipes marquent ou + de 2,5 buts dans le match (t. rég)",
+        "Double chance buteur (t. rég)",
+        "Double chance décisif (Buteur ou passeur décisif dans le t. rég)",
+        "Score exact (t. rég)"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Clement Tabur - Jurij Rodionov",
+      "href": "https://www.betclic.fr/tennis-stennis/gstaad-atp-c189/clement-tabur-jurij-rodionov-m1167541663969280",
+      "competition": "Gstaad ATP • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Clement Tabur",
+          "odd": 2.75
+        },
+        {
+          "selection": "Jurij Rodionov",
+          "odd": 1.37
+        }
+      ],
+      "captured_at_utc": "2026-07-13T11:00:47Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 202406,
+      "detail_markets_seen": [
+        "Les deux joueurs gagnent un set",
+        "Score final (sets)",
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Écart de sets"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Kilian Feldbausch - Miomir Kecmanovic",
+      "href": "https://www.betclic.fr/tennis-stennis/gstaad-atp-c189/kilian-feldbausch-miomir-kecmanovic-m1166516519387136",
+      "competition": "Gstaad ATP • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Kilian Feldbausch",
+          "odd": 4.25
+        },
+        {
+          "selection": "Miomir Kecmanovic",
+          "odd": 1.17
+        }
+      ],
+      "captured_at_utc": "2026-07-13T11:00:47Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 211290,
+      "detail_markets_seen": [
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "1er set - Nombre total de jeux",
+        "Vainqueur du match",
+        "Vainqueur du set",
+        "Nombre total de jeux",
+        "Écart de sets"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Raphael Collignon - Timofey Skatov",
+      "href": "https://www.betclic.fr/tennis-stennis/gstaad-atp-c189/raphael-collignon-timofey-skatov-m1167546821799936",
+      "competition": "Gstaad ATP • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Raphael Collignon",
+          "odd": 1.15
+        },
+        {
+          "selection": "Timofey Skatov",
+          "odd": 5.2
+        }
+      ],
+      "captured_at_utc": "2026-07-13T11:00:47Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 228131,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Alina Charaeva - Victoria Jimenez Kasintseva",
+      "href": "https://www.betclic.fr/tennis-stennis/iasi-wta-c35679/alina-charaeva-victoria-jimenez-kasintseva-m1167426614095872",
+      "competition": "Iasi WTA • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Alina Charaeva",
+          "odd": 1.47
+        },
+        {
+          "selection": "Victoria Jimenez Kasintseva",
+          "odd": 2.75
+        }
+      ],
+      "captured_at_utc": "2026-07-13T11:00:47Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 228632,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Anna Bondar - Sara Sorribes Tormo",
+      "href": "https://www.betclic.fr/tennis-stennis/iasi-wta-c35679/anna-bondar-sara-sorribes-tormo-m1167426666651648",
+      "competition": "Iasi WTA • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Anna Bondar",
+          "odd": 1.65
+        },
+        {
+          "selection": "Sara Sorribes Tormo",
+          "odd": 2.3
+        }
+      ],
+      "captured_at_utc": "2026-07-13T11:00:47Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 227508,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Jesper De Jong - Vilius Gaubas",
+      "href": "https://www.betclic.fr/tennis-stennis/bastad-atp-c17260/jesper-de-jong-vilius-gaubas-m1166543753875457",
+      "competition": "Bastad ATP • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Jesper De Jong",
+          "odd": 1.44
+        },
+        {
+          "selection": "Vilius Gaubas",
+          "odd": 2.9
+        }
+      ],
+      "captured_at_utc": "2026-07-13T11:00:47Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 227235,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Damir Dzumhur - Henrique Rocha",
+      "href": "https://www.betclic.fr/tennis-stennis/umag-atp-c215/damir-dzumhur-henrique-rocha-m1167235082252290",
+      "competition": "Umag ATP • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Damir Dzumhur",
+          "odd": 1.95
+        },
+        {
+          "selection": "Henrique Rocha",
+          "odd": 1.83
+        }
+      ],
+      "captured_at_utc": "2026-07-13T11:00:47Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 227399,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Magda Linette - Mai Hontama",
+      "href": "https://www.betclic.fr/tennis-stennis/athenes-wta-c40588/magda-linette-mai-hontama-m1166717162131456",
+      "competition": "Athènes WTA • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Magda Linette",
+          "odd": 1.18
+        },
+        {
+          "selection": "Mai Hontama",
+          "odd": 4.7
+        }
+      ],
+      "captured_at_utc": "2026-07-13T11:00:47Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 226850,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Qinwen Zheng - Jessica Bouzas Maneiro",
+      "href": "https://www.betclic.fr/tennis-stennis/athenes-wta-c40588/qinwen-zheng-jessica-bouzas-maneiro-m1166674958233600",
+      "competition": "Athènes WTA • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Qinwen Zheng",
+          "odd": 1.38
+        },
+        {
+          "selection": "Jessica Bouzas Maneiro",
+          "odd": 3.0
+        }
+      ],
+      "captured_at_utc": "2026-07-13T11:00:47Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 228585,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    },
+    {
+      "sport": "tennis",
+      "event": "Marianne Argyrokastriti - Lilli Tagger",
+      "href": "https://www.betclic.fr/tennis-stennis/athenes-wta-c40588/marianne-argyrokastriti-lilli-tagger-m1167722054631424",
+      "competition": "Athènes WTA • Seizième de finale",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Marianne Argyrokastriti",
+          "odd": 1.01
+        }
+      ],
+      "captured_at_utc": "2026-07-13T11:00:47Z",
+      "bookmaker": "Betclic",
+      "bookmaker_authorized_anj": true,
+      "detail_status": 200,
+      "detail_bytes": 226165,
+      "detail_markets_seen": [
+        "Vainqueur du match",
+        "Nombre total de jeux",
+        "Score final (sets)",
+        "Les deux joueurs gagnent un set",
+        "Écart de sets",
+        "Vainqueur du set"
+      ]
+    }
+  ],
+  "checks": {
+    "betclic_robots": {
+      "url": "https://www.betclic.fr/robots.txt",
+      "status": 200,
+      "bytes": 29,
+      "sample": "User-agent: *\nDisallow: /*?*\n"
+    },
+    "anj": {
+      "url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "status": 200,
+      "bytes": 97306,
+      "betclic_present": true
+    },
+    "football": {
+      "url": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1",
+      "status": 200,
+      "bytes": 239017
+    },
+    "tennis": {
+      "url": "https://www.betclic.fr/tennis-stennis",
+      "status": 200,
+      "bytes": 305801
+    }
+  },
+  "espn_worldcup": [
+    {
+      "name": "France at Norway",
+      "date": "2026-06-26T19:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Iraq at Senegal",
+      "date": "2026-06-26T19:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Saudi Arabia at Cape Verde",
+      "date": "2026-06-27T00:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Spain at Uruguay",
+      "date": "2026-06-27T00:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Iran at Egypt",
+      "date": "2026-06-27T03:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Belgium at New Zealand",
+      "date": "2026-06-27T03:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Ghana at Croatia",
+      "date": "2026-06-27T21:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "England at Panama",
+      "date": "2026-06-27T21:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Portugal at Colombia",
+      "date": "2026-06-27T23:30Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Uzbekistan at Congo DR",
+      "date": "2026-06-27T23:30Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Austria at Algeria",
+      "date": "2026-06-28T02:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Argentina at Jordan",
+      "date": "2026-06-28T02:00Z",
+      "status": "Full Time"
+    },
+    {
+      "name": "Canada at South Africa",
+      "date": "2026-06-28T19:00Z",
+      "status": "Full Time"
+    }
+  ]
+}

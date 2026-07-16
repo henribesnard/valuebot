@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-22",
+  "created_at": "2026-06-22T06:09:49Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 8,
+  "metrics": {
+    "bankroll_units": 100.0,
+    "tips_total": 0,
+    "pending_total": 0,
+    "settled_total": 0,
+    "yield_pct": 0.0,
+    "roi_pct": 0.0,
+    "win_rate_pct": null,
+    "average_odd": null,
+    "current_drawdown_units": 0.0,
+    "max_drawdown_units": 0.0,
+    "brier_score": null
+  },
+  "observations": [
+    "Veille Coupe du monde du 2026-06-22: ESPN FIFA World Cup a listé 8 matchs à venir sur les dates source 20260622 et 20260623; cache créé dans data/cache/worldcup-watch-2026-06-22.json.",
+    "Cotes Winamax capturées à 2026-06-22T06:09:35Z depuis https://www.winamax.fr/paris-sportifs/sports/1 et opérateur vérifié sur la page ANJ des opérateurs agréés; marché principal 1N2 disponible pour les affiches du jour/demain.",
+    "Aucun pari proposé/publié: les données indépendantes disponibles dans ce cycle se limitent au calendrier ESPN et à la forme récente W/N/D Winamax; pas de modèle Poisson/xG robuste ni probabilité indépendante suffisante pour calculer une EV publiable >= 0,03."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

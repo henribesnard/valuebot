@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-10",
+  "created_at": "2026-07-10T06:02:52Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 10,
+  "metrics": {
+    "bankroll_units": 101.03,
+    "tips_total": 12,
+    "pending_total": 3,
+    "settled_total": 9,
+    "yield_pct": 34.33,
+    "roi_pct": 1.03,
+    "win_rate_pct": 77.78,
+    "average_odd": 1.78,
+    "current_drawdown_units": 0.11,
+    "max_drawdown_units": 0.25,
+    "brier_score": 0.1782
+  },
+  "observations": [
+    "Cycle autonome du 2026-07-10T06:02Z: état réel relu dans /home/hermes/apps/valuebot; autorisation Henri active jusqu'au 2026-07-12 21:34 Europe/Paris; France-Maroc (tip #9) réglé gagnant via ESPN, bankroll portée à 101,03 u.",
+    "Scan Betclic HTTPS tracé dans data/cache/valuebot-radar-20260710T060207Z.json: 10 candidats couverts (4 football Coupe du Monde 2026, 6 tennis Wimbledon simples/doubles); Betclic vérifié opérateur agréé ANJ via https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees.",
+    "Marchés au-delà du vainqueur contrôlés comme disponibles dans les pages détail: football 1N2, double chance, total buts, BTTS, score exact; tennis vainqueur match, total jeux, score sets, deux joueurs gagnent un set, écart/vainqueur de set.",
+    "Aucun conseil publié: Espagne-Belgique, Norvège-Angleterre et Argentine-Suisse sont déjà publiés/pending (idempotence); France-Espagne ou Belgique est une ligne conditionnelle avec adversaire non figé; tennis dispose de cotes ANJ horodatées mais pas de probabilité indépendante assez robuste et traçable pour démontrer EV >= 1 % sans copier le marché."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

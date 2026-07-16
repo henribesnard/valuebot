@@ -1,0 +1,32 @@
+{
+  "sport": "football",
+  "competition": "Coupe du Monde 2026 — Huitième de finale",
+  "event": "Canada - Maroc",
+  "start_time": "2026-07-04T17:00:00Z",
+  "market": "Résultat 1N2 temps réglementaire",
+  "selection": "Maroc gagne",
+  "publication_tier": "prudent_signal",
+  "estimated_probability": 0.56,
+  "taken_odd": 1.83,
+  "bookmaker": "Betclic",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-07-04T06:02:21Z",
+  "expected_value": 0.025,
+  "confidence": 2,
+  "stake_units": 0.25,
+  "rationale": "Signal prudent — le modèle reste léger (marché + forme courte ESPN), donc pas assez robuste pour un conseil officiel: absence de xG/blessures publiques complètes dans ce cycle et match à élimination directe exposé au nul. Betclic cote le Maroc à 1.83 en 1N2 temps réglementaire; la probabilité no-vig du marché ressort autour de 53 %, puis ValueBot ajuste prudemment à 56 % avec l'avantage de forme récente ESPN du Maroc (WWWDD contre WLWDD pour le Canada) et un profil de favori plus régulier sur la compétition. Le seuil de rentabilité est 54,6 %, l'EV estimée ressort à environ +2,5 %. Mise limitée à 0,25 u.",
+  "sources": [
+    "Betclic football Coupe du Monde 2026 — cote capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/canada-maroc-m1156168539242496",
+    "ANJ opérateurs agréés — Betclic vérifié présent lors du scan: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup scoreboard 20260704 — Morocco at Canada, start 2026-07-04T17:00Z, formes Canada WLWDD / Maroc WWWDD: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260704",
+    "Cache ValueBot du scan: data/cache/valuebot-radar-20260704T060231Z.json"
+  ],
+  "factors": [
+    "Cote Betclic 1.83 capturée le 2026-07-04T06:02:21Z sur le marché Résultat du match (temps réglementaire)",
+    "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+    "Forme ESPN: Maroc WWWDD contre Canada WLWDD",
+    "Probabilité ValueBot prudente 56 % contre seuil de rentabilité 54,6 %, EV estimée +2,5 %",
+    "Risque principal: nul en 90 minutes sur match à élimination directe, d'où tier signal prudent et mise 0,25 u"
+  ],
+  "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle."
+}

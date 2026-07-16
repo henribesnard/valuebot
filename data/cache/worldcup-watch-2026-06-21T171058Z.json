@@ -1,0 +1,85 @@
+{
+  "collected_at_utc": "2026-06-21T17:10:58Z",
+  "scope": "FIFA World Cup / Coupe du monde uniquement",
+  "state_read": {
+    "model_version": "v1.0-launch",
+    "bankroll_units": 100.0,
+    "ev_min": 0.03,
+    "kelly_fraction": 0.25,
+    "stake_max_units": 3.0,
+    "daily_exposure_max_units": 6.0,
+    "last_cycle_at": "2026-06-21T16:59:26Z"
+  },
+  "sources": [
+    {
+      "name": "TheSportsDB eventsday Soccer",
+      "urls": [
+        "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-06-21&s=Soccer",
+        "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-06-22&s=Soccer"
+      ],
+      "usage": "calendrier public et statuts de match"
+    },
+    {
+      "name": "Betclic France",
+      "url": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1",
+      "bookmaker_anj": true,
+      "robots_txt_checked": "https://www.betclic.fr/robots.txt : User-agent * Disallow /*?* ; URL utilisée sans query-string",
+      "usage": "cotes 1N2 visibles dans HTML SSR public"
+    }
+  ],
+  "matches_reviewed": [
+    {
+      "match": "Belgique - Iran",
+      "kickoff": "2026-06-21 21:00 Europe/Paris (Betclic) / 2026-06-21T19:00:00 UTC (TheSportsDB)",
+      "competition": "Coupe du Monde 2026 / FIFA World Cup",
+      "status": "à venir",
+      "bookmaker": "Betclic France",
+      "odds_timestamp_utc": "2026-06-21T17:10:58Z",
+      "market": "1N2 temps réglementaire",
+      "odds": {"Belgique": 1.41, "Nul": 4.90, "Iran": 8.25},
+      "model": "probabilités implicites Betclic normalisées sans marge",
+      "ev_all_outcomes_pct": -3.34,
+      "publication_status": "non-publiable: aucun EV >= 3%"
+    },
+    {
+      "match": "Nouvelle-Zélande - Égypte",
+      "kickoff": "2026-06-22 03:00 Europe/Paris (Betclic) / 2026-06-22T01:00:00 UTC (TheSportsDB)",
+      "competition": "Coupe du Monde 2026 / FIFA World Cup",
+      "status": "à venir",
+      "bookmaker": "Betclic France",
+      "odds_timestamp_utc": "2026-06-21T17:10:58Z",
+      "market": "1N2 temps réglementaire",
+      "odds": {"Nouvelle-Zélande": 6.10, "Nul": 4.10, "Égypte": 1.58},
+      "model": "probabilités implicites Betclic normalisées sans marge",
+      "ev_all_outcomes_pct": -3.92,
+      "publication_status": "non-publiable: aucun EV >= 3%"
+    },
+    {
+      "match": "Argentine - Autriche",
+      "kickoff": "2026-06-22 19:00 Europe/Paris (Betclic) / 2026-06-22T17:00:00 UTC (TheSportsDB)",
+      "competition": "Coupe du Monde 2026 / FIFA World Cup",
+      "status": "à venir",
+      "bookmaker": "Betclic France",
+      "odds_timestamp_utc": "2026-06-21T17:10:58Z",
+      "market": "1N2 temps réglementaire",
+      "odds": {"Argentine": 1.53, "Nul": 4.10, "Autriche": 7.00},
+      "model": "probabilités implicites Betclic normalisées sans marge",
+      "ev_all_outcomes_pct": -3.88,
+      "publication_status": "non-publiable: aucun EV >= 3%"
+    },
+    {
+      "match": "France - Irak",
+      "kickoff": "2026-06-22 23:00 Europe/Paris (Betclic)",
+      "competition": "Coupe du Monde 2026 / FIFA World Cup",
+      "status": "à venir",
+      "bookmaker": "Betclic France",
+      "odds_timestamp_utc": "2026-06-21T17:10:58Z",
+      "market": "1N2 temps réglementaire",
+      "odds": {"France": 1.07, "Nul": 11.50, "Irak": 33.00},
+      "model": "probabilités implicites Betclic normalisées sans marge",
+      "ev_all_outcomes_pct": -4.93,
+      "publication_status": "non-publiable: aucun EV >= 3%"
+    }
+  ],
+  "published": false
+}

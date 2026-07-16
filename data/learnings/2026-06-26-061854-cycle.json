@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-26",
+  "created_at": "2026-06-26T06:18:54Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 19,
+  "metrics": {
+    "bankroll_units": 100.0,
+    "tips_total": 1,
+    "pending_total": 1,
+    "settled_total": 0,
+    "yield_pct": 0.0,
+    "roi_pct": 0.0,
+    "win_rate_pct": null,
+    "average_odd": null,
+    "current_drawdown_units": 0.0,
+    "max_drawdown_units": 0.0,
+    "brier_score": null
+  },
+  "observations": [
+    "Veille foot+tennis du 2026-06-26T06:18Z: Betclic France consulté en HTTPS (robots.txt: seule restriction /*?*, URLs sans query-string), opérateur retrouvé sur la page ANJ; cache créé dans data/cache/valuebot-radar-20260626T061812Z.json.",
+    "Périmètre scanné: 10 matchs Coupe du Monde Betclic/ESPN et 9 affiches tennis Betclic (8 simples + 1 double); marchés explorés via pages détail: football 1N2, double chance, total buts, BTTS, équipe marque/total équipe, score exact; tennis vainqueur match, total jeux, score sets, les deux joueurs gagnent un set, écart/vainqueur de set.",
+    "Aucun pari proposé/publié: cotes principales Betclic horodatées disponibles mais les probabilités indépendantes robustes manquent (pas d'Elo/xG tennis/football fiable dans ce cycle); les seules probabilités calculables proprement à grande échelle restent no-vig issues du marché, donc non indépendantes et EV non publiable."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

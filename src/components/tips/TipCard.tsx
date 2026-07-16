@@ -35,10 +35,10 @@ export default function TipCard({ tip, showAnalysis = true }: TipCardProps) {
         </div>
 
         {/* Row 3: Pari Conseille box */}
-        <div className="bg-[rgba(34,211,238,0.06)] border border-[rgba(34,211,238,0.18)] rounded-xl p-[13px_15px] flex items-center justify-between">
+        <div className={tip.tier === "prudent_signal" ? "bg-amber-400/[0.07] border border-amber-300/25 rounded-xl p-[13px_15px] flex items-center justify-between" : "bg-[rgba(34,211,238,0.06)] border border-[rgba(34,211,238,0.18)] rounded-xl p-[13px_15px] flex items-center justify-between"}>
           <div>
-            <p className="text-[11px] text-vb-cyan-light font-semibold uppercase tracking-wide">
-              Pari conseillé
+            <p className={tip.tier === "prudent_signal" ? "text-[11px] text-amber-200 font-semibold uppercase tracking-wide" : "text-[11px] text-vb-cyan-light font-semibold uppercase tracking-wide"}>
+              {tip.tier === "prudent_signal" ? "Signal prudent" : "Pari conseillé"}
             </p>
             <p className="font-heading font-semibold text-[17px] text-vb-text mt-0.5">
               {tip.pari}

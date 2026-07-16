@@ -1,0 +1,32 @@
+{
+  "sport": "football",
+  "competition": "Coupe du Monde 2026 — Huitième de finale",
+  "event": "Portugal - Espagne",
+  "start_time": "2026-07-06T19:00:00Z",
+  "market": "Résultat 1N2 temps réglementaire",
+  "selection": "Espagne gagne",
+  "publication_tier": "prudent_signal",
+  "estimated_probability": 0.54,
+  "taken_odd": 1.89,
+  "bookmaker": "Betclic",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-07-05T06:02:34Z",
+  "expected_value": 0.021,
+  "confidence": 2,
+  "stake_units": 0.25,
+  "rationale": "Signal prudent — la probabilité reste issue d’un modèle léger marché + forme courte ESPN, donc insuffisante pour un conseil officiel: pas de xG/blessures/suspensions publiques complètes dans ce cycle et un huitième de finale garde un risque de nul en 90 minutes. Betclic cote l’Espagne à 1.89 en temps réglementaire; la probabilité no-vig du marché ressort autour de 50,5 %, puis ValueBot ajuste prudemment à 54 % grâce à une forme ESPN légèrement supérieure côté Espagne (WWWDW) face au Portugal (WDWDW) et à un profil de favori de marché sans prix trop écrasé. Le seuil de rentabilité est 52,9 %, l’EV estimée ressort à environ +2,1 %. Mise limitée à 0,25 u.",
+  "sources": [
+    "Betclic football Coupe du Monde 2026 — cote Espagne 1.89 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/portugal-espagne-m1158791044481024",
+    "ANJ opérateurs agréés — Betclic vérifié présent lors du scan: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup scoreboard 20260706 — Spain at Portugal, start 2026-07-06T19:00Z, formes Portugal WDWDW / Espagne WWWDW: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260706",
+    "Cache ValueBot du scan: data/cache/valuebot-radar-20260705T060243Z.json"
+  ],
+  "factors": [
+    "Cote Betclic 1.89 capturée le 2026-07-05T06:02:34Z sur le marché Résultat du match (temps réglementaire)",
+    "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+    "Forme ESPN: Espagne WWWDW contre Portugal WDWDW",
+    "No-vig marché calculé autour de 50,5 %; probabilité ValueBot prudente 54 % contre seuil de rentabilité 52,9 %, EV estimée +2,1 %",
+    "Risque principal: match à élimination directe et nul possible en 90 minutes, d’où signal prudent et mise 0,25 u"
+  ],
+  "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle."
+}

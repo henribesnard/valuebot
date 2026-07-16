@@ -3,12 +3,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Logo from "./Logo";
-import { navItems, equity } from "@/lib/mock-data";
+import { navItems, equity, bankrollSummary, bankrollKpis } from "@/lib/mock-data";
 import { computeChartPaths } from "@/lib/chart-utils";
 import { useAuth } from "@/lib/auth-context";
 
 const sparkData = equity.slice(-26);
 const spark = computeChartPaths(sparkData, 78, 26, 1, 3, 3);
+const headerRoi = bankrollKpis.find((kpi) => kpi.label === "ROI")?.value ?? "0,0 %";
+const headerDelta = bankrollSummary.deltaAll >= 0 ? `+${headerRoi}` : headerRoi;
 
 function getInitials(firstName: string | null, lastName: string | null): string {
   const f = firstName?.charAt(0)?.toUpperCase() || "";
@@ -83,8 +85,12 @@ export default function Header() {
               <circle cx={spark.lastX} cy={spark.lastY} r="2.5" fill="#22D3EE" />
             </svg>
             <div className="flex flex-col items-end">
-              <span className="text-[13px] font-bold text-vb-text leading-tight tabular-nums">148,6 u</span>
-              <span className="text-[11px] font-semibold text-vb-green leading-tight tabular-nums">+48,6%</span>
+              <span className="text-[13px] font-bold text-vb-text leading-tight tabular-nums">
+                {bankrollSummary.current.toFixed(1).replace(".", ",")} u
+              </span>
+              <span className="text-[11px] font-semibold text-vb-green leading-tight tabular-nums">
+                {headerDelta}
+              </span>
             </div>
           </div>
 

@@ -1,0 +1,31 @@
+{
+  "sport": "football",
+  "competition": "Coupe du Monde 2026 — Match pour la 3e place",
+  "event": "France - Angleterre",
+  "start_time": "2026-07-18T21:00:00Z",
+  "market": "Résultat 1N2 temps réglementaire",
+  "selection": "France gagne",
+  "estimated_probability": 0.55,
+  "taken_odd": 2.00,
+  "bookmaker": "Betclic",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-07-16T06:12:00Z",
+  "expected_value": 0.10,
+  "confidence": 3,
+  "stake_units": 1,
+  "rationale": "La France arrive en petite finale après un parcours quasi parfait : 5 victoires dont 5 clean sheets en 6 matchs (Iraq 3-0, Norvège 4-1, Suède 3-0, Paraguay 1-0, Maroc 2-0), seule défaite 0-2 contre l'Espagne en demi-finale. La solidité défensive est remarquable. L'Angleterre sort d'une demi-finale perdue 1-2 contre l'Argentine et a encaissé des buts dans 4 de ses 6 matchs du Mondial (Mexique 3-2, Congo DR 2-1, Norvège 1-2 ap, Argentine 1-2). Betclic cote la France à 2.00 sur le 1N2 temps réglementaire ; la probabilité no-vig du marché ressort autour de 47,6 %, puis ValueBot ajuste à 55 % grâce à la forme ESPN supérieure, aux 5 clean sheets sur 6 matchs et à la dynamique défensive française. Le seuil de rentabilité est 50,0 %, l'EV estimée ressort à environ +10,0 %. Mise : 1 unité, car le prix et la confiance le permettent pour un conseil officiel.",
+  "sources": [
+    "Betclic football Coupe du Monde 2026 — cote France 2.00 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/france-angleterre-m1170405334401024",
+    "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup scoreboards 20260622-20260714 — formes France (WWWWWL) et Angleterre (WWDWWL) : https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
+    "Cache ValueBot du scan: data/cache/valuebot-radar-20260716T061100Z.json"
+  ],
+  "factors": [
+    "Cote Betclic 2.00 capturée le 2026-07-16T06:12:00Z sur le marché Résultat du match (temps réglementaire)",
+    "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+    "Forme ESPN: France 5 clean sheets sur 6 matchs (WWWWWL); Angleterre 4 matchs sur 6 avec but encaissé",
+    "No-vig marché calculé autour de 47,6 %; probabilité ValueBot 55 % contre seuil de rentabilité 50,0 %, EV estimée +10,0 %",
+    "Petite finale — risque de motivation moindre, mais la France a montré de la régularité défensive tout au long du tournoi"
+  ],
+  "h2h": "Non utilisé: aucune donnée H2H récente entre ces équipes dans ce cycle."
+}

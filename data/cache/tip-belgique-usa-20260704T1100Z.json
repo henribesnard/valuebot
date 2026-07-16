@@ -1,0 +1,32 @@
+{
+  "sport": "football",
+  "competition": "Coupe du Monde 2026 — Huitième de finale",
+  "event": "USA - Belgique",
+  "start_time": "2026-07-07T00:00:00Z",
+  "market": "Résultat 1N2 temps réglementaire",
+  "selection": "Belgique gagne",
+  "publication_tier": "prudent_signal",
+  "estimated_probability": 0.40,
+  "taken_odd": 2.60,
+  "bookmaker": "Betclic",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-07-04T11:00:42Z",
+  "expected_value": 0.040,
+  "confidence": 2,
+  "stake_units": 0.25,
+  "rationale": "Signal prudent — la probabilité reste issue d’un modèle léger marché + forme courte ESPN, donc insuffisante pour un conseil officiel: pas de xG/blessures/suspensions publiques complètes dans ce cycle et le 1N2 à élimination directe garde un risque de nul. Betclic cote la Belgique à 2.60 en temps réglementaire; le no-vig du marché place la Belgique proche de 36,6 %, puis ValueBot ajuste prudemment à 40 % avec une forme ESPN plus propre côté belge (WWDDW) que côté USA (WLWWL). Le seuil de rentabilité est 38,5 %, l’EV estimée ressort à environ +4,0 %. Mise limitée à 0,25 u.",
+  "sources": [
+    "Betclic football Coupe du Monde 2026 — cote Belgique 2.60 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/usa-belgique-m1157911236861952",
+    "ANJ opérateurs agréés — Betclic vérifié présent lors du scan: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup scoreboard 20260706 — Belgium at United States, start 2026-07-07T00:00Z, formes USA WLWWL / Belgique WWDDW: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260706",
+    "Cache ValueBot du scan: data/cache/valuebot-radar-20260704T110054Z.json"
+  ],
+  "factors": [
+    "Cote Betclic 2.60 capturée le 2026-07-04T11:00:42Z sur le marché Résultat du match (temps réglementaire)",
+    "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+    "Forme ESPN: Belgique WWDDW contre USA WLWWL",
+    "Probabilité ValueBot prudente 40 % contre seuil de rentabilité 38,5 %, EV estimée +4,0 %",
+    "Risque principal: match à élimination directe avec probabilité de nul non négligeable, d’où signal prudent et mise 0,25 u"
+  ],
+  "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle."
+}

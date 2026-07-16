@@ -1,0 +1,916 @@
+{
+  "collected_at_utc": "2026-06-26T06:18:13Z",
+  "betclic_robots": "User-agent: *\nDisallow: /*?*\n",
+  "anj_betclic_present": true,
+  "football_betclic": [
+    {
+      "sport": "football",
+      "day_label": "Aujourd'hui",
+      "event": "Sénégal - Irak",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/senegal-irak-m1117886432563200",
+      "competition": "",
+      "home": "Sénégal",
+      "away": "Irak",
+      "hour_fr": "21:00",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Sénégal",
+          "odd": 1.23
+        },
+        {
+          "selection": "Nul",
+          "odd": 7.0
+        },
+        {
+          "selection": "Irak",
+          "odd": 11.5
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "day_label": "Aujourd'hui",
+      "event": "Norvège - France",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/norvege-france-m1117886904311808",
+      "competition": "",
+      "home": "Norvège",
+      "away": "France",
+      "hour_fr": "21:00",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Norvège",
+          "odd": 5.0
+        },
+        {
+          "selection": "Nul",
+          "odd": 4.9
+        },
+        {
+          "selection": "France",
+          "odd": 1.59
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "day_label": "Demain",
+      "event": "Uruguay - Espagne",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/uruguay-espagne-m1044643178733568",
+      "competition": "",
+      "home": "Uruguay",
+      "away": "Espagne",
+      "hour_fr": "02:00",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Uruguay",
+          "odd": 7.0
+        },
+        {
+          "selection": "Nul",
+          "odd": 4.0
+        },
+        {
+          "selection": "Espagne",
+          "odd": 1.54
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "day_label": "Demain",
+      "event": "Cap-Vert - Arabie Saoudite",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/cap-vert-arabie-saoudite-m1044643189964800",
+      "competition": "",
+      "home": "Cap-Vert",
+      "away": "Arabie Saoudite",
+      "hour_fr": "02:00",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Cap-Vert",
+          "odd": 2.65
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.4
+        },
+        {
+          "selection": "Arabie Saou",
+          "odd": 2.72
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "day_label": "Demain",
+      "event": "Égypte - Iran",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/egypte-iran-m1044756422541312",
+      "competition": "",
+      "home": "Égypte",
+      "away": "Iran",
+      "hour_fr": "05:00",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Égypte",
+          "odd": 2.52
+        },
+        {
+          "selection": "Nul",
+          "odd": 2.65
+        },
+        {
+          "selection": "Iran",
+          "odd": 3.78
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "day_label": "Demain",
+      "event": "Nouvelle-Zélande - Belgique",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/nouvelle-zelande-belgique-m1044756423938048",
+      "competition": "",
+      "home": "Nlle-Zélande",
+      "away": "Belgique",
+      "hour_fr": "05:00",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Nouvelle-Zél",
+          "odd": 17.0
+        },
+        {
+          "selection": "Nul",
+          "odd": 8.0
+        },
+        {
+          "selection": "Belgique",
+          "odd": 1.15
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "day_label": "Demain",
+      "event": "Croatie - Ghana",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/croatie-ghana-m1117886706999296",
+      "competition": "",
+      "home": "Croatie",
+      "away": "Ghana",
+      "hour_fr": "23:00",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Croatie",
+          "odd": 1.76
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.25
+        },
+        {
+          "selection": "Ghana",
+          "odd": 5.75
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "day_label": "Demain",
+      "event": "Panama - Angleterre",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/panama-angleterre-m1117886801473536",
+      "competition": "",
+      "home": "Panama",
+      "away": "Angleterre",
+      "hour_fr": "23:00",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Panama",
+          "odd": 16.0
+        },
+        {
+          "selection": "Nul",
+          "odd": 8.0
+        },
+        {
+          "selection": "Angleterre",
+          "odd": 1.16
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "day_label": "Demain",
+      "event": "Colombie - Portugal",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/colombie-portugal-m1101087127207936",
+      "competition": "",
+      "home": "Colombie",
+      "away": "Portugal",
+      "hour_fr": "01:30",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "Colombie",
+          "odd": 4.35
+        },
+        {
+          "selection": "Nul",
+          "odd": 3.7
+        },
+        {
+          "selection": "Portugal",
+          "odd": 1.82
+        }
+      ]
+    },
+    {
+      "sport": "football",
+      "day_label": "Demain",
+      "event": "RD Congo - Ouzbékistan",
+      "href": "https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/rd-congo-ouzbekistan-m1117886900039680",
+      "competition": "",
+      "home": "RD Congo",
+      "away": "Ouzbékistan",
+      "hour_fr": "01:30",
+      "market": "1N2 temps réglementaire",
+      "odds": [
+        {
+          "selection": "RD Congo",
+          "odd": 1.73
+        },
+        {
+          "selection": "Nul",
+          "odd": 4.15
+        },
+        {
+          "selection": "Ouzbéki",
+          "odd": 4.35
+        }
+      ]
+    }
+  ],
+  "tennis_betclic": [
+    {
+      "sport": "tennis",
+      "day_label": "Aujourd'hui",
+      "event": "Tatjana Maria - Jelena Ostapenko",
+      "href": "https://www.betclic.fr/tennis-stennis/eastbourne-wta-c177/tatjana-maria-jelena-ostapenko-m1152085070774272",
+      "competition": "",
+      "home": "T. Maria",
+      "away": "J. Ostapenko",
+      "hour_fr": "12:00",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Tatjana M",
+          "odd": 2.55
+        },
+        {
+          "selection": "Jelena Ostap",
+          "odd": 1.5
+        }
+      ]
+    },
+    {
+      "sport": "tennis",
+      "day_label": "Aujourd'hui",
+      "event": "Xin Yu Wang - Naomi Osaka",
+      "href": "https://www.betclic.fr/tennis-stennis/bad-homburg-wta-c28855/xin-yu-wang-naomi-osaka-m1151965118947328",
+      "competition": "",
+      "home": "X. Y. Wang",
+      "away": "N. Osaka",
+      "hour_fr": "13:00",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Xin Yu",
+          "odd": 3.55
+        },
+        {
+          "selection": "Naomi O",
+          "odd": 1.28
+        }
+      ]
+    },
+    {
+      "sport": "tennis",
+      "day_label": "Aujourd'hui",
+      "event": "Petra Marcinko - Madison Keys",
+      "href": "https://www.betclic.fr/tennis-stennis/eastbourne-wta-c177/petra-marcinko-madison-keys-m1152180659949568",
+      "competition": "",
+      "home": "P. Marcinko",
+      "away": "M. Keys",
+      "hour_fr": "13:10",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Petra Marc",
+          "odd": 5.4
+        },
+        {
+          "selection": "Madison",
+          "odd": 1.14
+        }
+      ]
+    },
+    {
+      "sport": "tennis",
+      "day_label": "Aujourd'hui",
+      "event": "Nys H / Roger-Vasselin E - Andreozzi G / Guinard M",
+      "href": "https://www.betclic.fr/tennis-stennis/eastbourne-atp-doubles-c18402/nys-h-roger-vasselin-e-andreozzi-g-guinard-m-m1152079118008320",
+      "competition": "",
+      "home": "Nys H / Roger-Vasselin E",
+      "away": "Andreozzi G / Guinard M",
+      "hour_fr": "14:20",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Nys H / Roger-Vassel",
+          "odd": 1.69
+        },
+        {
+          "selection": "Andreozzi G / Guina",
+          "odd": 1.97
+        }
+      ]
+    },
+    {
+      "sport": "tennis",
+      "day_label": "Aujourd'hui",
+      "event": "Nuno Borges - Ethan Quinn",
+      "href": "https://www.betclic.fr/tennis-stennis/majorque-atp-c28858/nuno-borges-ethan-quinn-m1151986918842368",
+      "competition": "",
+      "home": "N. Borges",
+      "away": "E. Quinn",
+      "hour_fr": "15:00",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Nuno Bo",
+          "odd": 1.71
+        },
+        {
+          "selection": "Ethan Q",
+          "odd": 2.2
+        }
+      ]
+    },
+    {
+      "sport": "tennis",
+      "day_label": "Aujourd'hui",
+      "event": "Elena Gabriela Ruse - Karolina Muchova",
+      "href": "https://www.betclic.fr/tennis-stennis/bad-homburg-wta-c28855/elena-gabriela-ruse-karolina-muchova-m1152147953643520",
+      "competition": "",
+      "home": "E. Ruse",
+      "away": "K. Muchova",
+      "hour_fr": "15:00",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Elena Gabriela",
+          "odd": 2.7
+        },
+        {
+          "selection": "Karolina Muc",
+          "odd": 1.45
+        }
+      ]
+    },
+    {
+      "sport": "tennis",
+      "day_label": "Aujourd'hui",
+      "event": "Zizou Bergs - Toby Samuel",
+      "href": "https://www.betclic.fr/tennis-stennis/eastbourne-atp-c3417/zizou-bergs-toby-samuel-m1151984434765843",
+      "competition": "",
+      "home": "Z. Bergs",
+      "away": "T. Samuel",
+      "hour_fr": "15:30",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Zizou B",
+          "odd": 1.49
+        },
+        {
+          "selection": "Toby Sa",
+          "odd": 2.7
+        }
+      ]
+    },
+    {
+      "sport": "tennis",
+      "day_label": "Aujourd'hui",
+      "event": "Jack Draper - Ugo Humbert",
+      "href": "https://www.betclic.fr/tennis-stennis/eastbourne-atp-c3417/jack-draper-ugo-humbert-m1152107677048832",
+      "competition": "",
+      "home": "J. Draper",
+      "away": "U. Humbert",
+      "hour_fr": "16:40",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Jack Dr",
+          "odd": 1.57
+        },
+        {
+          "selection": "Ugo Hum",
+          "odd": 2.49
+        }
+      ]
+    },
+    {
+      "sport": "tennis",
+      "day_label": "Aujourd'hui",
+      "event": "Fabian Marozsan - Alejandro Davidovich Fokina",
+      "href": "https://www.betclic.fr/tennis-stennis/majorque-atp-c28858/fabian-marozsan-alejandro-davidovich-fokina-m1152126551330816",
+      "competition": "",
+      "home": "F. Marozsan",
+      "away": "A. Davidovich Fokina",
+      "hour_fr": "17:30",
+      "market": "Vainqueur du match",
+      "odds": [
+        {
+          "selection": "Fabian Maro",
+          "odd": 3.15
+        },
+        {
+          "selection": "Alejandro Davidovich Fo",
+          "odd": 1.38
+        }
+      ]
+    }
+  ],
+  "espn_worldcup": [
+    {
+      "id": "760475",
+      "name": "France at Norway",
+      "date": "2026-06-26T19:00Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "Norway",
+          "homeAway": "home",
+          "form": "WWDWD",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "2-0-0",
+              "abbreviation": "Total"
+            }
+          ]
+        },
+        {
+          "name": "France",
+          "homeAway": "away",
+          "form": "WWWLW",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "2-0-0",
+              "abbreviation": "Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "760474",
+      "name": "Iraq at Senegal",
+      "date": "2026-06-26T19:00Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "Senegal",
+          "homeAway": "home",
+          "form": "LLDLW",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "0-0-2",
+              "abbreviation": "Total"
+            }
+          ]
+        },
+        {
+          "name": "Iraq",
+          "homeAway": "away",
+          "form": "LLLDW",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "0-0-2",
+              "abbreviation": "Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "760478",
+      "name": "Saudi Arabia at Cape Verde",
+      "date": "2026-06-27T00:00Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "Cape Verde",
+          "homeAway": "home",
+          "form": "DDWWL",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "0-2-0",
+              "abbreviation": "Total"
+            }
+          ]
+        },
+        {
+          "name": "Saudi Arabia",
+          "homeAway": "away",
+          "form": "LDDWL",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "0-1-1",
+              "abbreviation": "Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "760479",
+      "name": "Spain at Uruguay",
+      "date": "2026-06-27T00:00Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "Uruguay",
+          "homeAway": "home",
+          "form": "DDDDL",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "0-2-0",
+              "abbreviation": "Total"
+            }
+          ]
+        },
+        {
+          "name": "Spain",
+          "homeAway": "away",
+          "form": "WDWDD",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "1-1-0",
+              "abbreviation": "Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "760476",
+      "name": "Iran at Egypt",
+      "date": "2026-06-27T03:00Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "Egypt",
+          "homeAway": "home",
+          "form": "WDLWD",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "1-1-0",
+              "abbreviation": "Total"
+            }
+          ]
+        },
+        {
+          "name": "Iran",
+          "homeAway": "away",
+          "form": "DDWWW",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "0-2-0",
+              "abbreviation": "Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "760477",
+      "name": "Belgium at New Zealand",
+      "date": "2026-06-27T03:00Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "New Zealand",
+          "homeAway": "home",
+          "form": "LDLLW",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "0-1-1",
+              "abbreviation": "Total"
+            }
+          ]
+        },
+        {
+          "name": "Belgium",
+          "homeAway": "away",
+          "form": "DDWWD",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "0-2-0",
+              "abbreviation": "Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "760480",
+      "name": "Ghana at Croatia",
+      "date": "2026-06-27T21:00Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "Croatia",
+          "homeAway": "home",
+          "form": "WLWLL",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "1-0-1",
+              "abbreviation": "Total"
+            }
+          ]
+        },
+        {
+          "name": "Ghana",
+          "homeAway": "away",
+          "form": "DWDLL",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "1-1-0",
+              "abbreviation": "Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "760485",
+      "name": "England at Panama",
+      "date": "2026-06-27T21:00Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "Panama",
+          "homeAway": "home",
+          "form": "LLDWL",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "0-0-2",
+              "abbreviation": "Total"
+            }
+          ]
+        },
+        {
+          "name": "England",
+          "homeAway": "away",
+          "form": "DWWWL",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "1-1-0",
+              "abbreviation": "Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "760481",
+      "name": "Portugal at Colombia",
+      "date": "2026-06-27T23:30Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "Colombia",
+          "homeAway": "home",
+          "form": "WWWWL",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "2-0-0",
+              "abbreviation": "Total"
+            }
+          ]
+        },
+        {
+          "name": "Portugal",
+          "homeAway": "away",
+          "form": "WDWWW",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "1-1-0",
+              "abbreviation": "Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "760482",
+      "name": "Uzbekistan at Congo DR",
+      "date": "2026-06-27T23:30Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "Congo DR",
+          "homeAway": "home",
+          "form": "LDLDW",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "0-1-1",
+              "abbreviation": "Total"
+            }
+          ]
+        },
+        {
+          "name": "Uzbekistan",
+          "homeAway": "away",
+          "form": "LLLLW",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "0-0-2",
+              "abbreviation": "Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "760484",
+      "name": "Austria at Algeria",
+      "date": "2026-06-28T02:00Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "Algeria",
+          "homeAway": "home",
+          "form": "WLWWD",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "1-0-1",
+              "abbreviation": "Total"
+            }
+          ]
+        },
+        {
+          "name": "Austria",
+          "homeAway": "away",
+          "form": "LWWWW",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "1-0-1",
+              "abbreviation": "Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "760483",
+      "name": "Argentina at Jordan",
+      "date": "2026-06-28T02:00Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "Jordan",
+          "homeAway": "home",
+          "form": "LLLLD",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "0-0-2",
+              "abbreviation": "Total"
+            }
+          ]
+        },
+        {
+          "name": "Argentina",
+          "homeAway": "away",
+          "form": "WWWWW",
+          "records": [
+            {
+              "name": "All Splits",
+              "type": "total",
+              "summary": "2-0-0",
+              "abbreviation": "Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "760486",
+      "name": "Canada at South Africa",
+      "date": "2026-06-28T19:00Z",
+      "status": "Scheduled",
+      "teams": [
+        {
+          "name": "South Africa",
+          "homeAway": "home",
+          "form": "WDLWD",
+          "records": null
+        },
+        {
+          "name": "Canada",
+          "homeAway": "away",
+          "form": "LWDDW",
+          "records": null
+        }
+      ]
+    }
+  ],
+  "espn_tennis": [
+    {
+      "league": "ATP",
+      "name": "Lexus Eastbourne Open",
+      "date": "2026-06-20T04:00Z",
+      "status": "Final"
+    },
+    {
+      "league": "ATP",
+      "name": "Vanda Pharmaceuticals Mallorca Championships",
+      "date": "2026-06-20T04:00Z",
+      "status": "Final"
+    },
+    {
+      "league": "ATP",
+      "name": "Wimbledon",
+      "date": "2026-06-22T04:00Z",
+      "status": "Final"
+    },
+    {
+      "league": "WTA",
+      "name": "Lexus Eastbourne Open",
+      "date": "2026-06-20T04:00Z",
+      "status": "Final"
+    },
+    {
+      "league": "WTA",
+      "name": "Bad Homburg Open powered by Solarwatt",
+      "date": "2026-06-20T04:00Z",
+      "status": "Final"
+    },
+    {
+      "league": "WTA",
+      "name": "Wimbledon",
+      "date": "2026-06-22T04:00Z",
+      "status": "Final"
+    }
+  ]
+}

@@ -1,15 +1,15 @@
 import { notFound } from "next/navigation";
+import { unstable_noStore as noStore } from "next/cache";
 import Link from "next/link";
-import { bets, tipDetails } from "@/lib/mock-data";
+import { getPublicValueBotData } from "@/lib/valuebot-data";
 import { computePL } from "@/lib/utils";
 import StatusBadge from "@/components/tips/StatusBadge";
 import ConfidenceBar from "@/components/tips/ConfidenceBar";
 import FormChips from "@/components/tips/FormChips";
 import ValueBars from "@/components/tips/ValueBars";
 
-export function generateStaticParams() {
-  return bets.map((b) => ({ id: String(b.id) }));
-}
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 export default async function DetailPariPage({
   params,
@@ -17,6 +17,8 @@ export default async function DetailPariPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
+  noStore();
+  const { bets, tipDetails } = await getPublicValueBotData();
   const bet = bets.find((b) => b.id === Number(id));
   if (!bet) notFound();
 

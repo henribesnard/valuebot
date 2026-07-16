@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-16",
+  "created_at": "2026-07-16T16:18:26Z",
+  "decision": "no_bet",
+  "candidates_reviewed": 22,
+  "metrics": {
+    "bankroll_units": 101.14,
+    "tips_total": 16,
+    "pending_total": 2,
+    "settled_total": 14,
+    "yield_pct": 26.82,
+    "roi_pct": 1.14,
+    "win_rate_pct": 71.43,
+    "average_odd": 1.79,
+    "current_drawdown_units": 0.04,
+    "max_drawdown_units": 0.5,
+    "brier_score": 0.1993
+  },
+  "observations": [
+    "Scan du 2026-07-16T16:13Z: 2 matchs football Coupe du Monde 2026 en attente (France-Angleterre 18/07 tip#15 officiel, Espagne-Argentine 19/07 tip#16 signal prudent) déjà publiés ce matin.",
+    "ESPN FIFA World Cup: aucun match aujourd'hui 16/07 ni demain 17/07 — seul week-end avec 3e place (18/07) et finale (19/07), déjà couverts.",
+    "Tennis: 20 matchs ATP/WTA (Bastad, Gstaad, Umag, Iasi, Athènes) listés sur Betclic. Pas de cotes accessibles en headless sans rendu JS — impossible de construire des probabilités indépendantes fiables. ESPN ne fournit pas de données à venir pour ces petits tournois.",
+    "Marchés explorés via Betclic SSR HTML: football 1N2, double chance, BTTS, total buts. Tennis non exploitable sans cotes.",
+    "Cote France-Angleterre France gagne passée de 2.00 (06:12Z) à 1.85 (16:13Z) — le tip#15 est déjà publié avec la cote 2.00 et ne peut être modifié.",
+    "ANJ vérifié: Betclic et Winamax toujours présents sur la page des opérateurs agréés."
+  ],
+  "risk_notice": "18+. Les paris comportent des risques : endettement, isolement, dépendance. Joueurs Info Service : 09 74 75 13 13. Aucune garantie de gain. Conseils générés par IA.",
+  "model_version": "v1.0-launch"
+}

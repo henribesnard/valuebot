@@ -1,0 +1,733 @@
+{
+  "created_at": "2026-06-26T06:07:36Z",
+  "scope": "FIFA World Cup / Coupe du monde only",
+  "sources": {
+    "espn": [
+      "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626",
+      "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260627"
+    ],
+    "anj": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "winamax": "https://www.winamax.fr/paris-sportifs/sports/1"
+  },
+  "robots_respected": {
+    "anj": {
+      "robots_url": "https://anj.fr/robots.txt",
+      "path_checked": "/offre-de-jeu-et-marche/operateurs-agrees",
+      "can_fetch": true,
+      "note": "fetched"
+    },
+    "winamax": {
+      "robots_url": "https://www.winamax.fr/robots.txt",
+      "path_checked": "/paris-sportifs/sports/1",
+      "can_fetch": false,
+      "note": "fetched"
+    }
+  },
+  "anj_check": {
+    "winamax_found": true,
+    "status_code": 200,
+    "checked_at": "2026-06-26T06:07:36Z",
+    "source_url": "https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees"
+  },
+  "espn_events": [
+    {
+      "id": "760475",
+      "name": "France at Norway",
+      "shortName": "FRA @ NOR",
+      "date": "2026-06-26T19:00Z",
+      "status": "Scheduled",
+      "completed": false,
+      "within_utc_today_tomorrow": true,
+      "stage": "group-stage",
+      "note": "FIFA World Cup, Group I",
+      "competitors": [
+        {
+          "name": "Norway",
+          "abbreviation": "NOR",
+          "homeAway": "home",
+          "form": "WWDWD",
+          "record": "2-0-0"
+        },
+        {
+          "name": "France",
+          "abbreviation": "FRA",
+          "homeAway": "away",
+          "form": "WWWLW",
+          "record": "2-0-0"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    },
+    {
+      "id": "760474",
+      "name": "Iraq at Senegal",
+      "shortName": "IRQ @ SEN",
+      "date": "2026-06-26T19:00Z",
+      "status": "Scheduled",
+      "completed": false,
+      "within_utc_today_tomorrow": true,
+      "stage": "group-stage",
+      "note": "FIFA World Cup, Group I",
+      "competitors": [
+        {
+          "name": "Senegal",
+          "abbreviation": "SEN",
+          "homeAway": "home",
+          "form": "LLDLW",
+          "record": "0-0-2"
+        },
+        {
+          "name": "Iraq",
+          "abbreviation": "IRQ",
+          "homeAway": "away",
+          "form": "LLLDW",
+          "record": "0-0-2"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    },
+    {
+      "id": "760478",
+      "name": "Saudi Arabia at Cape Verde",
+      "shortName": "KSA @ CPV",
+      "date": "2026-06-27T00:00Z",
+      "status": "Scheduled",
+      "completed": false,
+      "within_utc_today_tomorrow": true,
+      "stage": "group-stage",
+      "note": "FIFA World Cup, Group H",
+      "competitors": [
+        {
+          "name": "Cape Verde",
+          "abbreviation": "CPV",
+          "homeAway": "home",
+          "form": "DDWWL",
+          "record": "0-2-0"
+        },
+        {
+          "name": "Saudi Arabia",
+          "abbreviation": "KSA",
+          "homeAway": "away",
+          "form": "LDDWL",
+          "record": "0-1-1"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    },
+    {
+      "id": "760479",
+      "name": "Spain at Uruguay",
+      "shortName": "ESP @ URU",
+      "date": "2026-06-27T00:00Z",
+      "status": "Scheduled",
+      "completed": false,
+      "within_utc_today_tomorrow": true,
+      "stage": "group-stage",
+      "note": "FIFA World Cup, Group H",
+      "competitors": [
+        {
+          "name": "Uruguay",
+          "abbreviation": "URU",
+          "homeAway": "home",
+          "form": "DDDDL",
+          "record": "0-2-0"
+        },
+        {
+          "name": "Spain",
+          "abbreviation": "ESP",
+          "homeAway": "away",
+          "form": "WDWDD",
+          "record": "1-1-0"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    },
+    {
+      "id": "760476",
+      "name": "Iran at Egypt",
+      "shortName": "IRN @ EGY",
+      "date": "2026-06-27T03:00Z",
+      "status": "Scheduled",
+      "completed": false,
+      "within_utc_today_tomorrow": true,
+      "stage": "group-stage",
+      "note": "FIFA World Cup, Group G",
+      "competitors": [
+        {
+          "name": "Egypt",
+          "abbreviation": "EGY",
+          "homeAway": "home",
+          "form": "WDLWD",
+          "record": "1-1-0"
+        },
+        {
+          "name": "Iran",
+          "abbreviation": "IRN",
+          "homeAway": "away",
+          "form": "DDWWW",
+          "record": "0-2-0"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    },
+    {
+      "id": "760477",
+      "name": "Belgium at New Zealand",
+      "shortName": "BEL @ NZL",
+      "date": "2026-06-27T03:00Z",
+      "status": "Scheduled",
+      "completed": false,
+      "within_utc_today_tomorrow": true,
+      "stage": "group-stage",
+      "note": "FIFA World Cup, Group G",
+      "competitors": [
+        {
+          "name": "New Zealand",
+          "abbreviation": "NZL",
+          "homeAway": "home",
+          "form": "LDLLW",
+          "record": "0-1-1"
+        },
+        {
+          "name": "Belgium",
+          "abbreviation": "BEL",
+          "homeAway": "away",
+          "form": "DDWWD",
+          "record": "0-2-0"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260626"
+    },
+    {
+      "id": "760480",
+      "name": "Ghana at Croatia",
+      "shortName": "GHA @ CRO",
+      "date": "2026-06-27T21:00Z",
+      "status": "Scheduled",
+      "completed": false,
+      "within_utc_today_tomorrow": true,
+      "stage": "group-stage",
+      "note": "FIFA World Cup, Group L",
+      "competitors": [
+        {
+          "name": "Croatia",
+          "abbreviation": "CRO",
+          "homeAway": "home",
+          "form": "WLWLL",
+          "record": "1-0-1"
+        },
+        {
+          "name": "Ghana",
+          "abbreviation": "GHA",
+          "homeAway": "away",
+          "form": "DWDLL",
+          "record": "1-1-0"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260627"
+    },
+    {
+      "id": "760485",
+      "name": "England at Panama",
+      "shortName": "ENG @ PAN",
+      "date": "2026-06-27T21:00Z",
+      "status": "Scheduled",
+      "completed": false,
+      "within_utc_today_tomorrow": true,
+      "stage": "group-stage",
+      "note": "FIFA World Cup, Group L",
+      "competitors": [
+        {
+          "name": "Panama",
+          "abbreviation": "PAN",
+          "homeAway": "home",
+          "form": "LLDWL",
+          "record": "0-0-2"
+        },
+        {
+          "name": "England",
+          "abbreviation": "ENG",
+          "homeAway": "away",
+          "form": "DWWWL",
+          "record": "1-1-0"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260627"
+    },
+    {
+      "id": "760481",
+      "name": "Portugal at Colombia",
+      "shortName": "POR @ COL",
+      "date": "2026-06-27T23:30Z",
+      "status": "Scheduled",
+      "completed": false,
+      "within_utc_today_tomorrow": true,
+      "stage": "group-stage",
+      "note": "FIFA World Cup, Group K",
+      "competitors": [
+        {
+          "name": "Colombia",
+          "abbreviation": "COL",
+          "homeAway": "home",
+          "form": "WWWWL",
+          "record": "2-0-0"
+        },
+        {
+          "name": "Portugal",
+          "abbreviation": "POR",
+          "homeAway": "away",
+          "form": "WDWWW",
+          "record": "1-1-0"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260627"
+    },
+    {
+      "id": "760482",
+      "name": "Uzbekistan at Congo DR",
+      "shortName": "UZB @ COD",
+      "date": "2026-06-27T23:30Z",
+      "status": "Scheduled",
+      "completed": false,
+      "within_utc_today_tomorrow": true,
+      "stage": "group-stage",
+      "note": "FIFA World Cup, Group K",
+      "competitors": [
+        {
+          "name": "Congo DR",
+          "abbreviation": "COD",
+          "homeAway": "home",
+          "form": "LDLDW",
+          "record": "0-1-1"
+        },
+        {
+          "name": "Uzbekistan",
+          "abbreviation": "UZB",
+          "homeAway": "away",
+          "form": "LLLLW",
+          "record": "0-0-2"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260627"
+    },
+    {
+      "id": "760484",
+      "name": "Austria at Algeria",
+      "shortName": "AUT @ ALG",
+      "date": "2026-06-28T02:00Z",
+      "status": "Scheduled",
+      "completed": false,
+      "within_utc_today_tomorrow": false,
+      "stage": "group-stage",
+      "note": "FIFA World Cup, Group J",
+      "competitors": [
+        {
+          "name": "Algeria",
+          "abbreviation": "ALG",
+          "homeAway": "home",
+          "form": "WLWWD",
+          "record": "1-0-1"
+        },
+        {
+          "name": "Austria",
+          "abbreviation": "AUT",
+          "homeAway": "away",
+          "form": "LWWWW",
+          "record": "1-0-1"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260627"
+    },
+    {
+      "id": "760483",
+      "name": "Argentina at Jordan",
+      "shortName": "ARG @ JOR",
+      "date": "2026-06-28T02:00Z",
+      "status": "Scheduled",
+      "completed": false,
+      "within_utc_today_tomorrow": false,
+      "stage": "group-stage",
+      "note": "FIFA World Cup, Group J",
+      "competitors": [
+        {
+          "name": "Jordan",
+          "abbreviation": "JOR",
+          "homeAway": "home",
+          "form": "LLLLD",
+          "record": "0-0-2"
+        },
+        {
+          "name": "Argentina",
+          "abbreviation": "ARG",
+          "homeAway": "away",
+          "form": "WWWWW",
+          "record": "2-0-0"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260627"
+    }
+  ],
+  "winamax_1n2_odds": [
+    {
+      "match_id": 66457014,
+      "title": "Norvège - France",
+      "start_time": "2026-06-26T19:00:00Z",
+      "within_utc_today_tomorrow": true,
+      "status": "PREMATCH",
+      "round": "J3",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-26T06:07:36Z",
+      "outcomes": [
+        {
+          "selection": "Norvège",
+          "odd": 4.6,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.2046,
+          "market_only_ev": -0.0588
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.9,
+          "percent_distribution": 4,
+          "no_vig_probability": 0.1921,
+          "market_only_ev": -0.0587
+        },
+        {
+          "selection": "France",
+          "odd": 1.56,
+          "percent_distribution": 94,
+          "no_vig_probability": 0.6033,
+          "market_only_ev": -0.0589
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0625,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457016,
+      "title": "Sénégal - Irak",
+      "start_time": "2026-06-26T19:00:00Z",
+      "within_utc_today_tomorrow": true,
+      "status": "PREMATCH",
+      "round": "J3",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-26T06:07:36Z",
+      "outcomes": [
+        {
+          "selection": "Sénégal",
+          "odd": 1.22,
+          "percent_distribution": 97,
+          "no_vig_probability": 0.7771,
+          "market_only_ev": -0.0519
+        },
+        {
+          "selection": "Match nul",
+          "odd": 6.75,
+          "percent_distribution": 3,
+          "no_vig_probability": 0.1405,
+          "market_only_ev": -0.0516
+        },
+        {
+          "selection": "Irak",
+          "odd": 11.5,
+          "percent_distribution": 0,
+          "no_vig_probability": 0.0824,
+          "market_only_ev": -0.0524
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0548,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457002,
+      "title": "Uruguay - Espagne",
+      "start_time": "2026-06-27T00:00:00Z",
+      "within_utc_today_tomorrow": true,
+      "status": "PREMATCH",
+      "round": "J3",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-26T06:07:36Z",
+      "outcomes": [
+        {
+          "selection": "Uruguay",
+          "odd": 6.25,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.151,
+          "market_only_ev": -0.0563
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.0,
+          "percent_distribution": 3,
+          "no_vig_probability": 0.236,
+          "market_only_ev": -0.056
+        },
+        {
+          "selection": "Espagne",
+          "odd": 1.54,
+          "percent_distribution": 96,
+          "no_vig_probability": 0.613,
+          "market_only_ev": -0.056
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0594,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457004,
+      "title": "Cap-Vert - Arabie Saoudite",
+      "start_time": "2026-06-27T00:00:00Z",
+      "within_utc_today_tomorrow": true,
+      "status": "PREMATCH",
+      "round": "J3",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-26T06:07:36Z",
+      "outcomes": [
+        {
+          "selection": "Cap-Vert",
+          "odd": 2.6,
+          "percent_distribution": 75,
+          "no_vig_probability": 0.3617,
+          "market_only_ev": -0.0596
+        },
+        {
+          "selection": "Match nul",
+          "odd": 3.4,
+          "percent_distribution": 18,
+          "no_vig_probability": 0.2766,
+          "market_only_ev": -0.0596
+        },
+        {
+          "selection": "Arabie Saoudite",
+          "odd": 2.6,
+          "percent_distribution": 7,
+          "no_vig_probability": 0.3617,
+          "market_only_ev": -0.0596
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0633,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66456990,
+      "title": "Nouvelle Zélande - Belgique",
+      "start_time": "2026-06-27T03:00:00Z",
+      "within_utc_today_tomorrow": true,
+      "status": "PREMATCH",
+      "round": "J3",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-26T06:07:36Z",
+      "outcomes": [
+        {
+          "selection": "Nouvelle Zélande",
+          "odd": 12.5,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.075,
+          "market_only_ev": -0.0625
+        },
+        {
+          "selection": "Match nul",
+          "odd": 8.0,
+          "percent_distribution": 2,
+          "no_vig_probability": 0.1171,
+          "market_only_ev": -0.0632
+        },
+        {
+          "selection": "Belgique",
+          "odd": 1.16,
+          "percent_distribution": 97,
+          "no_vig_probability": 0.8079,
+          "market_only_ev": -0.0628
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0671,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66456992,
+      "title": "Égypte - Iran",
+      "start_time": "2026-06-27T03:00:00Z",
+      "within_utc_today_tomorrow": true,
+      "status": "PREMATCH",
+      "round": "J3",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-26T06:07:36Z",
+      "outcomes": [
+        {
+          "selection": "Égypte",
+          "odd": 2.45,
+          "percent_distribution": 87,
+          "no_vig_probability": 0.381,
+          "market_only_ev": -0.0665
+        },
+        {
+          "selection": "Match nul",
+          "odd": 2.5,
+          "percent_distribution": 8,
+          "no_vig_probability": 0.3734,
+          "market_only_ev": -0.0665
+        },
+        {
+          "selection": "Iran",
+          "odd": 3.8,
+          "percent_distribution": 5,
+          "no_vig_probability": 0.2456,
+          "market_only_ev": -0.0667
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0713,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457050,
+      "title": "Panama - Angleterre",
+      "start_time": "2026-06-27T21:00:00Z",
+      "within_utc_today_tomorrow": true,
+      "status": "PREMATCH",
+      "round": "J3",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-26T06:07:36Z",
+      "outcomes": [
+        {
+          "selection": "Panama",
+          "odd": 13.5,
+          "percent_distribution": 0,
+          "no_vig_probability": 0.0693,
+          "market_only_ev": -0.0645
+        },
+        {
+          "selection": "Match nul",
+          "odd": 8.0,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.117,
+          "market_only_ev": -0.064
+        },
+        {
+          "selection": "Angleterre",
+          "odd": 1.15,
+          "percent_distribution": 99,
+          "no_vig_probability": 0.8137,
+          "market_only_ev": -0.0642
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0686,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457052,
+      "title": "Croatie - Ghana",
+      "start_time": "2026-06-27T21:00:00Z",
+      "within_utc_today_tomorrow": true,
+      "status": "PREMATCH",
+      "round": "J3",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-26T06:07:36Z",
+      "outcomes": [
+        {
+          "selection": "Croatie",
+          "odd": 1.74,
+          "percent_distribution": 81,
+          "no_vig_probability": 0.5376,
+          "market_only_ev": -0.0646
+        },
+        {
+          "selection": "Match nul",
+          "odd": 3.2,
+          "percent_distribution": 13,
+          "no_vig_probability": 0.2923,
+          "market_only_ev": -0.0646
+        },
+        {
+          "selection": "Ghana",
+          "odd": 5.5,
+          "percent_distribution": 6,
+          "no_vig_probability": 0.1701,
+          "market_only_ev": -0.0645
+        }
+      ],
+      "bookmaker_margin_estimate": 0.069,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457038,
+      "title": "Colombie - Portugal",
+      "start_time": "2026-06-27T23:30:00Z",
+      "within_utc_today_tomorrow": true,
+      "status": "PREMATCH",
+      "round": "J3",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-26T06:07:36Z",
+      "outcomes": [
+        {
+          "selection": "Colombie",
+          "odd": 4.0,
+          "percent_distribution": 3,
+          "no_vig_probability": 0.2347,
+          "market_only_ev": -0.0612
+        },
+        {
+          "selection": "Match nul",
+          "odd": 3.85,
+          "percent_distribution": 10,
+          "no_vig_probability": 0.2438,
+          "market_only_ev": -0.0614
+        },
+        {
+          "selection": "Portugal",
+          "odd": 1.8,
+          "percent_distribution": 87,
+          "no_vig_probability": 0.5215,
+          "market_only_ev": -0.0613
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0653,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    },
+    {
+      "match_id": 66457040,
+      "title": "RD Congo - Ouzbékistan",
+      "start_time": "2026-06-27T23:30:00Z",
+      "within_utc_today_tomorrow": true,
+      "status": "PREMATCH",
+      "round": "J3",
+      "market": "Résultat 1N2",
+      "bookmaker": "Winamax",
+      "captured_at": "2026-06-26T06:07:36Z",
+      "outcomes": [
+        {
+          "selection": "RD Congo",
+          "odd": 1.7,
+          "percent_distribution": 94,
+          "no_vig_probability": 0.5496,
+          "market_only_ev": -0.0657
+        },
+        {
+          "selection": "Match nul",
+          "odd": 4.2,
+          "percent_distribution": 5,
+          "no_vig_probability": 0.2225,
+          "market_only_ev": -0.0655
+        },
+        {
+          "selection": "Ouzbékistan",
+          "odd": 4.1,
+          "percent_distribution": 1,
+          "no_vig_probability": 0.2279,
+          "market_only_ev": -0.0656
+        }
+      ],
+      "bookmaker_margin_estimate": 0.0702,
+      "source_url": "https://www.winamax.fr/paris-sportifs/sports/1"
+    }
+  ],
+  "note": "Probabilités no-vig marché uniquement; pas un modèle indépendant publiable."
+}

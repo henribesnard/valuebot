@@ -1,4 +1,4 @@
-import { pipeline } from "@/lib/mock-data";
+import { pipeline } from "@/lib/valuebot-data";
 
 export default function MethodePage() {
   return (

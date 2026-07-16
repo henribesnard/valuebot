@@ -1,0 +1,32 @@
+{
+  "sport": "football",
+  "competition": "Coupe du Monde 2026 — Quart de finale",
+  "event": "Espagne - Belgique",
+  "start_time": "2026-07-10T19:00:00Z",
+  "market": "Résultat 1N2 temps réglementaire",
+  "selection": "Espagne gagne",
+  "publication_tier": "prudent_signal",
+  "estimated_probability": 0.64,
+  "taken_odd": 1.60,
+  "bookmaker": "Betclic",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-07-07T16:00:30Z",
+  "expected_value": 0.024,
+  "confidence": 2,
+  "stake_units": 0.25,
+  "rationale": "Signal prudent — la probabilité est construite avec un modèle léger marché + forme courte ESPN, donc insuffisamment robuste pour un conseil officiel: pas de xG, blessures ni compositions confirmées dans ce cycle, et un quart de finale reste exposé au nul en 90 minutes. Betclic cote l’Espagne à 1.60 sur le 1N2 temps réglementaire; le no-vig du marché la place autour de 59,4 %, puis ValueBot applique un ajustement prudent à 64 % grâce à une forme ESPN légèrement supérieure (Espagne WWWWD, Belgique WWWDD), un statut de favori net et une dynamique défensive/offensive plus régulière sur les derniers matchs publics. Le seuil de rentabilité de la cote est 62,5 %, l’EV estimée ressort à environ +2,4 %. Mise plafonnée à 0,25 u car c'est un signal intermédiaire et non un conseil officiel.",
+  "sources": [
+    "Betclic football Coupe du Monde 2026 — cote Espagne 1.60 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/espagne-belgique-m1162435735273472",
+    "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup scoreboard 20260710 — Belgium at Spain, start 2026-07-10T19:00Z, formes Espagne WWWWD / Belgique WWWDD: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260710",
+    "Cache ValueBot du scan: data/cache/valuebot-radar-20260707T160040Z.json"
+  ],
+  "factors": [
+    "Cote Betclic 1.60 capturée le 2026-07-07T16:00:30Z sur le marché Résultat du match (temps réglementaire)",
+    "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+    "Forme ESPN: Espagne WWWWD contre Belgique WWWDD",
+    "No-vig marché calculé autour de 59,4 %; probabilité ValueBot prudente 64 % contre seuil de rentabilité 62,5 %, EV estimée +2,4 %",
+    "Risque principal: quart de finale et nul possible en 90 minutes, d'où signal prudent et mise 0,25 u"
+  ],
+  "h2h": "Non utilisé: aucune donnée H2H publique suffisamment fiable dans ce cycle."
+}

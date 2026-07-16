@@ -19,6 +19,7 @@ export interface Tip {
   statut: TipStatus;
   analyse: string;
   pl?: number;
+  tier?: "official" | "prudent_signal";
 }
 
 export interface TipDetail {

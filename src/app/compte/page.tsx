@@ -6,6 +6,7 @@ import { invoices } from "@/lib/mock-data";
 import ToggleSwitch from "@/components/ui/ToggleSwitch";
 import ProtectedRoute from "@/components/auth/ProtectedRoute";
 import { useAuth } from "@/lib/auth-context";
+import AdminTipsPanel from "./AdminTipsPanel";
 
 const tabDefs = [
   { key: "profil", label: "Profil", icon: "👤" },
@@ -72,7 +73,7 @@ function CompteContent() {
       <div className="grid grid-cols-1 mobile:grid-cols-[230px_1fr] gap-5 items-start">
         {/* Sidebar */}
         <div className="flex flex-col gap-1">
-          {tabDefs.map((t) => {
+          {[...tabDefs, ...(user.role === "admin" ? [{ key: "admin", label: "Admin conseils", icon: "🛠️" }] : [])].map((t) => {
             const active = tab === t.key;
             return (
               <button
@@ -242,6 +243,9 @@ function CompteContent() {
               </div>
             </div>
           )}
+
+          {/* Admin conseils */}
+          {tab === "admin" && user.role === "admin" && <AdminTipsPanel />}
 
           {/* Sécurité */}
           {tab === "securite" && (

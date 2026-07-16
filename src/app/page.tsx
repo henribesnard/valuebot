@@ -1,13 +1,19 @@
 import Link from "next/link";
-import { equity, bets } from "@/lib/mock-data";
+import { unstable_noStore as noStore } from "next/cache";
+import { getPublicValueBotData } from "@/lib/valuebot-data";
 import { computeChartPaths } from "@/lib/chart-utils";
 import TipCard from "@/components/tips/TipCard";
 
-const heroChart = computeChartPaths(equity, 560, 200, 6, 14, 14);
-const mainChart = computeChartPaths(equity, 820, 300, 8, 18, 18);
-const todayBets = bets.filter((b) => b.statut === "avenir").slice(0, 3);
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
-export default function AccueilPage() {
+export default async function AccueilPage() {
+  noStore();
+  const { equity, bets, bankrollSummary, bankrollKpis } = await getPublicValueBotData();
+  const heroChart = computeChartPaths(equity, 560, 200, 6, 14, 14);
+  const mainChart = computeChartPaths(equity, 820, 300, 8, 18, 18);
+  const todayBets = bets.filter((b) => b.statut === "avenir").slice(0, 3);
+  const yieldGlobal = bankrollKpis.find((kpi) => kpi.label === "Yield")?.value ?? "0,0 %";
   return (
     <main>
       {/* ============ HERO ============ */}
@@ -61,7 +67,7 @@ export default function AccueilPage() {
             <div className="flex gap-[30px] flex-wrap">
               <div>
                 <div className="font-heading font-bold text-[30px] tracking-tight">
-                  148,6{" "}
+                  {bankrollSummary.current.toFixed(1).replace(".", ",")}{" "}
                   <span className="text-[15px] text-vb-text-secondary">u</span>
                 </div>
                 <div className="text-[12.5px] text-vb-text-secondary mt-0.5">
@@ -70,7 +76,7 @@ export default function AccueilPage() {
               </div>
               <div>
                 <div className="font-heading font-bold text-[30px] tracking-tight text-vb-green">
-                  +7,9%
+                  {yieldGlobal.replace(" ", "")}
                 </div>
                 <div className="text-[12.5px] text-vb-text-secondary mt-0.5">
                   Yield global
@@ -78,7 +84,7 @@ export default function AccueilPage() {
               </div>
               <div>
                 <div className="font-heading font-bold text-[30px] tracking-tight">
-                  612
+                  {bets.length}
                 </div>
                 <div className="text-[12.5px] text-vb-text-secondary mt-0.5">
                   Paris suivis
@@ -103,9 +109,9 @@ export default function AccueilPage() {
                   Évolution de la bankroll
                 </div>
                 <div className="font-heading font-bold text-[26px] mt-0.5">
-                  148,6 u{" "}
-                  <span className="text-sm text-vb-green font-semibold">
-                    &#9650; +48,6 u
+                  {bankrollSummary.current.toFixed(1).replace(".", ",")} u{" "}
+                  <span className="text-sm text-vb-text-secondary font-semibold">
+                    lancement
                   </span>
                 </div>
               </div>
@@ -150,8 +156,8 @@ export default function AccueilPage() {
 
             {/* Chart footer */}
             <div className="flex justify-between text-[11px] text-vb-text-muted mt-2">
-              <span>Lancement · 100,0 u</span>
-              <span>Aujourd'hui · 148,6 u</span>
+              <span>Lancement · {bankrollSummary.initial.toFixed(1).replace(".", ",")} u</span>
+              <span>Aujourd'hui · {bankrollSummary.current.toFixed(1).replace(".", ",")} u</span>
             </div>
           </div>
         </div>
@@ -280,9 +286,15 @@ export default function AccueilPage() {
         </div>
 
         <div className="grid grid-cols-1 mobile:grid-cols-2 wide:grid-cols-3 gap-[18px]">
-          {todayBets.map((bet) => (
-            <TipCard key={bet.id} tip={bet} showAnalysis={false} />
-          ))}
+          {todayBets.length === 0 ? (
+            <div className="mobile:col-span-2 wide:col-span-3 rounded-[18px] border border-vb-border bg-vb-bg-card-subtle p-6 text-vb-text-secondary leading-[1.6]">
+              Aucun pari publié aujourd'hui : le cycle initial n'a pas trouvé de sélection avec données publiques fiables, cote ANJ horodatée et EV positive vérifiable. Mieux vaut un silence honnête qu'un pari sans valeur.
+            </div>
+          ) : (
+            todayBets.map((bet) => (
+              <TipCard key={bet.id} tip={bet} showAnalysis={false} />
+            ))
+          )}
         </div>
       </section>
 
@@ -329,10 +341,9 @@ export default function AccueilPage() {
               Sélectivité
             </h3>
             <p className="text-sm leading-[1.6] text-vb-text-secondary">
-              L'IA n'analyse que la valeur. Sur 100 matchs
-              étudiés, elle ne conseille qu'environ 6
-              paris — uniquement quand la cote dépasse la
-              probabilité réelle estimée.
+              L'IA n'analyse que la valeur. Certains jours, elle peut ne publier
+              aucun conseil si les données publiques, les probabilités modèle ou
+              les cotes ANJ horodatées ne franchissent pas le seuil de preuve.
             </p>
           </div>
 

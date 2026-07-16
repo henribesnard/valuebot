@@ -1,0 +1,32 @@
+{
+  "sport": "football",
+  "competition": "Coupe du Monde 2026 — Finale",
+  "event": "Espagne - Argentine",
+  "start_time": "2026-07-19T19:00:00Z",
+  "market": "Résultat 1N2 temps réglementaire",
+  "selection": "Argentine gagne",
+  "publication_tier": "prudent_signal",
+  "estimated_probability": 0.33,
+  "taken_odd": 3.50,
+  "bookmaker": "Betclic",
+  "bookmaker_authorized_anj": true,
+  "odd_captured_at": "2026-07-16T06:12:00Z",
+  "expected_value": 0.155,
+  "confidence": 2,
+  "stake_units": 0.25,
+  "rationale": "Signal prudent — la probabilité indépendante repose sur les formes ESPN et l'analyse des parcours, sans modèle xG/blessures/suspensions complet. L'Argentine arrive invaincue en finale avec 6 victoires en 6 matchs (Autriche 2-0, Jordanie 3-1, Cap Vert 3-2, Égypte 3-2, Suisse 3-1, Angleterre 2-1), dont 3 victoires en matchs à élimination directe. L'Espagne, favorite sur le papier, a perdu son seul choc du tournoi (0-2 contre la France en demi-finale) et a montré des signes de vulnérabilité offensive quand pressée. Betclic cote l'Argentine à 3.50 sur le 1N2 temps réglementaire ; la probabilité no-vig du marché ressort autour de 27,5 %, puis ValueBot ajuste à 33 % grâce à l'invincibilité argentine, à sa capacité à gagner des matchs serrés et à l'expérience de la finale (Messi, dernier match en Coupe du Monde). Le seuil de rentabilité est 28,6 %, l'EV estimée ressort à environ +15,5 %. Mise plafonnée à 0,25 u car c'est un signal prudent : modèle léger, match de finale imprévisible, et cote longue.",
+  "sources": [
+    "Betclic football Coupe du Monde 2026 — cote Argentine 3.50 capturée en HTTPS: https://www.betclic.fr/football-sfootball/coupe-du-monde-2026-c1/espagne-argentine-m1170404449476608",
+    "ANJ opérateurs agréés — Betclic vérifié présent lors du scan HTTPS: https://anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+    "ESPN FIFA World Cup scoreboards 20260622-20260715 — Argentine 6V/0D (WWWWWW), Espagne 5V/1D (WWWWWL) : https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
+    "Cache ValueBot du scan: data/cache/valuebot-radar-20260716T061100Z.json"
+  ],
+  "factors": [
+    "Cote Betclic 3.50 capturée le 2026-07-16T06:12:00Z sur le marché Résultat du match (temps réglementaire)",
+    "Bookmaker vérifié comme opérateur agréé ANJ lors du scan HTTPS",
+    "Forme ESPN: Argentine 6/6 victoires (WWWWWW); Espagne 5/6 victoires mais défaite en demi-finale (WWWWWL)",
+    "No-vig marché calculé autour de 27,5 %; probabilité ValueBot 33 % contre seuil de rentabilité 28,6 %, EV estimée +15,5 %",
+    "Risque principal: finale imprévisible, modèle léger sans xG/blessures, cote longue, d'où signal prudent et mise 0,25 u"
+  ],
+  "h2h": "Non utilisé: aucune donnée H2H récente entre ces équipes dans ce cycle."
+}
